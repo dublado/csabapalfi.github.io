@@ -1,0 +1,21 @@
+---
+layout: default
+title: Csaba Palfi writes things.
+---
+
+<h2>writing</h2>
+
+<ul>
+{% for post in site.posts %}
+<li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <span class="date">{{ post.date | date_to_string }}</span>
+</li>
+{% endfor %}
+</ul>
+
+<hr/>
+
+<footer>
+    <span>No clever footer text yet.</span>
+</footer>

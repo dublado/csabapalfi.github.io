@@ -1,0 +1,23 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>csaba.palfi.me</title>
+<link href="http://csaba.palfi.me/atom.xml" rel="self"/>
+<link href="http://csaba.palfi.me/"/>
+<updated>{{ site.time | date_to_xmlschema }}</updated>
+<id>http://csaba.palfi.me/</id>
+{% for post in site.posts %}
+<entry>
+<title>{{ post.title | xml_escape }}</title>
+<link href="http://csaba.palfi.me{{ post.url }}"/>
+<updated>{{ post.date | date_to_xmlschema }}</updated>
+<id>http://csaba.palfi.me{{ post.id }}</id>
+<content type="html">
+{{ post.content | xml_escape }}
+&lt;p&gt;(This was posted at &lt;a href="http://csaba.palfi.me{{ post.url }}"&gt;csaba.palfi.me&lt;/a&gt;.)&lt;/p&gt;
+</content>
+</entry>
+{% endfor %}
+</feed>

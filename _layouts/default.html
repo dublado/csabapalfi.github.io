@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@csabapalfi"/>
+    <meta name="twitter:site" content="@csabapalfi"/>
+    <meta name="twitter:title" content="{{ page.title }}"/>
+    <meta name="twitter:domain" content="csaba.palfi.me">
+    <meta name="twitter:description" content="{{ page.summary }}">
+    <title>{{ page.title }} | csaba.palfi.me </title>
+    <link href="/atom.xml" rel="alternate" title="Atom" type="application/atom+xml"/>
+
+    {% stylesheet csabapalfi %}
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-29212656-1']);
+        _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</head>
+<body>
+
+<div class="row">
+    <div class="large-12 large-offset-1 columns" id="header">
+        <h1><a href="/">Csaba Palfi</a></h1>
+        {
+        <a href="/">writing</a>,
+        <a href="/projects.html">projects</a>,
+        <a href="/about.html">about</a>,
+        <a href="/contact.html">contact</a>
+        }
+    </div>
+</div>
+<div class="row">
+    <div class="large-10 large-centered columns">
+        {{ content }}
+    </div>
+</div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        showMathMenu: false,
+        tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+    });
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+<script defer>
+
+    MathJax.Hub.Queue(function () {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i = 0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+</body>
+</html>

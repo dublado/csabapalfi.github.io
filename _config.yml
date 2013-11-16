@@ -1,0 +1,13 @@
+permalink: /:title/
+pygments: true
+markdown: rdiscount
+name: csaba.palfi.me
+rdiscount:
+  extensions:
+    - smart
+    - footnotes
+assets:
+  compress:
+    css:  sass
+    js:   uglifier
+  cache: false
