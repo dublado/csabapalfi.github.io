@@ -16,7 +16,11 @@
     <title>{{ page.title }} | csaba.palfi.me </title>
     <link href="/atom.xml" rel="alternate" title="Atom" type="application/atom+xml"/>
 
-    {% stylesheet csabapalfi %}
+    <style media="screen" type="text/css">{% include stylesheets/normalize.css %}</style>
+    <style media="screen" type="text/css">{% include stylesheets/foundation.css %}</style>
+    <style media="screen" type="text/css">{% include stylesheets/pygment.css %}</style>
+    <style media="screen" type="text/css">{% include stylesheets/text.css %}</style>
+
     <script type="text/javascript">
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-29212656-1']);
