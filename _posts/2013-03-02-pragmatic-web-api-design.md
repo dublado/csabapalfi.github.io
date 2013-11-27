@@ -4,8 +4,6 @@ layout: post
 summary: "Pragmatic Web API design a la Apigee" 
 ---
 
-# Pragmatic Web API Design
-
 I worked on quite a few public and internal REST APIs both building and consuming them. REST is more of an architechtural style than a well-defined framework. It's sometimes not easy to make sure everyone is on the same page when you talk about REST.
 
 Reading Roy Fielding's famous [dissertation](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) helps you understand the philosophy (especially chapter 5) and it's a wonderful piece of work. I published an [epub version](https://github.com/csabapalfi/rest-epub) on github (in case you would like to read it on your mobile) or you can grab the pdf or read in HTML [here](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm).
