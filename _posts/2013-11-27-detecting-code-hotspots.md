@@ -16,7 +16,7 @@ Let's make a nice story out of this:
 
 # What?
 
-### All you need is ~~love~~ commits linked to your bugtracker and some history
+### All you need is commits linked to your bugtracker and some history
 
 Let's assume commits are linked to our bug tracker (i.e. commit message contains bug id).
 
