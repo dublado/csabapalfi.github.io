@@ -32,7 +32,7 @@ There's nothing stopping you from using this on small or new projects but it wor
 * 1 Extract the list of relevant bug ids from your bug tracker. 
 * 2.a Then use your souce control systems API and look for commit messages containing these ids and extract the modified files.
 * 2.b If your bugtracker lists modified sources then you can extract data directly from you bugtracker
-* 3 Once you have the files modified for each bug you can aggregate them and get the most frequently fixed files
+* 3 Once you have the files modified for each bug you can aggregate the data and get the most frequently fixed files.
 
 ### How did we hacked this together?
 
@@ -46,7 +46,7 @@ Fisheye and JIRA REST APIs are nice but let's say you want something quicker. (A
     --header "x-requested-with: XMLHttpRequest" \
     https://jira.hotels.com/browse/ISSUE-1234\?page\=com.atlassian.jirafisheyeplugin:fisheye-issuepanel\&_pjax\=true
     
-The auth key is just your colon separated username and password base 64 encoded.
+The auth key is just your colon separated username and password with base 64 encoding.
 
 This will return the HTML for the source tab which contains some nice anchors we're interested in:
 
@@ -56,7 +56,7 @@ This will return the HTML for the source tab which contains some nice anchors we
 
 We can then extract the data we're after from here.
 
-I played product owner for a small project where are trainees implemented this and it works reasonably well.
+I played product owner for a small project where our trainees implemented this and it works reasonably well. :)
     
     
 
