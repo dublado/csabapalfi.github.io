@@ -30,15 +30,17 @@ There's nothing stopping you from using this on small or new projects but it wor
 # How?
 
 * 1 Extract the list of relevant bug ids from your bug tracker. 
-* 2.a Then use your souce control systems API and look for commit messages containing these ids and extract the modified files.
-* 2.b If your bugtracker lists modified sources then you can extract data directly from you bugtracker
+* 2.a Use your souce control systems API and look for commit messages containing these ids and extract the modified files.
+* 2.b If your bugtracker tracks modified sources then you can extract data directly from you bugtracker.
 * 3 Once you have the files modified for each bug you can aggregate the data and get the most frequently fixed files.
 
 ### How did we hacked this together?
 
 2.b is exactly what you can do if you have JIRA and FishEye (or Stash) and we use JIRA 5 with Fisheye integration at Hotels.com.
 
-Fisheye and JIRA REST APIs are nice but let's say you want something quicker. (Actually these APIs were disabled in our setup) We can just replicate the AJAX requests made by JIRA when clicking the source tab of an issue (listing the modified files): 
+Fisheye and JIRA REST APIs are nice but let's say you want something quicker. (Actually these APIs were disabled in our setup) 
+
+You can just replicate the AJAX requests made by JIRA when clicking the source tab of an issue (listing the modified files): 
 
     curl \
     --header "Authorization: Basic AuthKeyComesHere" \
