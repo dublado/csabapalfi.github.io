@@ -1,7 +1,7 @@
 --- 
-title: "Inspigram - my Hotels.com hackathon entry"
+title: "inspigram - my Hotels.com hackathon entry"
 layout: post
-summary: "Inspigram - my Hotels.com hackathon entry" 
+summary: "inspigram - my Hotels.com hackathon entry" 
 ---
 
 Hotels.com held it's first 24 hour hackathon last December where 19 teams got together and hacked on their ideas. It was a great event and we had a lot fun. I also entered and got second most votes (along with 3 other teams :).
@@ -49,8 +49,6 @@ I got so excited I even tweeted about this :)
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 [Nodemon](http://remy.github.io/nodemon/) was really helpful in keeping my app running and refreshing it on file changes.
-
-
 
 #### Heroku
 
