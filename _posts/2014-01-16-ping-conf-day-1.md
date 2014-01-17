@@ -14,22 +14,21 @@ Day 1 keynote was presented by Sadek Drobi ([@sadache](https://twitter.com/Sadac
 
 If you don't know Play then just imagine it as a framework bringing the **simplicity, web-friendliness and productivity** of Django, Rails, etc to **the JVM** and improves on them.
 
-Sadek made a great case for functional programming. **Functions are the ultimate abstraction.** They're simple, truthful and composable. 
-Even for complex functions if composability suffers it can easily be restored using the FP toolkit of map, flatMap and the like. Functional programming rocks!
+Sadek made a great case for functional programming. **Functions are the ultimate abstraction.** They're simple, truthful and composable. Functional programming rocks!
 
-I really liked how he called out that the more optimal multicore performance is really just the icing on the cake and not the key benefit.
+I really liked how he called out that the more optimal multicore performance is really just the icing on the cake and not the key benefit here.
 
 **Functions relax algorithm complexity** by allowing a higher level of **composability.**
 Composability aids data manipulation/parsing, handling streams in great ways.
 **Compositon rocks!**
 
-He also talked about the one of the key abstractions in Play! called **[Iteratee](http://www.playframework.com/documentation/latest/Iteratees)**. Iteratee is really just a fancy fold :) but I think it's worth its own post. When I asked Sadek also pointed out that processing data streams is a fastly moving area now and there are a lot of abstraction for different use-cases ([rx-scala](https://github.com/Netflix/RxJava/tree/master/language-adaptors/rxjava-scala),[scala-z streams](https://github.com/scalaz/scalaz-stream)).
+He also talked about the one of the key abstractions in Play! called **[Iteratee](http://www.playframework.com/documentation/latest/Iteratees)**. Iteratee is really just a fancy fold :) but I think it's worth its own post. When I asked Sadek also pointed out that processing data streams is a fastly moving area now and there are a lot of abstractions for different use-cases ([rx-scala](https://github.com/Netflix/RxJava/tree/master/language-adaptors/rxjava-scala),[scala-z streams](https://github.com/scalaz/scalaz-stream)).
 
 During Q/A it also came up that **Play is moving from [Netty](http://netty.io/) to [Spray](http://spray.io/)** (recently acquired by TypeSafe). It should be perfectly transparent for all framework users but will result in a pure Scala I/O code for Play! (Netty is in Java).
 
 ## Akka vs. JSON/HTTP
 
-Straight after the keynote Matt Hammer ([@mtholgy](https://twitter.com/mthology), Gawker Media) talked about replacing JSON+HTTP with Akka to get a more efficient remoting stack. 
+Straight after the keynote Matt Hammer ([@mtholgy](https://twitter.com/mthology), Gawker Media) talked about replacing JSON+HTTP with **Akka** to get a **more efficient remoting stack**. 
 
 They use this in [Kinja](http://kinja.com/) and they're experimenting with this between their frontend and their API.
 
@@ -45,15 +44,15 @@ Chris mentionted the **[reactive manifesto](http://www.reactivemanifesto.org/)**
 
 sbt-web's goal is to **improve working with JavaScript and CSS** in Play! and have a great **web asset pipeline** (a'la Rails).
 
-When it comes to dependency resolution/repository support the choice is [webjars.org](http://www.webjars.org/). The reason behind is the popularity of Maven artifact repository and existing support, infrastructure and tooling. Alternatives would be [node.js's npm](https://npmjs.org/) or [Twitter's bower](http://bower.io/). npm's naive transitive dependency resolution with creating node_modules directories recursively makes it less than optimal to remain polite here. Chris couldn't comment on bower but to be honest I'm not too familiar with it either.
+When it comes to dependency resolution/repository support the choice is **[webjars.org](http://www.webjars.org/)**. The reason behind is the popularity of Maven artifact repositories and existing support, infrastructure and tooling. Alternatives would be [node.js's npm](https://npmjs.org/) or [Twitter's bower](http://bower.io/). npm's naive transitive dependency resolution with creating node_modules directories recursively makes it less than optimal to remain polite here. Chris couldn't comment on bower but to be honest I'm not too familiar with it either.
 
 Then we moved on to hear about testing and hinting JavaScript. When it comes to testing you're probably dealing with two types of js code: it either relies on the DOM or not. 
 
-To test things **relying on the DOM** you need something like [webdriver](http://docs.seleniumhq.org/projects/webdriver/) which will run your code in Firefox, Chrome, IE or HtmlUnit (Rhino on top of JVM) or with phantom.js (native). The TypeSafe guys basically implemented an alternative **[webdriver client](https://github.com/huntc/webdriver) in Scala** with Akka and Spray.
+To test Javascript which is **relying on the DOM** you need something like [webdriver](http://docs.seleniumhq.org/projects/webdriver/) which will run your code in Firefox, Chrome, IE or HtmlUnit (Rhino on top of JVM) or with phantom.js (native). The TypeSafe guys basically implemented an alternative **[webdriver client](https://github.com/huntc/webdriver) in Scala** with Akka and Spray.
 
-To test/run JS not relying on the DOM you can use [js-engine](https://github.com/huntc/js-engine) which allows you to **run JavaScript on different backends**. The important bit is that they started out with a Rhino based solution which turned out to be slower than running your tests/jshint with Grunt using native js. Chris suggests that you're probably fine to start with the Rhino based engine and switch to native js when performance becomes a concern.
+To test/run **Javascript where the browser is not involved** you can use [js-engine](https://github.com/huntc/js-engine) which allows you to **run JavaScript on different backends**. The important bit is that they started out with a Rhino based solution which turned out to be slower than running your tests/jshint with Grunt using native js. Chris suggests that you're probably fine to start with the Rhino based engine and switch to native js when performance becomes a concern.
 
-The example Chris was using is running [JSHint](http://jshint.com/) on your JavaScript sources. They implemented a [JSHint sbt plugin](https://github.com/typesafehub/sbt-jshint-plugin) which can be used with Play! and the coolest thing is that you can use the same compilation error reporting as you would use for Scala and see **JsHint errors in your browser**!
+The example Chris was using is running [JSHint](http://jshint.com/) on your JavaScript sources. They implemented a **[JSHint sbt plugin](https://github.com/typesafehub/sbt-jshint-plugin)** which can be used with Play! and the coolest thing is that you can use the same compilation error reporting as you would use for Scala and see **JsHint errors in your browser**!
 
 During Q&A someone asked Chris about languages compiled to JavaScript and I could't agree with him more: **idiomatic JS rocks**. Use Javascript directly if you can and you'll probably be fine.
 
