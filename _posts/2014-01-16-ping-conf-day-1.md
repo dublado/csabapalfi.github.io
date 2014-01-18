@@ -66,13 +66,6 @@ I could be wrong here but at the end of the day the cake pattern is all about **
 
 **No runtime surprises.** At least in this area...
 
-**Update:** turns out I'm actually wrong:
-
-<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/csabapalfi">@csabapalfi</a> IMHO cake pattern is not only about DI but first about designing reusable components.</p>&mdash; Yann Simon (@simon_yann) <a href="https://twitter.com/simon_yann/statuses/424480163163017216">January 18, 2014</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-Another thing I missed I think is how nicely Yann introduced and talked about the [Test Pyramid](http://martinfowler.com/bliki/TestPyramid.html) and how the cake pattern aids component testing.
-
 I have to admit at times the Cake pattern felt it a bit comparable to C++ template meta-programming and raping the compiler but it really isn't that bad. It's a great alternative to DI and it was great that Yann pointed out the disadvantages as well every step along the way and made it clear how far it's worth going in various cases.
 
 That's another thing I liked a lot about ping! Most speakers were really **open about the disadvantages/drawbacks** of the solutions presented. Maybe it's like that with the entire Scala community which I'm getting more familiar with and it's a really valuable trait. (pun intended)
@@ -80,6 +73,13 @@ That's another thing I liked a lot about ping! Most speakers were really **open 
 He also talked about a blog post titled [The Hidden Class Loading Performance Impact of the Spring Framework](http://apmblog.compuware.com/2013/12/18/the-hidden-class-loading-performance-impact-of-the-spring-framework/) which is about a quite bad performance problem with Spring.
 
 A line of code worths more than a thousand words so please check out the brilliant **code example by Yann** on [github](https://github.com/yanns/TPA/). 
+
+**Update:** Yann reacted on my post on Twitter:
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/csabapalfi">@csabapalfi</a> IMHO cake pattern is not only about DI but first about designing reusable components.</p>&mdash; Yann Simon (@simon_yann) <a href="https://twitter.com/simon_yann/statuses/424480163163017216">January 18, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Another thing I missed before I think is how nicely Yann introduced and talked about the [Test Pyramid](http://martinfowler.com/bliki/TestPyramid.html) and how the cake pattern aids component testing.
 
 ## to be continued...
 
