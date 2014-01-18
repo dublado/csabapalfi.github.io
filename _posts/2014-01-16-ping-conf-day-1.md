@@ -10,7 +10,7 @@ Given it's a visit to my home country and had some family arrangements I had to 
 
 ## It's all about democratizing functional programming for web programmers
 
-Day 1 keynote was presented by Sadek Drobi ([@sadache](https://twitter.com/Sadache), Play co-creator). 
+Day 1 keynote was presented by Sadek Drobi ([@sadache](https://twitter.com/Sadache), Play co-creator).
 
 If you don't know Play then just imagine it as a framework bringing the **simplicity, web-friendliness and productivity** of Django, Rails, etc to **the JVM** and improves on them.
 
@@ -25,6 +25,8 @@ Composability aids data manipulation/parsing, handling streams in great ways.
 He also talked about the one of the key abstractions in Play! called **[Iteratee](http://www.playframework.com/documentation/latest/Iteratees)**. Iteratee is really just a fancy fold :) but I think it's worth its own post. When I asked Sadek also pointed out that processing data streams is a fastly moving area now and there are a lot of abstractions for different use-cases ([rx-scala](https://github.com/Netflix/RxJava/tree/master/language-adaptors/rxjava-scala),[scala-z streams](https://github.com/scalaz/scalaz-stream)).
 
 During Q/A it also came up that **Play is moving from [Netty](http://netty.io/) to [Spray](http://spray.io/)** (recently acquired by TypeSafe). It should be perfectly transparent for all framework users but will result in a pure Scala I/O code for Play! (Netty is in Java).
+
+Update: Just found this **[post by Sadek on the LinkednIn Engineering blog](http://engineering.linkedin.com/play/play-framework-democratizing-functional-programming-modern-web-programmers)** which is basically about the very same topic.
 
 ## Akka vs. JSON/HTTP
 
