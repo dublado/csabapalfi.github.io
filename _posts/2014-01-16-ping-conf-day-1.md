@@ -70,7 +70,7 @@ I have to admit at times the Cake pattern felt it a bit comparable to C++ templa
 
 That's another thing I liked a lot about ping! Most speakers were really **open about the disadvantages/drawbacks** of the solutions presented. Maybe it's like that with the entire Scala community which I'm getting more familiar with and it's a really valuable trait. (pun intended)
 
-He also talked about a blog post titled [The Hidden Class Loading Performance Impact of the Spring Framework](http://apmblog.compuware.com/2013/12/18/the-hidden-class-loading-performance-impact-of-the-spring-framework/) which is about a quite bad performance problem with Spring.
+He also talked about a blog post from Andreas Grabner ([@grabnerandi](https://twitter.com/grabnerandi), Compuware) about [The Hidden Class Loading Performance Impact of the Spring Framework](http://apmblog.compuware.com/2013/12/18/the-hidden-class-loading-performance-impact-of-the-spring-framework/).
 
 A line of code worths more than a thousand words so please check out the brilliant **code example by Yann** on [github](https://github.com/yanns/TPA/). 
 
