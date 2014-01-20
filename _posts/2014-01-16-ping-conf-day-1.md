@@ -85,15 +85,11 @@ Another thing I missed before I think is how nicely Yann introduced and talked a
 
 ## to be continued...
 
-#### TODO
-
 * New validation API in Play2
 
 * Scala.js and ReactJS
 
 * Play2 and Redis
-
-* Ping Conference about the Play! framework - Day 2
 
 
 
