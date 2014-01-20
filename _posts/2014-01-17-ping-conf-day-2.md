@@ -4,9 +4,9 @@ layout: post
 summary: "Ping Conference about the Play! framework - Day 2, January 16-17 2014 @ Budapest, Hungary" 
 ---
 
-I attended the [Ping conference](http://www.ping-conf.com/) about the [Play! framework](http://www.playframework.com/) in Budapest this week and this is my post about the second day. Be warned I'm fairly new to Play!.
+I attended the [Ping conference](http://www.ping-conf.com/) about the [Play! framework](http://www.playframework.com/) in Budapest this week and this is my post about the second day.
 
-You can find my [post about day 1 here](/ping-conf-day-1/).
+You can find my [post about day 1 here](/ping-conf-day-1/). All videos are available [here](http://www.ping-conf.com/).
 
 ## Building composable, streaming, testable Play apps at Linkedin
 

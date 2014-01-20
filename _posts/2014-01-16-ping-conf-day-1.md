@@ -6,6 +6,8 @@ summary: "Ping Conference about the Play! framework - Day 1, January 16-17 2014 
 
 I attended the [Ping conference](http://www.ping-conf.com/) about the [Play! framework](http://www.playframework.com/) in Budapest this week and it was great to see all the buzz.
 
+You can find my [post about day 2 here](/ping-conf-day-2/). All videos are available [here](http://www.ping-conf.com/).
+
 Given it's a visit to my home country and had some family arrangements I had to leave before the closing party so while others were having their free drinks in [Kocka](https://www.facebook.com/kocka.kazinczy48) I wrote this blog post on the train to home. Enjoy!
 
 ## It's all about democratizing functional programming for web programmers
