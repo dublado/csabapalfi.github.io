@@ -54,9 +54,11 @@ They presented how the **Process[I,O] abstraction** fits the problem of serving 
 
 Q&A brought up the interesting topic of **handling backpressure**. Backpressure occurs when the **consumer** of streaming data is a lot **slower** than the producer. Depending on our use-case we either **buffer or drop** the data our consumer can't catch up with.
 
-I have to admit I was too busy listening an don't have good notes for this talk. I'll have to read up on the topic anyways and potentially compare iteratees, scalaz-streams and rx-java in separate post. (I already know that rx is the odd one out :))
+I have to admit I was too busy listening an don't have good notes for this talk. I'll have to read up on the topic anyways and potentially compare iteratees and scalaz-streams.
 
-Oh one more thing from Pascal: free monads rock!! (Seriously, I have to write a proper post on this)
+**Update**: No need to write a post myself as I discovered **[Pascal's post](http://mandubian.com/2013/08/21/playztream/)** which describes the idea way better than I could.
+
+
 
 ## Making the case for Play at BBC
 
