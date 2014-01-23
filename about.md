@@ -3,7 +3,7 @@ layout: static
 title: about
 ---
 
-I'm a Tech Lead at Hotels.com in London.
+I'm a Tech Lead at Hotels.com in London. Here I'm on [LinkedIn](http://www.linkedin.com/in/csabapalfi).
 
 You can find my open source projects on [GitHub](http://github.com/csabapalfi).
 
