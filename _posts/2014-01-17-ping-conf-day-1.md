@@ -83,13 +83,17 @@ A line of code worths more than a thousand words so please check out the brillia
 
 Another thing I missed before I think is how nicely Yann introduced and talked about the [Test Pyramid](http://martinfowler.com/bliki/TestPyramid.html) and how the cake pattern aids component testing.
 
-## to be continued...
+## New validation API in Play2
 
-* New validation API in Play2
+Pascal Voitot ([@mandubian](https://twitter.com/mandubian) and Julien Tourney ([@skaalf](https://twitter.com/skaalf)) took us through the new validation API in Play. Julien [blogged](http://jto.github.io/articles/play_new_validation_api/) about this. It was a really great talk with some history lessons and thermodynamics analogies.
 
-* Scala.js and ReactJS
+## Scala.js and ReactJS
 
-* Play2 and Redis
+Next Matthias Nehlsen ([@matthiasnehlsen](https://twitter.com/matthiasnehlsen)) was talking about how he built a reactive app with [Scala.js](http://www.scala-js.org/) and facebook's [react.js](http://facebook.github.io/react/). His new years resolution was to blog more and he lives up to it and explains the topic of his talk in greater detail in his [blogpost](http://matthiasnehlsen.com/blog/2014/01/24/scala-dot-js-and-reactjs/).
+
+## Play2 and Redis
+
+Nicolas Martignole ([@nmartignole](https://twitter.com/nmartignole)) shared a lot of great war stories aboout working with Scala and Play. (A great part of it coming from his experience working on [ZapTravel](http://www.zaptravel.com/)). My favourite was his feedback slide encouraging people to donate to TypeSafe to improve the Scala compiler even faster then they do now. He also neatly summarized why and for what [Redis](http://redis.io/) is useful.
 
 
 
