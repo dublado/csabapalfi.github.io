@@ -60,4 +60,4 @@ The **reactive** approach probably works better on a **smaller scale** like **wi
 
 ## Useful tips
 
-Then we got some useful tips on thing to watch out for. It's important to **cleanup subscriptions**. It's a good idea to **signal the end of a stream** somehow (e.g by sending a stream is over message - this shows some similarity to the poison pill message used in Akka to kill actors). An interesting problem Maciej highlighted numerous times during the talk is how you handle **events published before subscription** or how you get **initial values** for mutable data modified by streams of messages.
+Then we got some useful tips on thing to watch out for. It's important to **cleanup subscriptions**. It's a good idea to **signal the end of a stream** somehow (e.g by sending a stream is over message - this shows some similarity to the poison pill message used in Akka to terminate actors). An interesting problem Maciej highlighted numerous times during the talk is how you handle **events published before subscription** or how you get **initial values** for mutable data modified by streams of messages.
