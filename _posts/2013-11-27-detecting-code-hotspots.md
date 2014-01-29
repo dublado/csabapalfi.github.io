@@ -8,11 +8,7 @@ summary: "Wouldn't it be great to know which bit of code causes the most bugs?"
 
 ### Wouldn't it be great to know which bit of code causes the most bugs? 
 
-Let's make a nice story out of this:
-
-    As a developer
-    I want to see which areas of my code have the most bugs 
-    so that I can take extra care (or maybe even fix the root cause of problems :)
+As a developer you probably want to see which areas of my code have the most bugs so that you can take extra care (or maybe even fix the root cause of problems :)
 
 # What?
 
