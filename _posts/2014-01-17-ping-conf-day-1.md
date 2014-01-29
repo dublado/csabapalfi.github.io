@@ -93,7 +93,7 @@ Next Matthias Nehlsen ([@matthiasnehlsen](https://twitter.com/matthiasnehlsen)) 
 
 ## Play2 and Redis
 
-Nicolas Martignole ([@nmartignole](https://twitter.com/nmartignole)) shared a lot of great war stories aboout working with Scala and Play. (A great part of it coming from his experience working on [ZapTravel](http://www.zaptravel.com/)). My favourite was his feedback slide encouraging people to donate to TypeSafe to improve the Scala compiler even faster then they do now. He also neatly summarized why and for what [Redis](http://redis.io/) is useful.
+Nicolas Martignole ([@nmartignole](https://twitter.com/nmartignole)) shared a lot of great war stories aboout working with Scala and Play. (A great part of it coming from his experience working on [ZapTravel](http://www.zaptravel.com/)). My favourite was his feedback slide encouraging people to donate to TypeSafe to improve the Scala compiler even faster then they do now. He also neatly summarized why and for what [Redis](http://redis.io/) is useful and highlighted the nonblocking/reactive Scala driver called [rediscala]( https://github.com/etaty/rediscala).
 
 
 
