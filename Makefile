@@ -1,6 +1,6 @@
 start:
 	jekyll serve --watch --detach
-	rm -rf /opt/boxen/data/project-sockets/blog
+	rm -rf $(BOXEN_SOCKET_DIR)/blog
 	socat UNIX-LISTEN:$(BOXEN_SOCKET_DIR)/blog,fork TCP:localhost:4000 &
 
 stop:
