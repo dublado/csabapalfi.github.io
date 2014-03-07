@@ -1,6 +1,6 @@
 permalink: /:title/
 pygments: true
-markdown: rdiscount
+markdown: redcarpet
 name: csaba.palfi.me
 rdiscount:
   extensions:
