@@ -22,17 +22,19 @@
     <style media="screen" type="text/css">{% include stylesheets/text.css %}</style>
 
     <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-29212656-1']);
-        _gaq.push(['_trackPageview']);
-        (function () {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
+        if (window.location.host != 'blog.dev') {
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-29212656-1']);
+            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+        }
     </script>
 </head>
 <body>
@@ -54,23 +56,5 @@
         </footer>
     </div>
 </div>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        showMathMenu: false,
-        tex2jax: {
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-        }
-    });
-</script>
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
-<script defer>
-
-    MathJax.Hub.Queue(function () {
-        var all = MathJax.Hub.getAllJax(), i;
-        for (i = 0; i < all.length; i += 1) {
-            all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-    });
-</script>
 </body>
 </html>
