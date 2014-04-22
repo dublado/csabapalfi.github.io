@@ -1,10 +1,17 @@
-start:
-	rm -rf $(BOXEN_SOCKET_DIR)/blog
-	socat UNIX-LISTEN:$(BOXEN_SOCKET_DIR)/blog,fork TCP:localhost:4000 &
-	jekyll serve --watch &
+install:
+	bundle install
+	pip install cli53
 
-stop:
+dns:
+	cli53 import palfi.me --file palfi.me.bind
+
+debug: kill
+	jekyll serve --watch
+
+run: kill
+	jekyll serve --detach
+
+kill:
 	pgrep -f jekyll | xargs kill
-	pgrep -f "socat.*/blog" | xargs kill
 
 restart: stop start

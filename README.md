@@ -1,3 +1,7 @@
 # [csaba.palfi.me](http://csaba.palfi.me)
 
-layouts and CSS stolen from Coda Hale
+My blog. (layouts and CSS stolen from Coda Hale)
+
+## Install/run/etc
+
+See [Makefile](/Makefile)
