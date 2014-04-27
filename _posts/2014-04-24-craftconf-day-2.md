@@ -63,10 +63,15 @@ Detailed post coming soon.
 ### by John Hughes
 
 John talked about generative testing. He started off by answering why **testing is hard**: **it's never enough**.
-Then we went on to see an impressive demo of quickcheck which is a generative testing framework originally written in Haskell but since then the idea was implemented in many languages. Basically we generate test cases based on a model of our system. When a number of cases fail quickcheck goes on and isolates a minimal failing example to help resolving the problems.
+
+Then we saw an impressive demo of **[QuickCheck](http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html)** which is a **generative testing** framework originally written in Haskell but since then the idea was implemented in **many languages**.
+
+Basically we **generate test cases** based on a model of our system. When a number of cases fail QuickCheck goes on and isolates a **minimal failing example** to help resolving the problems.
 This is an extremely powerful idea and especially useful when one is facing with hard to reproduce bugs (e.g race conditions).
+
 **Don't write tests, generate them. **
-He also told the story of how he found a number of concurrency issues in dets in a matter mintues which others failed to fix over a year.
+
+He also told the story of how he found a number of concurrency issues in [dets](http://www.erlang.org/doc/man/dets.html) (Erlang disk based store) in a matter minutes which otherwise were practically impossible to find and fix.
 
 ## Love Flexible Scope
 ### by Gojko Adzic
@@ -98,7 +103,8 @@ It's not every day that you can see the CTO of [Typesafe](http://typesafe.com/).
 
 I deliberately chose a different presentation in this time-slot as I was afraid it would bit a bit too generic and I already did the [reactive course](https://www.coursera.org/course/reactive) recently and attended [ping-conf](http://www.ping-conf.com/) as well. Will definitely check out the recording though.
 
-### Functional Examples from Category Theory by Alissa Pajer
+### Functional Examples from Category Theory 
+## by Alissa Pajer
 
 <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/alissapajer">@alissapajer</a> holds the most clean and straightforward category theory presentation I&#39;ve ever seen. A must have for newcomers. <a href="https://twitter.com/search?q=%23craftconf&amp;src=hash">#craftconf</a></p>&mdash; Attila Szabo (@maugly24) <a href="https://twitter.com/maugly24/statuses/459329626406670336">April 24, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
