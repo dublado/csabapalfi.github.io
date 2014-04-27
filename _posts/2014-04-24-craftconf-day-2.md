@@ -8,18 +8,34 @@ summary: "Craft Conference - Day 2 Summary, April 23-25 2014 @ Budapest, Hungary
 
 The [Craft Conference](http://craft-conf.com/2014/) was amazing. You should come to this conference next year. Seriously. I was totally blown away by the awesomeness of the speaker line-up and the 900 other attendes likely thought so. (Full disclosure: I'm Hungarian so it has extra benefits to come home :)
 
-I'll keep adding posts based on my notes as well and link them here.
+My favourites from day 2 were:
 
-Let's see my favourite talks from day 2!
+* [Programming, only better by Bodil Stokke](#bodil)
+* [The journey to Mastery by Dan North](#dan)
+* [The better parts by Doug Crockford](#doug)
+* [Maximum potency DevOps by Mitchell Hashimoto](#mitchell)
+* [Testing the hard stuff by John Hughes](#john).
 
-## Programming, only better
+A really brief summary of all 14 talks I found interesting is available here:
+
+## <a name="bodil"></a>Programming, only better
 ### by Bodil Stokke
 
 The keynote by Bodil Stokke started with Turing and Church as titans and huge Pinkie Pie sticker on her laptop so you already knew it's going to be good. We covered silver bullet processes, what causes complexity and explored a bit of logic programming as well.
 
-Check out [my post about Bodil's talk](/programming-only-better-bodil-stokke).
+Check out [my detailed post about Bodil's talk](/programming-only-better-bodil-stokke).
 
-## Maximum Potency DevOps
+## <a name="dan"></a>The journey to mastery
+### by Dan North
+
+Dan's talks are always great fun. Saw him on a number of occasions and attended his training on Day 1.
+This time he explored what is mastery in the context of software development and how to get there.
+A few key thoughts are choosing your goals deliberately and understanding how you personally learn.
+The journey never ends.
+
+Stay tuned for a more detailed post as I have much more notes on this.
+
+## <a name="mitchell"></a>Maximum Potency DevOps
 ### by Mitchell Hashimoto
 
 Mitchell Hashimoto, the creator of Vagrant talked about an application lifecycle model true to pretty much all applications:
@@ -30,60 +46,20 @@ Mitchell Hashimoto, the creator of Vagrant talked about an application lifecycle
 
 The goal of devops -from the technology perspective- is to make this lifecycle more efficient.
 
-Hashicorp offers open-source devops tools. Vagrant help setting up consistent development environments. Packer optimizes slow parts of setting up a server with building up an image. Serf is a tool to maintain cluster membership via gossip and Consul is a multi-data-center aware service discovery and orchestration solution.
+Hashicorp offers free, open-source devops tools. Vagrant help setting up consistent development environments. Packer optimizes slow parts of setting up a server with building up an image. Serf is a tool to maintain cluster membership via gossip and Consul is a multi-data-center aware service discovery and orchestration solution.
 
 Watch out for my upcoming post with more details.
 
-## The journey to mastery
-### by Dan North
-
-Dan's talks are always great fun. Saw him on a number of occasions and attended his training on Day 1.
-This time he explored how
-
-## The Better Parts
+## <a name="doug"></a>The Better Parts
 ### by Douglas Crockford
 
-Separate post coming soon.
+Doug needs no introduction. Think JSON and his book about The Good Parts of JavaScript.
+Perfection is when there's nothing more to subtract. Good parts applies to philosophy to language features.
+Doug revisits some of the good parts and we also looked at the better parts in ES6.
 
+Detailed post coming soon.
 
-## Love Flexible Scope
-### by Gojko Adzic
-
-Next up was Gojko Adzic to talk about how to get real benefits from agile with felxible scope. We heard of medieval cloud deployment with cannons. Vasa  1626, flex scope without a big picture/vision is dangerous.
-
-Linear plans never work.
-
-second system syndrome - new tech, second system overconfident
-
-Unpredictable dimensions: local, time, human
-
-palchinsky principles:
-variation - plan to learn
-survivability - don't kill the company
-selection - plan to discard mistakes
-roadmap should have these
-
-story narrative: just the delegation of detail, should be about behaviour change. survivable experiment
-
-roadmap vs road
-
-GPS for sw - replan quickly
-
-1. divergent - create option
-2. convergent - make choices
-
-book Systems thinking in human resources
-
-story about behaviour changes
-
-impact-mapping.org
-
-linear vs hierarchical blog
-
-Tim Harford's book: Adapt.
-
-
-## Testing the Hard Stuff
+## <a name="john"></a>Testing the Hard Stuff
 ### by John Hughes
 
 John talked about generative testing. He started off by answering why **testing is hard**: **it's never enough**.
@@ -91,6 +67,25 @@ Then we went on to see an impressive demo of quickcheck which is a generative te
 This is an extremely powerful idea and especially useful when one is facing with hard to reproduce bugs (e.g race conditions).
 **Don't write tests, generate them. **
 He also told the story of how he found a number of concurrency issues in dets in a matter mintues which others failed to fix over a year.
+
+## Love Flexible Scope
+### by Gojko Adzic
+
+Next up was Gojko Adzic to talk about how to get the real benefits from agile with flexible scope. Of course flexible scope without a bigger picture/vision can be dangerous. (As the builders lof Vasa in 1626 learnt the hard way).
+
+I heard about second system syndrome for the first time: using a new, once successfully applied technology for the second time you become overconfident and likely screw it up.
+
+Another idea from Gojko's talk is that linear plans never work. Just think of all the unpredictable dimensions of locality, time and human factors. In most cases you have a linear backlog of stories or a roadmap looking more like a single road. Build hierarchical backlog instead. Think like you're building  a GPS which allows you to replan quickly.
+
+He also covered the Palchinsky principles from Tim Harford's book: Adapt.
+
+* variation - plan to learn
+* survivability - don't kill the company
+* selection - plan to discard mistakes
+
+Each roadmap should have these properties represented somehow.
+
+He also mentioned [impactmapping.org](http://impactmapping.org/) as a great resource.
 
 ## Adjusting your architecture to continuous delivery
 ### by Rachel Laycock
