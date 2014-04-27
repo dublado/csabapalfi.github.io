@@ -6,7 +6,7 @@ summary: "Craft Conference - Day 2 Summary, April 23-25 2014 @ Budapest, Hungary
 
 ## Summary
 
-The **[Craft Conference](http://craft-conf.com/2014/)** was amazing. You should come to this conference next year. Seriously. I was totally blown away by the awesomeness of the **speaker line-up** and the **900** other **attendes** likely thought so. (Full disclosure: I'm Hungarian so it has extra benefits to come home :) Huge thanks to [Gergely Hodicska](http://twitter.com/felhobacsi), [Medea Baccifava](http://twitter.com/Medea_Baccifava) and [Gábor Vészi](http://twitter.com/veszig) for organzing such a great event!
+The **[Craft Conference](http://craft-conf.com/2014/)** was amazing. You should come to this conference next year. Seriously. I was totally blown away by the awesomeness of the **speaker line-up** and the **900** other **attendes** likely thought so. Huge thanks to [Gergely Hodicska](http://twitter.com/felhobacsi), [Medea Baccifava](http://twitter.com/Medea_Baccifava) and [Gábor Vészi](http://twitter.com/veszig) for organzing such a great event!
 
 My favourites from day 2 were:
 
@@ -16,7 +16,7 @@ My favourites from day 2 were:
 * [Maximum potency DevOps by Mitchell Hashimoto](#mitchell)
 * [Testing the Hard Stuff by John Hughes](#john).
 
-A really brief summary of all 14 talks I found interesting is available here:
+A really brief summary of all 14 talks I found interesting on day 2 is available here:
 
 ## <a name="bodil"></a>Programming, Only Better
 ### by Bodil Stokke [@bodil](http://twitter.com/bodil)
