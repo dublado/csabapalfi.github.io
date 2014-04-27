@@ -19,14 +19,14 @@ My favourites from day 2 were:
 A really brief summary of all 14 talks I found interesting is available here:
 
 ## <a name="bodil"></a>Programming, Only Better
-### by Bodil Stokke
+### by Bodil Stokke [@bodil](http://twitter.com/bodil)
 
 The keynote by Bodil Stokke started with Turing and Church as titans and huge Pinkie Pie sticker on her laptop so you already knew it's going to be good. We covered silver bullet processes, what causes **complexity** and how functional programming helps but also touched briefly on logic programming.
 
 Read more in [my detailed post about Bodil's talk](/programming-only-better-bodil-stokke).
 
 ## <a name="dan"></a>The Journey to Mastery
-### by Dan North
+### by Dan North [@tastapod](http://twitter.com/tastapod)
 
 Dan's talks are always great fun. Saw him on a number of occasions and attended his training on Day 1.
 This time he explored what is **mastery in the context of software development** and how to get there.
@@ -37,7 +37,7 @@ A few good ideas are choosing your **goals deliberately** and **understanding ho
 Stay tuned for a more detailed post as I have much more notes on this.
 
 ## <a name="mitchell"></a>Maximum Potency DevOps
-### by Mitchell Hashimoto
+### by Mitchell Hashimoto [@mitchellh](http://twitter.com/mitchellh)
 
 Mitchell Hashimoto, the creator of [Vagrant](http://www.vagrantup.com/) talked about an **application lifecycle** model true to pretty much all applications:
 
@@ -52,7 +52,7 @@ Hashicorp offers **free, open-source** devops **tools**. **[Vagrant](http://www.
 Watch out for my upcoming post with more details.
 
 ## <a name="doug"></a>The Better Parts
-### by Douglas Crockford
+### by Douglas Crockford [crockford.com](http://www.crockford.com/)
 
 Doug needs no introduction. Think JSON and his book about The Good Parts of JavaScript.
 **Perfection** is when there's **nothing more to subtract**. Good parts applies to philosophy to **language features**.
@@ -61,7 +61,7 @@ Doug **revisits** some of the **good parts** and we also looked at the **better 
 Detailed post coming soon.
 
 ## <a name="john"></a>Testing the Hard Stuff
-### by John Hughes
+### by John Hughes [@rjmh](http://twitter.com/rjmh)
 
 John talked about generative testing. He started off by answering why **testing is hard**: **it's never enough**.
 
@@ -75,7 +75,7 @@ This is an extremely powerful idea and especially useful when one is facing with
 He also told the story of how he found a number of concurrency issues in [dets](http://www.erlang.org/doc/man/dets.html) (Erlang disk based store) in a matter minutes which otherwise were practically impossible to find and fix.
 
 ## Love Flexible Scope
-### by Gojko Adzic
+### by Gojko Adzic [@gojkoadzic](http://twitter.com/gojkoadzic)
 
 Next up was Gojko Adzic to talk about how to get the **real benefits from agile with flexible scope**. Of course flexible scope without a bigger picture/vision can be dangerous. (As the builders lof Vasa in 1626 learnt the hard way).
 
@@ -94,18 +94,18 @@ Each roadmap should have these properties represented somehow.
 He also mentioned [impactmapping.org](http://impactmapping.org/) as a great resource.
 
 ## Adjusting Your Architecture to Continuous Delivery
-### by Rachel Laycock
+### by Rachel Laycock [@rachellaycock](http://twitter.com/rachellaycock)
 
 I hated to miss this as I'm very much into continuous delivery in my current contract. Based on tweets Rachel said that **microservices** mean **more independence** but also require **more coordination** which resonates with Ben Wootton's (my colleague) post in the topic: **[Microservices - not a free lunch](http://highscalability.com/blog/2014/4/8/microservices-not-a-free-lunch.html)**.
 
 ## Going Reactive
-### by Jonas Bonér
+### by Jonas Bonér [@jboner](http://twitter.com/jboner)
 It's not every day that you can see the **CTO of [Typesafe](http://typesafe.com/)**. Lots of tweets about this.
 
 I deliberately chose a different presentation in this time-slot as I was afraid it would bit a bit too generic and I already did the [reactive course](https://www.coursera.org/course/reactive) recently and attended [ping-conf](http://www.ping-conf.com/) as well. Will definitely check out the recording though.
 
 ## Functional Examples from Category Theory
-### by Alissa Pajer
+### by Alissa Pajer [@alissapajer](http://twitter.com/alissapajer)
 
 Some people tweeted this is the best introduction to the topic.
 
@@ -115,25 +115,25 @@ Some people tweeted this is the best introduction to the topic.
 Should be great fun. Sad I missed this but will check out the recording.
 
 ## Distributing RabbitMQ
-### Alvaro Videla
+### Alvaro Videla [@old_sound](http://twitter.com/old_sound)
 
 Alvaro nicely introduced RabbitMQ. I was impressed to learn that it's multi-protocol. Rabbit has a great community plugin ecosystem with plugins like federation across multiple datacenters, sharded queues using consistent hashing and replication with mirrored queues. When I asked he assured me these plugins work well together which I shall see in the coming weeks as we're exploring using Rabbit. Yay.
 
 ## JavaScript Module Server
-### by Szabolcs Szabolcsi-Tóth
+### by Szabolcs Szabolcsi-Tóth [@_nec](http://twitter.com/_nec)
 
 Szabolcs from ustream talked about their [Javascript module server](https://github.com/ustream/jms) which implements the idea of [negative loading from JSConf EU 2012](https://www.youtube.com/watch?v=mGENRKrdoGY). Learnt about some interesting libraries like pm2 which they use for what I use recluster and mentioned almond.js which is a lightweight require.js. He also mentioned sinopia, a private npm registry. Will play around with that to see if I can replace our current CouchDB plus Kappa setup.
 
 ## Conway's Law and You
-### by Michael Feathers
+### by Michael Feathers [@mfeathers](http://twitter.com/mfeathers)
 
 Lots of tweets about this. And come on... it's Michael Feathers. Checking out the recording later.
 
-## Next-Generation Development Platforms and the open cloud
-### by Andy Piper
+## Next-Generation Development Platforms and the Open Cloud
+### by Andy Piper [@andypiper](http://twitter.com/andypiper)
 
 Andy is from Twitter and there were lots of tweets about his talk. Probably a good one to check out.
 
 ## Browser Cryptography
-### by Daniel Posch
+### by Daniel Posch [@dcposch](http://twitter.com/dcposch)
 Lots of tweets about this.
