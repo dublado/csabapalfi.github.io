@@ -23,7 +23,7 @@ A really brief summary of all 14 talks I found interesting is available here:
 
 The keynote by Bodil Stokke started with Turing and Church as titans and huge Pinkie Pie sticker on her laptop so you already knew it's going to be good. We covered silver bullet processes, what causes complexity and explored a bit of logic programming as well.
 
-Check out [my detailed post about Bodil's talk](/programming-only-better-bodil-stokke).
+Read more in [my detailed post about Bodil's talk](/programming-only-better-bodil-stokke).
 
 ## <a name="dan"></a>The journey to mastery
 ### by Dan North
@@ -103,7 +103,7 @@ It's not every day that you can see the CTO of [Typesafe](http://typesafe.com/).
 
 I deliberately chose a different presentation in this time-slot as I was afraid it would bit a bit too generic and I already did the [reactive course](https://www.coursera.org/course/reactive) recently and attended [ping-conf](http://www.ping-conf.com/) as well. Will definitely check out the recording though.
 
-### Functional Examples from Category Theory 
+### Functional Examples from Category Theory
 ## by Alissa Pajer
 
 <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/alissapajer">@alissapajer</a> holds the most clean and straightforward category theory presentation I&#39;ve ever seen. A must have for newcomers. <a href="https://twitter.com/search?q=%23craftconf&amp;src=hash">#craftconf</a></p>&mdash; Attila Szabo (@maugly24) <a href="https://twitter.com/maugly24/statuses/459329626406670336">April 24, 2014</a></blockquote>
