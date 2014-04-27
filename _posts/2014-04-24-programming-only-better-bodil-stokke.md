@@ -33,7 +33,7 @@ Bodil also pointed out the nonlinear increase of complexity by code volume.
 
 #### OO vs FP vs ?
 
-OO manages stat with encapsulation which is great to enforce local constraint but doesn't really help with global and external constraints. Control is not really managed and polymorphism makes it worse.
+OO manages state with encapsulation which is great to enforce local constraint but doesn't really help with global and external constraints. Control is not really managed and polymorphism makes it worse.
 
 FP gets rid of state which is fantastic. Referential transparency rocks and state is passed around as values.
 
