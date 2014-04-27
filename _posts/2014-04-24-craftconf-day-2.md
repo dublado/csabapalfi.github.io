@@ -10,22 +10,22 @@ The **[Craft Conference](http://craft-conf.com/2014/)** was amazing. You should 
 
 My favourites from day 2 were:
 
-* [Programming, only better by Bodil Stokke](#bodil)
-* [The journey to Mastery by Dan North](#dan)
-* [The better parts by Doug Crockford](#doug)
+* [Programming, Only Better by Bodil Stokke](#bodil)
+* [The Journey to Mastery by Dan North](#dan)
+* [The Better Parts by Doug Crockford](#doug)
 * [Maximum potency DevOps by Mitchell Hashimoto](#mitchell)
-* [Testing the hard stuff by John Hughes](#john).
+* [Testing the Hard Stuff by John Hughes](#john).
 
 A really brief summary of all 14 talks I found interesting is available here:
 
-## <a name="bodil"></a>Programming, only better
+## <a name="bodil"></a>Programming, Only Better
 ### by Bodil Stokke
 
 The keynote by Bodil Stokke started with Turing and Church as titans and huge Pinkie Pie sticker on her laptop so you already knew it's going to be good. We covered silver bullet processes, what causes **complexity** and how functional programming helps but also touched briefly on logic programming.
 
 Read more in [my detailed post about Bodil's talk](/programming-only-better-bodil-stokke).
 
-## <a name="dan"></a>The journey to mastery
+## <a name="dan"></a>The Journey to Mastery
 ### by Dan North
 
 Dan's talks are always great fun. Saw him on a number of occasions and attended his training on Day 1.
@@ -93,7 +93,7 @@ Each roadmap should have these properties represented somehow.
 
 He also mentioned [impactmapping.org](http://impactmapping.org/) as a great resource.
 
-## Adjusting your architecture to continuous delivery
+## Adjusting Your Architecture to Continuous Delivery
 ### by Rachel Laycock
 
 I hated to miss this as I'm very much into continuous delivery in my current contract. Based on tweets Rachel said that **microservices** mean **more independence** but also require **more coordination** which resonates with Ben Wootton's (my colleague) post in the topic: **[Microservices - not a free lunch](http://highscalability.com/blog/2014/4/8/microservices-not-a-free-lunch.html)**.
