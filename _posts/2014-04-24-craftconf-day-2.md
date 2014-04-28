@@ -23,7 +23,7 @@ A really brief summary of all 14 talks I found interesting on day 2 is available
 
 The keynote by Bodil Stokke started with Turing and Church as titans and huge Pinkie Pie sticker on her laptop so you already knew it's going to be good. We covered silver bullet processes, what causes **complexity** and how functional programming helps but also touched briefly on logic programming.
 
-Read more in [my detailed post about Bodil's talk](/programming-only-better-bodil-stokke).
+Read more in [my detailed post about Bodil's talk](/programming-only-better-bodil-stokke) or [watch it here](2014-04-24-craftconf-day-2.md).
 
 ## <a name="dan"></a>The Journey to Mastery
 ### by Dan North [@tastapod](http://twitter.com/tastapod)
