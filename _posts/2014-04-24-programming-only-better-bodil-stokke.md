@@ -4,9 +4,9 @@ layout: post
 summary: "Programming, only better by Bodil Stokke - Craft Conference, April 23-25 2014 @ Budapest, Hungary"
 ---
 
-This talk opened [Craft Conference](http://craft-conf.com/2014/) Day 2. I have [post summarizing day 2](/craftconf-day-2).
+This talk by Bodil Stokke [@bodil](https://twitter.com/bodil) opened [Craft Conference](http://craft-conf.com/2014/) Day 2. I have [post summarizing day 2](/craftconf-day-2) and you can also [watch this talk here](http://www.ustream.tv/recorded/46774792)
 
-The keynote by Bodil Stokke [@bodil](https://twitter.com/bodil) started with Turing and Church as titans and huge Pinkie Pie sticker on her laptop so you already knew it's going to be good.
+It all started with Turing and Church as titans and huge Pinkie Pie sticker on her laptop so you already knew it's going to be good. :)
 
 #### Silver bullet processes
 

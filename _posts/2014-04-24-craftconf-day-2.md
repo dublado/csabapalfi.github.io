@@ -58,6 +58,8 @@ Doug needs no introduction. Think JSON and his book about The Good Parts of Java
 **Perfection** is when there's **nothing more to subtract**. Good parts applies to philosophy to **language features**.
 Doug **revisits** some of the **good parts** and we also looked at the **better parts in ES6**.
 
+He also talked about [dec64](http://dec64.org/) which is a new decimal and floating point number format which is suited for both business and scientific applications.
+
 Detailed post coming soon and you can also [watch the talk](http://www.ustream.tv/recorded/46640057).
 
 ## <a name="john"></a>Testing the Hard Stuff
@@ -143,3 +145,10 @@ Andy is from Twitter and there were lots of tweets about his talk. Probably a go
 ## Browser Cryptography
 ### by Daniel Posch [@dcposch](http://twitter.com/dcposch)
 Lots of tweets about this. [Watch it here](http://www.ustream.tv/recorded/46743933)
+
+## Sponsors
+
+There were some sponsor pitches in the morning:
+
+**Ericsson** talked about the demanding low latency challenges of telco and how they're moving to the cloud. **Misys** talked about their own home-brew beer and how they represent fun in the fincance sector. Was interesting to hear Attila Bozso from **EPAM** who mentioned that 10+ years ago when they started startups weren't this sexy and how they went through some amazing growth with the now 20 years old EPAM (used to worked there, great place). Peter Galantha told us about the history of **Yahoo** in Hungary (search for IndexTools :)) and told us to have great fun and enjoy the conference. (worked here too, another cool place) Also learned that **Deutsche Telekom** sells software powering well known brands like LinkedIn or itv.
+
