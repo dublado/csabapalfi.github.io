@@ -6,7 +6,7 @@ summary: "Craft Conference - Day 3 Summary, April 23-25 2014 @ Budapest, Hungary
 
 ## Summary
 
-I attended the **[Craft Conference](http://craft-conf.com/2014/)** in Budapest. On Day 1 I had a brilliant workshop with Dan North [@tastapod](http://twitter.com/tastapod). I [summarized day 2 in a post](/craftconf-day-2) and here comes day 3.
+I attended the **[Craft Conference](http://craft-conf.com/2014/)** in Budapest. On Day 1 I had a brilliant workshop with Dan North ([@tastapod](http://twitter.com/tastapod)). I summarized [day 2 in a post](/craftconf-day-2) and here comes day 3.
 
 My favourites from day 3 were:
 
@@ -42,22 +42,32 @@ Theo then told us how they built their custom data store for Circonus as they fo
 ## <a name="diego"></a>The Raft consensus protocol
 ### by Diego Ongaro [@ongardie](http://twitter.com/ongardie)
 
+Coming soon...
+
 ## <a name="jeff"></a>Distributed Systems in Production
 ### by Jeff Hodges [@jmhodges](https://twitter.com/jmhodges)
 
-http://www.ustream.tv/recorded/46673850
+Coming soon...
 
 ## <a name="gareth"></a>CI for Infrastructure
 ### by Gareth Rushgrove [@garethr](https://twitter.com/garethr)
 
+Coming soon...
+
 ## <a name="simon"></a>Delivering Continuous Delivery Continuously
 ### by Simon Hildrew [@sihil](https://twitter.com/sihil)
+
+Coming soon...
 
 ## Mobile HTML5
 ### by Tomomi Imura [@girlie_mac](https://twitter.com/girlie_mac)
 
+Coming soon...
+
 ## No general purpose database
 ### by Dominic Tarr [@dominictarr](https://twitter.com/dominictarr)
+
+Coming soon...
 
 ## MCDonalds, Six sigma and outsourcing
 ### by Chad Fowler [@chadfowler](https://twitter.com/chadfowler)
