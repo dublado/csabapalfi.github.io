@@ -62,7 +62,7 @@ Coming soon...
 ## Mobile HTML5
 ### by Tomomi Imura [@girlie_mac](https://twitter.com/girlie_mac)
 
-Coming soon...
+Tomomi talked about the state of mobile HMTL5 and how it challenges all the native app stores. She showed off the brilliant [coremob camera](https://github.com/coremob/camera) site which demoes a lot of HTML5 features. (HTML Media Capture, indexedDB, XHR2, touch events). Then we heard about device APIs to access hardware including geolocation, deviceorientation, battery status and so on. The vibration API was used for form validation feedback in an example. Ambient light sensor events were used to change text background to make reading easier. chromestatus.com and status.modern.ie were also referenced as useful resources to check future plans and browser support along with caniuse.com.
 
 ## No general purpose database
 ### by Dominic Tarr [@dominictarr](https://twitter.com/dominictarr)
@@ -82,9 +82,6 @@ First we learned how Chad got from music to programming via Doom. Then he went o
 
 When it comes to outsourcing lot of people has mixed feelings but **automation** and **outsourcing** might actually have a lot in common. **Make the fuzzy concrete** and **decompose responsibilities** then **automate or outsource**. Chad also mentioned the book titled [4 hour workweek](http://fourhourworkweek.com/) and how you can actually outsource some unusual things in your life like booking appoitments or even finding a nice pair of shoes based on a photo. I also learned what Amazon Mechanical Turk was named [after](http://en.wikipedia.org/wiki/The_Turk).
 
-## SOLID Foundations
-### by Steve Freeman [@sf105](https://twitter.com/sf105)
-### and Nat Pryce [@natpryce](https://twitter.com/natpryce)
 
 ## Graph Search with Neo4j
 ### by Ian Robinson [@iansrobinson](http://twitter.com/iansrobinson)
