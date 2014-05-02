@@ -21,9 +21,13 @@ A really brief summary of all 14 talks I found interesting on day 2 is available
 ## <a name="bodil"></a>Programming, Only Better
 ### by Bodil Stokke [@bodil](http://twitter.com/bodil)
 
-The keynote by Bodil Stokke started with Turing and Church as titans and huge Pinkie Pie sticker on her laptop so you already knew it's going to be good. We covered silver bullet processes, what causes **complexity** and how functional programming helps but also touched briefly on logic programming.
+It all started with Turing and Church as titans and huge Pinkie Pie photos so you already knew it's going to be good. :)
 
-Read more in [my detailed post about Bodil's talk](/programming-only-better-bodil-stokke) or [watch it here](http://www.ustream.tv/recorded/46774792).
+Few Dijsktra quotes later we explored how people think of **processes** as silver bullets but the reality is that they tend to work for some people but not others. There's no truth out there. Find your answers but don't assume they're answers for others.
+
+Then came what processes can't solve: **complexity**. She briefly mentioned the **Out of the tar pit** paper (for which I can't find a proper link to). **State** hinders testing and makes informal reasoning harder. Uderstanding **control flow** gets really difficult when you add concurrency. A lot of people underestimate the nonlinear growth of complexity by **code volume**.
+
+[Watch it here](http://www.ustream.tv/recorded/46774792).
 
 ## <a name="dan"></a>The Journey to Mastery
 ### by Dan North [@tastapod](http://twitter.com/tastapod)
