@@ -127,7 +127,9 @@ Should be great fun. Sad I missed this but will [check out the recording](http:/
 ## Distributing RabbitMQ
 ### Alvaro Videla [@old_sound](http://twitter.com/old_sound)
 
-Alvaro nicely introduced RabbitMQ. I was impressed to learn that it's multi-protocol. Rabbit has a great community plugin ecosystem with plugins like federation across multiple datacenters, sharded queues using consistent hashing and replication with mirrored queues. When I asked he assured me these plugins work well together which I shall see in the coming weeks as we're exploring using Rabbit. Yay.
+Alvaro nicely introduced [RabbitMQ](https://www.rabbitmq.com/). I was impressed to learn that it's multi-protocol. Rabbit has a great community plugin ecosystem with plugins like federation across multiple datacenters, sharded queues using consistent hashing and replication with mirrored queues. When I asked he assured me these plugins work well together which I shall see in the coming weeks as we're exploring using Rabbit. Yay.
+
+He showed off the [Rabbit MQ Simulator](http://tryrabbitmq.com/) and I also found [Queues.io](http://queues.io/).
 
 [Watch the talk](http://www.ustream.tv/recorded/46633817).
 
