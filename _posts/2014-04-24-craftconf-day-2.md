@@ -25,7 +25,7 @@ It all started with Turing and Church as titans and huge Pinkie Pie photos so yo
 
 Few Dijsktra quotes later we explored how people think of **processes** as silver bullets but the reality is that they tend to work for some people but not others. There's no truth out there. Find your answers but don't assume they're answers for others.
 
-Then came what processes can't solve: **complexity**. She briefly mentioned the **Out of the tar pit** paper (for which I can't find a proper link to). **State** hinders testing and makes informal reasoning harder. Uderstanding **control flow** gets really difficult when you add concurrency. A lot of people underestimate the nonlinear growth of complexity by **code volume**.
+Then came what processes can't solve: **complexity**. She mentioned the [Out of the tar pit](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.8928&rep=rep1&type=pdf) paper. **State** hinders testing and makes informal reasoning harder. Uderstanding **control flow** gets really difficult when you add concurrency. A lot of people underestimate the nonlinear growth of complexity by **code volume**.
 
 [Watch it here](http://www.ustream.tv/recorded/46774792).
 
