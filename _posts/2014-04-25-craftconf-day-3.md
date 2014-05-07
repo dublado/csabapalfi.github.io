@@ -16,7 +16,7 @@ My favourites from day 3 were:
 * [CI for Infrastructure by Gareth Rushgrove](#gareth)
 * [Delivering Continuous Delivery Continuously by Simon Hildrew](#simon)
 
-A summary of all 12 talks I found interesting on day 3 is available here:
+A summary of all 11 talks I found interesting on day 3 is available here:
 
 ## <a name="theo"></a>Responsibly maximizing craftsmanship
 ### by Theo Schlossnagle [@postwait](http://twitter.com/postwait)
@@ -42,7 +42,22 @@ Theo then told us how they built their custom data store for Circonus as they fo
 ## <a name="diego"></a>The Raft consensus protocol
 ### by Diego Ongaro [@ongardie](http://twitter.com/ongardie)
 
-Coming soon...
+Diego is one of the authors of the Raft consensus protocol used by Serf, etcd and a lot of others. So **why** do we need consensus?
+
+A distributed system is either **available or consistent**. If you choose **consitency** and you're on **multiple nodes** then those nodes **have to agree**, that's consensus. By the way if you build anything distributed (god forbid you try to sell it as a good thing) then watch out for [@aphyr](http://twitter.com/aphyr) who will tear your creation apart in seconds :)
+
+A working consensus algorithm is tipically used to **maintain a replicated log** of commands accross multiple nodes. This log then can be used to store command which can control the state of a state machine (be it a key-value store or anything).
+
+The godfather of all consensus algorithm is **Paxos** which was created by Leslie Lamport who recently got a Turing award. There's one problem with it though: it's really **difficult to understand** and even more difficult to implement correctly. Basically the Google Chubby paper is mostly about how a lot of implementation details are not in the Paxos paper.
+
+**Raft** is consesus protocol deliberately **designed for understandability**. It's **correct, complete, performant** but also understandable. It has a much less complex state space then Paxos. Three main concerns are **leader election** (maintain a leader), **log replication** (leader gets client commands, appends them to the log and replicates them) and **safety** (only a valid, elected leader stores data). The [paper](https://ramcloud.stanford.edu/wiki/download/attachments/11370504/raft.pdf) also describes client interactions, cluster membership changes and log compaction.
+
+Diego presented leader election and that's truly really simple and understandable. He used a brilliant demo from [thesecretlivesofdata.com](http://thesecretlivesofdata.com/raft/) Check out the [youtube video](http://www.youtube.com/watch?v=YbZ3zDzDnrw), the [paper](https://ramcloud.stanford.edu/wiki/download/attachments/11370504/raft.pdf) and the [Raft website](http://raftconsensus.github.io/) which also lists all implementation in different languages.
+
+Some implementation tips:
+
+* use 64 bit integers as term index
+* minimum timeout for elections should be enough for one network roundtrip plus a disk write
 
 ## <a name="jeff"></a>Distributed Systems in Production
 ### by Jeff Hodges [@jmhodges](https://twitter.com/jmhodges)
@@ -85,7 +100,11 @@ Simon suggests to **start small** and **encourage envangelism** in your teams. A
 ## Mobile HTML5
 ### by Tomomi Imura [@girlie_mac](https://twitter.com/girlie_mac)
 
-Tomomi talked about the state of mobile HMTL5 and how it challenges all the native app stores. She showed off the brilliant [coremob camera](https://github.com/coremob/camera) site which demoes a lot of HTML5 features. (HTML Media Capture, indexedDB, XHR2, touch events). Then we heard about device APIs to access hardware including geolocation, deviceorientation, battery status and so on. The vibration API was used for form validation feedback in an example. Ambient light sensor events were used to change text background to make reading easier. chromestatus.com and status.modern.ie were also referenced as useful resources to check future plans and browser support along with caniuse.com.
+Tomomi talked about the **state of mobile HMTL5** and how it challenges all the native app stores. She showed off the brilliant [coremob camera](https://github.com/coremob/camera) site which demoes a lot of HTML5 features. (HTML Media Capture, indexedDB, XHR2, touch events).
+
+We also heard about **device APIs** to access hardware including geolocation, deviceorientation, battery status and so on. The vibration API was used for form validation feedback in an example. Ambient light sensor events were used to change text background to make reading easier.
+
+[chromestatus.com](http://chromestatus.com) and [status.modern.ie](http://status.modern.ie) were also referenced as useful resources to check future plans and **browser support** along with [caniuse.com](http://caniuse.com).
 
 ## No general purpose database
 ### by Dominic Tarr [@dominictarr](https://twitter.com/dominictarr)
