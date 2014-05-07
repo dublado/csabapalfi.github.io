@@ -52,12 +52,35 @@ Coming soon...
 ## <a name="gareth"></a>CI for Infrastructure
 ### by Gareth Rushgrove [@garethr](https://twitter.com/garethr)
 
-Coming soon...
+Gareth talked about how software engineering practices can be adopted for infrastructure as code. On of these is CI (maybe even continous deployment) for infrastructure. Talking about CI: checkout [Jenkins Job Builder](http://ci.openstack.org/jenkins-job-builder/) for CI setup as code.
+
+You have **CI** to get **fast feedback and **prevent isolation**. Feedback could be some sort of **testing**. Do you want to test your **config management** (puppet/chef/etc) code? Maybe not always but for a library it's certainly useful.
+
+**Acceptance tests** for infrastrucuture can **spin up a short lived machine** and then **assert** that the machine is in the expected state. Have a look at [kitchen-ci](http://kitchen.ci/) which allows you to run tests in parallel and supports different drivers like ec2 and digitalocean. For assertion you can use [serverspec](http://serverspec.org/).
+
+**Machine image testing** can certainly be really useful. You wan't to be sure your image is good to be deployed. You can use serverspec to verify images built with packer and potentially not save an ami if assertions fail. Gareth has an [example on github](https://github.com/garethr/packer-serverspec-example). Same goes for Docker containers as it can be really useful to verify images without manually spinning them up but relying on tests.
+
+**Continous load testing** can also be added to an infrastructure pipeline. [Gatling](http://gatling-tool.org/) provides useful aggregate assertions. This can supplement ad-hoc load testing.
+
+Some future directions include **continous delivery for infrastructure** and **entire infrastructure as code** (hello CloudFormation:). We can also think of using infrastructure feature flags and similar approaches.
+
+Other tools mentioned were [bats](https://github.com/sstephenson/bats) for testing bash and [gor](https://github.com/buger/gor/) for replaying production traffic in other environments.
 
 ## <a name="simon"></a>Delivering Continuous Delivery Continuously
 ### by Simon Hildrew [@sihil](https://twitter.com/sihil)
 
-Coming soon...
+The [Guardian](http://theguardian.com) is doing some pretty cool stuff and certainly is visible on a lot of conferences. Simon talked about how they do continous delivery with around 100 deployables on a site seeing 100 million monthly unique browsers.
+
+So **how do you know** you're doing continous delivery? :)
+
+1. Keep your software deployable trough lifecycle
+2. Keep it deployable over new features
+3. Get fast and automated feedback on production readyness
+4. Push button deployment for any deployable to any envorinment on demand
+
+**Deployment as service** can also be added here to allow setting up new deployables and pipelines in a self-service way. Having an **audit trail** is also key to keep deployments and changes visibile. **Autoscaling deploys** is one of the great capabilities enabled by the cloud. Essentialy you bring up a new cluster of services for deployment and as soon as the new release is healthy you point your loadbalancer at the new version and kill the old cluster. **Expiration for feature flags** is about not letting your code quality damaged by all the conditinal feature flag logic. Great idea.
+
+Simon suggests to **start small** and **encourage envangelism** in your teams. Also important to make everyhting as easy as possible for developers when it comes to deployment as a service. It can mean a lot if **business priorities** are also followed instead of trying to totally de-risk your approach. The business will be really happy if a ciritical **bug fix can be rolled out quickly** because of continous delivery. When it comes to deploying contiously it works really well for APIs but it's a bit controversial whether want it for UI components.
 
 ## Mobile HTML5
 ### by Tomomi Imura [@girlie_mac](https://twitter.com/girlie_mac)
@@ -67,7 +90,11 @@ Tomomi talked about the state of mobile HMTL5 and how it challenges all the nati
 ## No general purpose database
 ### by Dominic Tarr [@dominictarr](https://twitter.com/dominictarr)
 
-Coming soon...
+Dominic talked about all the confusion around the data-stores available to developers. First just think of **data strucures**. They are **well understood** and a **rational choice** can be made easily in most cases. When it comes to **data-stores** you get all the **marketing FUD**.
+
+The way to see through marketing promises is to actually **understand** what data-stores do behind the scenes. Then we walked thorugh data store implementations from simple file storage, **append-only** file storage, **sorted string table** all the way to **log structured merge tree** which is an append-only log + a sorted view. Then Dominic touched on LevelDB and Haystack.
+
+The trick is understanding your data and your data-store options well. :)
 
 ## MCDonalds, Six sigma and outsourcing
 ### by Chad Fowler [@chadfowler](https://twitter.com/chadfowler)
@@ -78,7 +105,7 @@ First we learned how Chad got from music to programming via Doom. Then he went o
 
 **Six sigma** tells us that internal quality does not matter. **External quality measured from the customers perspective** is the only important thing. Can't see, don't care. **Internal quality of software is difficult to measure** even though it still matter to us. Do you really think that coverage and other metrics have anything to do with real quality? Think again. The really curious might also want to look at some of the six sigma methods like DMADV and QFD but I'm not into it, really.
 
-**[The E-myth revisited](http://www.amazon.co.uk/myth-Revisited-Small-Businesses-About/dp/0887307280)** is a good book with a bad title. Actually E stands for entrepeneurship. As developers we have to understand and **work on the business**. Can you make a better burger than McDonalds? Can you sell it better?
+**[The E-myth revisited](http://www.amazon.co.uk/myth-Revisited-Small-Businesses-About/dp/0887307280)** is a good book with a bad title. Actually E stands for entrepeneurship. As developers we have to understand and **work on the business**. Can you make a better burger than McDonalds? Can you **sell** it better?
 
 When it comes to outsourcing lot of people has mixed feelings but **automation** and **outsourcing** might actually have a lot in common. **Make the fuzzy concrete** and **decompose responsibilities** then **automate or outsource**. Chad also mentioned the book titled [4 hour workweek](http://fourhourworkweek.com/) and how you can actually outsource some unusual things in your life like booking appoitments or even finding a nice pair of shoes based on a photo. I also learned what Amazon Mechanical Turk was named [after](http://en.wikipedia.org/wiki/The_Turk).
 
