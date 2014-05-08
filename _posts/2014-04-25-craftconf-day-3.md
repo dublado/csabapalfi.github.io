@@ -62,7 +62,21 @@ Some implementation tips:
 ## <a name="jeff"></a>Distributed Systems in Production
 ### by Jeff Hodges [@jmhodges](https://twitter.com/jmhodges)
 
-Coming soon...
+Jeff has a brilliant blog post titled [Notes on Distributed Systems for Young Bloods](http://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/). His talk is somewhat based on that blogpost and sums up lot of the lessons they learnt the hard way at Twitter. I publish some of my notes here but you're much better of by just reading his post I guess. :)
+
+So why **distributed systems are different**? It's mainly about **failure** and **partial failure** compared to non-distributed systems. Ok, but why distributed systems rock? Partial failure actually also means **partial availability**.
+
+**Metrics** can help a lot to restore your sanity. A deploy should change a metric. **Prefer metrics to logs**: common problems are all over them and the uncommon ones remain hidden.
+
+Try to avoid machine/node **coordidnation** if you can: consensus is expensive. Avoid human coordination at all costs. Collaboration is always politics, but there is good and bad politics.
+
+Implement **back pressure** (pushing back on high load) in your systems. Think of curved pipes. They're curved so pressure changes in a bigger pipe connected to it don't blast the smaller pipe. Useful strategies here : drop packet on the floor (stats, alerts in place), documented error response to let upstream know, or timeouts and exponential backoff.
+
+The point of **feature flags** is to separate deploys from releases. Feature flag ```if``` statements are about sacrifying some local code clarity for global stabiltity.
+
+Exploit **data locality**. Locality **in time** as well. Batching and collapsed forwarding of requests are really powerful. Sensing an inflight request and not re-requesting is also helpful.
+
+Your components should be fast, with current tech you should get **100k req/sec with few hundred ms latency easily**. Otherwise you might be doing something wrong.
 
 ## <a name="gareth"></a>CI for Infrastructure
 ### by Gareth Rushgrove [@garethr](https://twitter.com/garethr)
