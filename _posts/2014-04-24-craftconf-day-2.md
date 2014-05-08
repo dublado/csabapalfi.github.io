@@ -59,12 +59,34 @@ Watch out for my upcoming post with more details or [check out the recording](ht
 ### by Douglas Crockford [crockford.com](http://www.crockford.com/)
 
 Doug needs no introduction. Think JSON and his book about The Good Parts of JavaScript.
-**Perfection** is when there's **nothing more to subtract**. Good parts applies to philosophy to **language features**.
-Doug **revisits** some of the **good parts** and we also looked at the **better parts in ES6**.
 
-He also talked about [dec64](http://dec64.org/) which is a new decimal and floating point number format which is suited for both business and scientific applications.
+Perfection is when there's nothing more to subtract. Good parts applies to philosophy to language features. If you have a useful but dangerous feature and there's a better option you should probably use that. We're not paid to use every feature of the language but to produce error-free code and a good language should teach you to aid that.
 
-Detailed post coming soon and you can also [watch the talk](http://www.ustream.tv/recorded/46640057).
+Some people are against that sort of restriction. Actually it's not a matter of opinion. Brendan Eich himself acknowledges that JavaScript is full of 'foot guns'. Yes, these are devices which are only good to shoot you in the foot. Some people live the fantasy of infallability or the futility of faultlessness. Or have you heard of Danger Driven Development. Please spend time to code well.
+
+Doug then talk about some of the new good parts in ES6. Finally we'll have proper tail call optimization. He touched on the splat (or spread) operator and the module system. The ```class``` statement is probably another bad part. ```let``` is a really good part which allows proper scoping. We then reconsidered some of the good parts. We can get rid of ```for```, ```for in``` and use ```foreach``` and ```Object.keys```. Proper functional style rocks. We can probably also stop using ```Object.create``` and ```this```. Proto inheritence saves memory but no longer makes sense and causes confusion (what's own?, what's inherited?) It's also performance inhibiting in V8.
+
+Here's how we're going to write proper modular JavaScript with ES6:
+
+```js
+function constructor(spec) {
+    let {member} = spec,
+        {other} = other_constructor(spec),
+        method = function() {
+            // member, other, method
+        };
+        return Object.freeze({
+            method,
+            other
+        });
+}
+```
+
+In a lot languages you got different number types like byte, int, float, etc. This is the legacy of old times. No-one really cares apart from some crazy high-perf niches. Javascript greatly improves this by having just one type. But it's the wrong type. Doug talked about what the right number type would look like. This is [dec64](http://dec64.org/), a new decimal and floating point number format which is suited for both business and scientific applications.
+
+What's the next bug language? Doug doesn't think it's dart or typescript. But it'll surely be dismissed at first like most great ideas. If you think of it a generation had to die out to accept lambdas as a good idea.
+
+You can also [watch the talk here](http://www.ustream.tv/recorded/46640057).
 
 ## <a name="john"></a>Testing the Hard Stuff
 ### by John Hughes [@rjmh](http://twitter.com/rjmh)
