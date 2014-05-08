@@ -1,5 +1,5 @@
 install:
-	bundle install
+	gem install github-pages
 	pip install cli53
 
 dns:
