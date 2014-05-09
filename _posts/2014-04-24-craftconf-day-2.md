@@ -24,15 +24,15 @@ A really brief summary of all 14 talks I found interesting on day 2 is available
 Dan's talks are always great fun. Saw him on a number of occasions and attended his training on Day 1.
 This time he explored what is **mastery in the context of software development**.
 
-**Mastery is capability in a context.** Your performance is your potential minus all the interfernce and distraction which prevents you from doing your best.
+**Mastery is capability in a context.** Your performance is your potential minus all the interference and distraction which prevents you from doing your best.
 
-What different types of mastery are there? You can probably expect **constantly flawless performance** from a concert pianist - not many distractions. An ice hockey player's top performance is about **playing his best** but it'll greatly depend on others. A soldier for example has to adapt **instinctively to unfolding events** and the unexpected.
+What different types of mastery are there? You can probably expect **constantly flawless performance** from a concert pianist - not many distractions. An ice hockey player's top performance is about **playing his best** but it'll greatly depend on others. A soldier for example has to **adapt instinctively to unfolding events** and the unexpected.
 
 What is mastery for us in software? Let's look at the different stages of **medieval craftmanship and mastery** and what it means to us and get some advice:
 
 You start out as an **apprentice**. **Find people who do what you want to do and model them**, stalk them. Following somone on twitter is like stalking but legal. Admit you don't know stuff but also learn to act like you can (e.g adopt the jargon). Heard of the **impostor syndrome**? **Solve real problems**. Please don't learn to swim with armbands. No trainer wheels. Code katas and stuff are kind of useful but not really. **Study the basics** and learn theory and method but also remember **that brutal adherence to the one true way is harmful**. Always try to **get feedback from people.**
 
-After getting some experience you're a **journeyman**. Build your portfolio** and try different approaches, domains. It's important to **learn how you learn**, how you practice. Everyone is different. I for example take notes like crazy. Always *listen like you don't know the answer** - you might not. **If it ain't broke - fix it anyway**, surprising things might come out of it. Remember that **you can make computer do anything**: stay motivated.
+After getting some experience you're a **journeyman**. **Build your portfolio** and try different approaches, domains. It's important to **learn how you learn**, how you practice. Everyone is different. I for example take notes like crazy. Always **listen like you don't know the answer** - you might not. **If it ain't broke - fix it anyway**, surprising things might come out of it. Remember that **you can make computer do anything**: stay motivated.
 
 As a **master** remember where you started and allow learners to discover.
 
@@ -45,11 +45,11 @@ At the end of the talk the **two sides of simplicity** also came-up somehow. You
 
 Doug needs no introduction. Think JSON and his book about The Good Parts of JavaScript.
 
-Perfection is when there's nothing more to subtract. Good parts applies to philosophy to language features. If you have a useful but dangerous feature and there's a better option you should probably use that. We're not paid to use every feature of the language but to produce error-free code and a good language should teach you to aid that.
+Perfection is when there's **nothing more to subtract**. Good parts applies to philosophy to **language features**. If you have a useful but dangerous feature and there's a better option you should probably use that. We're not paid to use every feature of the language but to produce error-free code and a good language should teach you to aid that.
 
-Some people are against that sort of restriction. Actually it's not a matter of opinion. Brendan Eich himself acknowledges that JavaScript is full of 'foot guns'. Yes, these are devices which are only good to shoot you in the foot. Some people live the fantasy of infallability or the futility of faultlessness. Or have you heard of Danger Driven Development. Please spend time to code well.
+Some people are against that sort of restriction. Actually it's **not a matter of opinion**. Brendan Eich himself acknowledges that JavaScript is full of **'foot guns'**. Yes, these are devices which are only good to shoot you in the foot. Some people live the **fantasy of infallability** or the **futility of faultlessness**. Or have you heard of Danger Driven Development. Please spend time to code well.
 
-Doug then talk about some of the new good parts in ES6. Finally we'll have proper tail call optimization. He touched on the splat (or spread) operator and the module system. The ```class``` statement is probably another bad part. ```let``` is a really good part which allows proper scoping. We then reconsidered some of the good parts. We can get rid of ```for```, ```for in``` and use ```foreach``` and ```Object.keys```. Proper functional style rocks. We can probably also stop using ```Object.create``` and ```this```. Proto inheritence saves memory but no longer makes sense and causes confusion (what's own?, what's inherited?) It's also performance inhibiting in V8.
+Doug then talk about some of the **new good parts in ES6**. Finally we'll have proper **tail call optimization**. He touched on the splat (or spread) operator and the module system. The ```class``` statement is probably another bad part. **let** is a really good part which allows **proper scoping**. We then reconsidered some of the good parts. We can get rid of ```for```, ```for in``` and use ```foreach``` and ```Object.keys```. **Proper functional style rocks**. We can probably also stop using ```Object.create``` and ```this```. Proto inheritence saves memory but no longer makes sense and causes confusion (what's own?, what's inherited?) It's also performance inhibiting in V8.
 
 Here's how we're going to write proper modular JavaScript with ES6:
 
@@ -67,7 +67,7 @@ function constructor(spec) {
 }
 ```
 
-In a lot languages you got different number types like byte, int, float, etc. This is the legacy of old times. No-one really cares apart from some crazy high-perf niches. Javascript greatly improves this by having just one type. But it's the wrong type. Doug talked about what the right number type would look like. This is [dec64](http://dec64.org/), a new decimal and floating point number format which is suited for both business and scientific applications.
+In a lot languages you got different number types like byte, int, float, etc. This is the legacy of old times. No-one really cares apart from some crazy high-perf niches. Javascript greatly improves this by having **just one number type**. But it's the wrong type. Doug talked about what **the right number type** would look like. This is **[dec64](http://dec64.org/)**, a new decimal and floating point number format which is suited for both business and scientific applications.
 
 What's the next bug language? Doug doesn't think it's dart or typescript. But it'll surely be dismissed at first like most great ideas. If you think of it a generation had to die out to accept lambdas as a good idea.
 
