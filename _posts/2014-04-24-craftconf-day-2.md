@@ -11,7 +11,7 @@ The **[Craft Conference](http://craft-conf.com/2014/)** was amazing. You should 
 My favourites from day 2 were:
 
 * [The Journey to Mastery by Dan North](#dan)
-* [The Better Parts by Doug Crockford](#doug)
+* [JavaScript - The Better Parts by Doug Crockford](#doug)
 * [Maximum potency DevOps by Mitchell Hashimoto](#mitchell)
 * [Programming, Only Better by Bodil Stokke](#bodil)
 * [Testing the Hard Stuff by John Hughes](#john).
@@ -40,7 +40,7 @@ In summary: **choose your goals deliberately** and undertand your process of lea
 
 At the end of the talk the **two sides of simplicity** also came-up somehow. You have the 'I overlook the details' simple and hard-fought tru simplicity divided by the complexity mess between.
 
-## <a name="doug"></a>The Better Parts
+## <a name="doug"></a>JavaScript - The Better Parts
 ### by Douglas Crockford [crockford.com](http://www.crockford.com/)
 
 Doug needs no introduction. Think JSON and his book about The Good Parts of JavaScript.
