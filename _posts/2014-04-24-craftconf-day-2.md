@@ -10,50 +10,35 @@ The **[Craft Conference](http://craft-conf.com/2014/)** was amazing. You should 
 
 My favourites from day 2 were:
 
-* [Programming, Only Better by Bodil Stokke](#bodil)
 * [The Journey to Mastery by Dan North](#dan)
 * [The Better Parts by Doug Crockford](#doug)
 * [Maximum potency DevOps by Mitchell Hashimoto](#mitchell)
+* [Programming, Only Better by Bodil Stokke](#bodil)
 * [Testing the Hard Stuff by John Hughes](#john).
 
 A really brief summary of all 14 talks I found interesting on day 2 is available here:
-
-## <a name="bodil"></a>Programming, Only Better
-### by Bodil Stokke [@bodil](http://twitter.com/bodil)
-
-It all started with Turing and Church as titans and huge Pinkie Pie photos so you already knew it's going to be good. :)
-
-Few Dijsktra quotes later we explored how people think of **processes** as silver bullets but the reality is that they tend to work for some people but not others. There's no truth out there. Find your answers but don't assume they're answers for others.
-
-Then came what processes can't solve: **complexity**. She mentioned the [Out of the tar pit](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.8928&rep=rep1&type=pdf) paper. **State** hinders testing and makes informal reasoning harder. Uderstanding **control flow** gets really difficult when you add concurrency. A lot of people underestimate the nonlinear growth of complexity by **code volume**.
-
-[Watch it here](http://www.ustream.tv/recorded/46774792).
 
 ## <a name="dan"></a>The Journey to Mastery
 ### by Dan North [@tastapod](http://twitter.com/tastapod)
 
 Dan's talks are always great fun. Saw him on a number of occasions and attended his training on Day 1.
-This time he explored what is **mastery in the context of software development** and how to get there.
-A few good ideas are choosing your **goals deliberately** and **understanding how you** personally **learn**.
+This time he explored what is **mastery in the context of software development**.
 
-**The journey never ends.**
+**Mastery is capability in a context.** Your performance is your potential minus all the interfernce and distraction which prevents you from doing your best.
 
-Stay tuned for a more detailed post as I have much more notes on this.
+What different types of mastery are there? You can probably expect **constantly flawless performance** from a concert pianist - not many distractions. An ice hockey player's top performance is about **playing his best** but it'll greatly depend on others. A soldier for example has to adapt **instinctively to unfolding events** and the unexpected.
 
-## <a name="mitchell"></a>Maximum Potency DevOps
-### by Mitchell Hashimoto [@mitchellh](http://twitter.com/mitchellh)
+What is mastery for us in software? Let's look at the different stages of **medieval craftmanship and mastery** and what it means to us and get some advice:
 
-Mitchell Hashimoto, the creator of [Vagrant](http://www.vagrantup.com/) talked about an **application lifecycle** model true to pretty much all applications:
+You start out as an **apprentice**. **Find people who do what you want to do and model them**, stalk them. Following somone on twitter is like stalking but legal. Admit you don't know stuff but also learn to act like you can (e.g adopt the jargon). Heard of the **impostor syndrome**? **Solve real problems**. Please don't learn to swim with armbands. No trainer wheels. Code katas and stuff are kind of useful but not really. **Study the basics** and learn theory and method but also remember **that brutal adherence to the one true way is harmful**. Always try to **get feedback from people.**
 
-* **development** (the fun bit where you got to break things)
-* **deployment** (first start/configure server, then deploy/run app)
-* **maintenance** (keep running and changing)
+After getting some experience you're a **journeyman**. Build your portfolio** and try different approaches, domains. It's important to **learn how you learn**, how you practice. Everyone is different. I for example take notes like crazy. Always *listen like you don't know the answer** - you might not. **If it ain't broke - fix it anyway**, surprising things might come out of it. Remember that **you can make computer do anything**: stay motivated.
 
-The goal of **devops** -from the technology perspective- is to make this **lifecycle more efficient**.
+As a **master** remember where you started and allow learners to discover.
 
-Hashicorp offers **free, open-source** devops **tools**. **[Vagrant](http://www.vagrantup.com/)** help setting up consistent development environments. **[Packer](http://www.packer.io/)** optimizes slow parts of setting up a server with building up an image. **[Serf](http://www.serfdom.io/)** is a tool to maintain cluster membership via gossip and **[Consul](http://www.consul.io/)** is a multi-data-center aware service discovery and orchestration solution.
+In summary: **choose your goals deliberately** and undertand your process of learning. The journey never ends.
 
-Watch out for my upcoming post with more details or [check out the recording](http://www.ustream.tv/recorded/46631182).
+At the end of the talk the **two sides of simplicity** also came-up somehow. You have the 'I overlook the details' simple and hard-fought tru simplicity divided by the complexity mess between.
 
 ## <a name="doug"></a>The Better Parts
 ### by Douglas Crockford [crockford.com](http://www.crockford.com/)
@@ -87,6 +72,41 @@ In a lot languages you got different number types like byte, int, float, etc. Th
 What's the next bug language? Doug doesn't think it's dart or typescript. But it'll surely be dismissed at first like most great ideas. If you think of it a generation had to die out to accept lambdas as a good idea.
 
 You can also [watch the talk here](http://www.ustream.tv/recorded/46640057).
+
+## <a name="mitchell"></a>Maximum Potency DevOps
+### by Mitchell Hashimoto [@mitchellh](http://twitter.com/mitchellh)
+
+Mitchell Hashimoto, the creator of [Vagrant](http://www.vagrantup.com/) and founder of Hashicorp talked how he sees the technical side of DevOps.
+
+Pretty much all **application**s have a similar **lifecycle** of getting from development to production:
+
+**Development** is the fun bit where you explore and got to break things. A development environment should be **readily available** as it's key for onboarding new hires, etc. You want a **fast feedback cycle** so you make changes and see them quickly (code, save, reload). **Consistency** is important to avoid 'works on my machine' like situations. A good development environment should also aid **collaboration and sharing**.
+
+**Deployment** is **getting your software somewhere**. That somewhere might be a test/staging environment or production. Two  stages can be separated here: First you need to **start and configure servers**. Then you **deploy and run your app** (get stuff on your server, start it, then make it live e.g by registering with loadbalancer)
+
+**Maintenance** is about **keep running and changing** your application. This is where monitoring comes in (although you probably also watch metrics as you deploy). The key bit here is to **allow updating and changes** with resiliency and without failure. Orchestration also belongs here (e.g. autoscaling, adding nodes to a cluster, etc)
+
+The goal of **DevOps** -from the technology perspective- is to make this **lifecycle more efficient**. **Tools** help with reducing errors, making things faster, increased repeatabilty and codifying knowledge. But there are loads of them and their purpose is often ambigious. The above lifecycle model helps a bit in putting these tools in the right place in your head.
+
+Hashicorp offers **free, open-source** devops **tools**:
+
+* **[Vagrant](http://www.vagrantup.com/)** help setting up consistent development environments. 1.6 support docker container which I'll definitely check out.
+* **[Packer](http://www.packer.io/)** optimizes slow parts of setting up a server with building up an image. This is what I use to build our base AMI.
+* **[Serf](http://www.serfdom.io/)** is a tool to maintain cluster membership via gossip. It also support simple shell based custom events. Sending heartbeats when your clusters get large doesn't scale hence the use of gossip. Was funny when Mitchell compared gossip to how the news of a zombie apocalypse would spread.
+* **[Consul](http://www.consul.io/)** is a **multi-data-center aware** service discovery and orchestration solution built on top of Serf. Has a DNS and HTTP interface. Also incorporates healthchecks and a key value store. Really excited about this one.
+
+[Check out the recording](http://www.ustream.tv/recorded/46631182).
+
+## <a name="bodil"></a>Programming, Only Better
+### by Bodil Stokke [@bodil](http://twitter.com/bodil)
+
+It all started with Turing and Church as titans and huge Pinkie Pie photos so you already knew it's going to be good. :)
+
+Few Dijsktra quotes later we explored how people think of **processes** as silver bullets but the reality is that they tend to work for some people but not others. There's no truth out there. Find your answers but don't assume they're answers for others.
+
+Then came what processes can't solve: **complexity**. She mentioned the [Out of the tar pit](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.8928&rep=rep1&type=pdf) paper. **State** hinders testing and makes informal reasoning harder. Uderstanding **control flow** gets really difficult when you add concurrency. A lot of people underestimate the nonlinear growth of complexity by **code volume**.
+
+[Watch it here](http://www.ustream.tv/recorded/46774792).
 
 ## <a name="john"></a>Testing the Hard Stuff
 ### by John Hughes [@rjmh](http://twitter.com/rjmh)
