@@ -6,11 +6,11 @@ summary: "Check your 'real' public github activity with bash"
 
 ## The good
 
-I love the github **contribution chart** on profile pages. You can get [bathroom tiles with that](https://twitter.com/mrdougal/statuses/442929113733410816) :)
+I love the github **contribution chart** on profile pages. It gives visual feedback and it's a great feeling to watch your streak going on for days. Or weeks! You should [push code every day, right](http://ejohn.org/blog/write-code-every-day/)?
+
+There are even [bathroom tiles with that](https://twitter.com/mrdougal/statuses/442929113733410816) :)
 
 ![github activity shower](/assets/images/github_activity_shower.png)
-
-It gives visual feedback and it's a great feeling to watch your streak going on for days. Or weeks! You should [push code every day right](http://ejohn.org/blog/write-code-every-day/)?
 
 ## The bad
 
