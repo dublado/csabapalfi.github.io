@@ -5,10 +5,10 @@ install:
 dns:
 	cli53 import palfi.me --file palfi.me.bind
 
-debug: kill
+start: kill
 	jekyll serve --watch
 
-run: kill
+start-detached: kill
 	jekyll serve --detach
 
 kill:
