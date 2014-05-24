@@ -6,9 +6,7 @@ summary: "Check your 'real' public github activity with bash"
 
 ## The good
 
-I love the github **contribution chart** on profile pages. It gives visual feedback and it's a great feeling to watch your streak going on for days. Or weeks! You should [push code every day, right](http://ejohn.org/blog/write-code-every-day/)?
-
-There are even [bathroom tiles with that](https://twitter.com/mrdougal/statuses/442929113733410816) :)
+I love the github **contribution chart** on profile pages. It gives visual feedback and it's a great feeling to watch your streak going on for days. Or weeks! You should [push code every day, right](http://ejohn.org/blog/write-code-every-day/)? There are even [bathroom tiles with that](https://twitter.com/mrdougal/statuses/442929113733410816) :)
 
 ![github activity shower](/assets/images/github_activity_shower.png)
 
@@ -38,6 +36,6 @@ function github-public-activity {
 }
 ```
 
-Of course I don't want to keep opening my profile in incognito mode when github has an API and I have just read some [brilliant bash tips](http://robertmuth.blogspot.co.uk/2012/08/better-bash-scripting-in-15-minutes.html).
+Of course I don't want to keep opening my profile in incognito mode when github has an API and I have just read some [brilliant bash tips](http://robertmuth.blogspot.co.uk/2012/08/better-bash-scripting-in-15-minutes.html). Someone (I?) please make a Chrome Extension out of this or something.
 
 > If it ain't broke. Fix it anyway. You might learn something new.
