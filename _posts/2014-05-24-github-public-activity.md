@@ -16,7 +16,7 @@ The problem is that they **don't provide an accurate view** of your **public act
 
 ![github activity includes private repos](/assets/images/github_acitivity_private_repos.png)
 
-Ever noticed the little lock in the top right corner of the chart. Hover over it and it confirms your worst nightmare: your public profile might not look as good as what you see when you're logged in. Just open your github profile in incognito mode and problem solved or read on for an ugly hack...
+Ever noticed the little lock in the top right corner of the chart? Hover over it and it confirms your worst nightmare: your public profile might not look as good as what you see when you're logged in. Just open your github profile in incognito mode and problem solved or read on...
 
 ## The ugly
 
