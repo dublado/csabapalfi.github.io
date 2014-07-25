@@ -1,0 +1,306 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+Pygments syntax highlighting
+*/
+
+pre{padding-left: 5px;}pre .c{color:#998;font-style:italic;}pre .err{color:#a61717;background-color:#e3d2d2;}pre .k{font-weight:bold;}pre .o{font-weight:bold;}pre .cm{color:#998;font-style:italic;}pre .cp{color:#999;font-weight:bold;}pre .c1{color:#998;font-style:italic;}pre .cs{color:#999;font-weight:bold;font-style:italic;}pre .gd{color:#000;background-color:#fdd;}pre .gd .x{color:#000;background-color:#faa;}pre .ge{font-style:italic;}pre .gr{color:#a00;}pre .gh{color:#999;}pre .gi{color:#000;background-color:#dfd;}pre .gi .x{color:#000;background-color:#afa;}pre .go{color:#888;}pre .gp{color:#555;}pre .gs{font-weight:bold;}pre .gu{color:#aaa;}pre .gt{color:#a00;}pre .kc{font-weight:bold;}pre .kd{font-weight:bold;}pre .kp{font-weight:bold;}pre .kr{font-weight:bold;}pre .kt{color:#458;font-weight:bold;}pre .m{color:#099;}pre .s{color:#d14;}pre .na{color:#008080;}pre .nb{color:#0086B3;}pre .nc{color:#458;font-weight:bold;}pre .no{color:#008080;}pre .ni{color:#800080;}pre .ne{color:#900;font-weight:bold;}pre .nf{color:#900;font-weight:bold;}pre .nn{color:#555;}pre .nt{color:#000080;}pre .nv{color:#008080;}pre .ow{font-weight:bold;}pre .w{color:#bbb;}pre .mf{color:#099;}pre .mh{color:#099;}pre .mi{color:#099;}pre .mo{color:#099;}pre .sb{color:#d14;}pre .sc{color:#d14;}pre .sd{color:#d14;}pre .s2{color:#d14;}pre .se{color:#d14;}pre .sh{color:#d14;}pre .si{color:#d14;}pre .sx{color:#d14;}pre .sr{color:#009926;}pre .s1{color:#d14;}pre .ss{color:#990073;}pre .bp{color:#999;}pre .vc{color:#008080;}pre .vg{color:#008080;}pre .vi{color:#008080;}pre .il{color:#099;}
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+body {
+  color: #000;
+  background-color: #fff;
+  font: 300 18px/24px "Droid Serif", "Open Sans", Cambria, Georgia, "DejaVu Serif", serif;
+}
+
+code, pre {
+  color: #000;
+  background-color: #fff;
+  font: normal 16px/20px "Menlo", "Consolas", "Inconsolata", "Anonymous", "Monaco", monospace;
+}
+
+.container {
+  margin: 0 auto;
+  width: 760px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1, h2, h3, p {
+  margin-bottom: 22px;
+}
+
+h1, h2, h3 {
+
+}
+
+h1 {
+  font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 44px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 21px;
+}
+
+strong {
+  font-weight: 400;
+}
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a {
+  text-decoration: none;
+}
+a:hover {
+}
+
+p a {
+  text-decoration: underline;
+}
+
+/*
+
+TEam ten
+
+*/
+
+
+body {
+    font-family: "Sorts Mill Goudy", Georgia, sans-serif;
+    font-size: 22px;
+    background-color: white;
+    color: black;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 300%;
+    margin-top: 4em;
+    margin-bottom: 1.5em;
+    line-height: 1.2;
+}
+
+.indexPage h1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 180%;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.2;
+}
+
+p {
+    margin: 0.8em 0;
+}
+
+ul, ol {
+    margin-left: 2em;
+}
+
+hr {
+    display: block;
+    width: 20%;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 2em auto;
+    padding: 0;
+}
+
+a, a:hover, a:visited {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p.date + p:first-line {
+    font-variant: small-caps;
+}
+
+pre {
+    font-family: monospace;
+    font-size: 70%;
+    margin-left: 2em;
+    line-height: 1.2;
+}
+
+code {
+    font-family: monospace;
+    font-size: 80%;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 2em 2em;
+}
+
+p > img {
+    display: block;
+    margin: 2em auto;
+}
+
+img.cover {
+    margin-top: 0;
+    width: 100%;
+}
+
+body.hasCover h1 {
+    color: white;
+}
+
+body.hasCover h1.titleLines1 {
+    margin-top: -130px;
+    margin-top: -2.06em;
+}
+
+body.hasCover h1.titleLines2 {
+    margin-top: -200px;
+    margin-top: -3.09em;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.contents {
+    width: 94%;
+    max-width: 720px;
+    margin: 20px auto;
+}
+
+.date {
+    font-size: 80%;
+    color: #888;
+}
+
+table th {
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+table td, table th {
+    padding-right: 1em;
+}
+
+/* ----- Header ----- */
+
+.parentLinkHeader, .homeLinkHeader {
+    position: absolute;
+    text-indent: -5000px;
+    top: 15px;
+    width: 64px;
+    height: 64px;
+    background-color: red;
+    border-radius: 32px;
+}
+
+.homeLinkHeader {
+    left: 15px;
+    background: url("headshot-64x64.jpg") no-repeat;
+}
+
+.parentLinkHeader {
+    left: 95px;
+    background: url("icons/pipe-64x64.png") no-repeat, #ccc;
+}
+
+/* ----- Footer ----- */
+
+.footer {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.footer a {
+    margin-left: 20px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer a:first-child {
+    margin-left: 0;
+}

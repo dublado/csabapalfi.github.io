@@ -5,56 +5,31 @@
 <html class="no-js" lang="en"> <!--<![endif]-->
 
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width"/>
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@csabapalfi"/>
-    <meta name="twitter:site" content="@csabapalfi"/>
-    <meta name="twitter:title" content="{{ page.title }}"/>
-    <meta name="twitter:domain" content="csaba.palfi.me">
-    <meta name="twitter:description" content="{{ page.summary }}">
-    <title>{{ page.title }} | csaba.palfi.me </title>
-    <link href="/atom.xml" rel="alternate" title="Atom" type="application/atom+xml"/>
-
-    <style media="screen" type="text/css">{% include stylesheets/normalize.css %}</style>
-    <style media="screen" type="text/css">{% include stylesheets/foundation.css %}</style>
-    <style media="screen" type="text/css">{% include stylesheets/pygment.css %}</style>
-    <style media="screen" type="text/css">{% include stylesheets/text.css %}</style>
-
-    <script type="text/javascript">
-        if (window.location.host != 'blog.dev') {
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-29212656-1']);
-            _gaq.push(['_trackPageview']);
-            (function () {
-                var ga = document.createElement('script');
-                ga.type = 'text/javascript';
-                ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(ga, s);
-            })();
-        }
-    </script>
+  <meta charset="utf-8">
+  <title>{{ page.title }} by Csaba Palfi </title>
+  <link rel="alternate" href="/atom.xml" title="Atom" type="application/atom+xml">
+  <link rel="stylesheet" href="/assets/stylesheets/main.css">
+  <script src="/assets/javascript/ga.js"></script>
 </head>
 <body>
-
-<div class="row">
-    <div class="large-12 large-offset-1 columns" id="header">
-        <h1><a href="/">Csaba Palfi</a></h1>
-    </div>
-</div>
-<div class="row">
-    <div class="large-10 large-centered columns">
+    <header class="container">
+        <h1><a href="{{ page.url }}">{{ page.title }}</h1>
+        <p>by <a href="/">Csaba Palfi</a></p>
+        {% if page.date %}
+            <p>{{ page.date | date_to_string }}</p>
+        {% endif %}
+    </header>
+    <section class="container">
         {{ content }}
-        <footer>
-            <span>Find me on 
-                <a href="https://twitter.com/csabapalfi">Twitter</a>, 
-                <a href="http://github.com/csabapalfi">GitHub</a>,
-                <a href="http://www.linkedin.com/in/csabapalfi">LinkedIn</a> or
-                <a href="https://plus.google.com/111481866298282122976/?rel=author" rel="author">Google+</a></span>
-        </footer>
-    </div>
-</div>
+    </section>
+    <footer class="container">
+        <h3>Find me on
+        <ul>
+            <li><a href="https://twitter.com/csabapalfi">Twitter</a>,</li>
+            <li><a href="http://github.com/csabapalfi">GitHub</a>,</li>
+            <li><a href="http://www.linkedin.com/in/csabapalfi">LinkedIn</a> or</li>
+            <li><a href="https://plus.google.com/+CsabaPalfiMe?rel=author" rel="author">Google+</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
