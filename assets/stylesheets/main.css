@@ -61,6 +61,11 @@ blockquote {
     margin: 2em 2em;
 }
 
+li {
+  list-style: square;
+  margin-left: 1em;
+}
+
 /* header */
 
 .meta {
