@@ -3,7 +3,4 @@ pygments: true
 markdown: redcarpet
 name: csaba.palfi.me
 assets:
-  compress:
-    css:  sass
-    js:   uglifier
   cache: false

@@ -1,17 +1,8 @@
 install:
 	gem install github-pages
-	pip install cli53
 
-dns:
-	cli53 import palfi.me --file palfi.me.bind
-
-start: kill
+start: stop
 	jekyll serve --watch
 
-start-detached: kill
-	jekyll serve --detach
-
-kill:
+stop:
 	pgrep -f jekyll | xargs kill
-
-restart: stop start
