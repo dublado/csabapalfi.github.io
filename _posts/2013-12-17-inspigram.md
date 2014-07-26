@@ -1,7 +1,7 @@
---- 
-title: "inspigram - my Hotels.com hackathon entry with node.js"
+---
+title: "inspigram - my Hotels.com hackathon entry"
 layout: post
-summary: "inspigram - my Hotels.com hackathon entry with node.js, Flickr and Google Maps API" 
+summary: "inspigram - my Hotels.com hackathon entry with node.js, Flickr and Google Maps API"
 ---
 
 Hotels.com held it's first 24 hour hackathon last December where 19 teams got together and hacked on their ideas. It was a great event and we had a lot fun. I also entered and got second most votes (along with 3 other teams :).
@@ -13,7 +13,7 @@ My idea was: inspigram - plan your next holiday inspired by photos. See it in ac
 
 1. type a word
 
-2. app looks for geotagged photos matching the keyword 
+2. app looks for geotagged photos matching the keyword
 
 3. found a photo you like? want to stay there?
 

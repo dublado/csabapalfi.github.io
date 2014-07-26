@@ -23,17 +23,17 @@ A summary of all 11 talks I found interesting on day 3 is available here:
 
 Theo started strong by saying that all **software sucks** because of all the complexity and all the layers of abstractions and turtles all the way down. :) [Watch his talk here](http://www.ustream.tv/recorded/46744760). Why is it all so difficult? **Specifications** are hard and there is constant **change** happening not to mention how some people consider **laziness as a virtue**. Let's consider few helpful rules:
 
-##### 1. Monoliths are likely to fail
+#### 1. Monoliths are likely to fail
 The complexity grows **non-linearly** with code size and component size.
 
-##### 2. Diversity is an emergent property of scale
+#### 2. Diversity is an emergent property of scale
 Trying to insist on lack of diversity or commoditize? You're going to have a bad time. Diversity is there anyways.
 
-##### 3. Engineers function better when autonomous
+#### 3. Engineers function better when autonomous
 
 Ok, so we, engineers are weird folk. But we have to **learn hitting deadlines**, **do paper search** and **balance** as our professions demands it. We need **autonomy on the approach** we take but not on the purpose.
 
-##### 4. You shall be judged by your APIs, be terse
+#### 4. You shall be judged by your APIs, be terse
 
 APIs are the social contracts of engineering. They set expectations so you better **minimize the surface** of them. It also doesn't hurt if your **components are right sized**. Hard shell, soft core. Well defined APIs also allow you to **rewrite instead of refactoring**. **Don't rewrite APIs but deprecate them**. To be clear, **SQL is not an API**, it's a language with a real big surface area.
 
@@ -157,5 +157,3 @@ Lots of tweets about this but to me it conflicted with the [Raft](#diego) talk. 
 ### by Greg Young [@gregyoung](https://twitter.com/gregyoung)
 
 Lots of tweets about this. Check [the video here](http://www.ustream.tv/recorded/46673907).
-
-
