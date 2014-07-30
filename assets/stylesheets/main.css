@@ -62,8 +62,15 @@ blockquote {
 }
 
 li {
-  list-style: square;
   margin-left: 1em;
+}
+
+ul li {
+  list-style: square;
+}
+
+ol li {
+  list-style: decimal;
 }
 
 /* header */
