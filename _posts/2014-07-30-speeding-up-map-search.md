@@ -4,6 +4,8 @@ layout: post
 summary: "Speeding up map search with CDN-friendly static data tiles"
 ---
 
+Let me share with you how we **rebuilt map search at one of biggest online travel sites** utilizing **static data tiles** and CDNs.
+
 ## Websites are mostly static
 
 Based on my experience one of the key things lot of websites **fail to capitalize on** is how a **lot of their data is static** and simply doesn't change that often.
@@ -13,8 +15,6 @@ When it comes to serving **static assets** then it's a good practice to use **ed
 Another prime example is blogs. A blog typically only changes when the author posts something new. There's no point in serving requests from a database when you can just **pre-generate static HTML**. You should check out [Jekyll](http://jekyllrb.com/) if you don't know about that already.
 
 Even if your site is not a static blog you can **push more data closer to end-users** instead letting your servers sweat over it. This can also make your stack **simpler to operate** in production.
-
-Let me share with you how we **rebuilt map search at one of biggest online travel sites** utilizing **static data tiles** and CDNs.
 
 ## Classic map search
 
