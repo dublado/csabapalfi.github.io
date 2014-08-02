@@ -71,7 +71,7 @@ Now that we're in control of our dependencies we can just run and hit our app wi
 $ = cheerio.load(htmlResponse);
 expect(
   $('h2.title').text()
-  ).to.be('Hi there!');
+).to.be('Hi there!');
 ```
 
 And we're now testing a complete service in isolation from interaction with dependencies to template rendering. Of course this doesn't replace functional testing with WebDriver but certainly can make functional test simpler and let them focus on the right things.
