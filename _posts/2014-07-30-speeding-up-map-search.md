@@ -61,3 +61,7 @@ Google Maps can actually tell you **which tiles are in your clients viewport** a
 You can **enrich your data with additional AJAX lookups** which might not go to CDN but to origin to fetch the less static bits of data (like hotel or restaurant availability on specific dates).
 
 Watch this space as I might get some more drawings to make this all easier to digest but really wanted to get this out there first :)
+
+## Thanks
+
+...to the team at Hotels.com and especially Niall Johnson and Joonas Tanner who made the frontend code rock!
