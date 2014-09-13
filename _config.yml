@@ -4,3 +4,11 @@ markdown: redcarpet
 name: csaba.palfi.me
 assets:
   cache: false
+defaults:
+  -
+    scope:
+      path: ""
+      type: "post"
+    values:
+      layout: "default"
+      post: true

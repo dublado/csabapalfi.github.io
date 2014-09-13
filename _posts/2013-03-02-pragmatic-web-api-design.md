@@ -1,6 +1,5 @@
 --- 
 title: "Pragmatic Web API design"
-layout: post
 summary: "Pragmatic Web API design a la Apigee" 
 ---
 

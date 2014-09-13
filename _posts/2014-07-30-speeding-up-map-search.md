@@ -1,6 +1,5 @@
 ---
 title: "Speeding up map search with static data tiles"
-layout: post
 summary: "Speeding up map search with CDN-friendly static data tiles"
 ---
 

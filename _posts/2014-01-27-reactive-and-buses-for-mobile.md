@@ -1,6 +1,5 @@
 --- 
 title: "Reactive programming and message buses for mobile"
-layout: post
 summary: "Reactive programming and message buses for mobile by Maciej Matyjas" 
 ---
 

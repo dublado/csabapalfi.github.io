@@ -1,6 +1,5 @@
 --- 
 title: "Acceptance testing a Dropwizard app with Cucumber"
-layout: post
 summary: "Acceptance testing a Dropwizard app with Cucumber" 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "Testing Node.js apps like you mean it"
-layout: post
 summary: "Testing Node.js apps like you mean it"
 ---
 

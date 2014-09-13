@@ -1,6 +1,5 @@
 ---
 title: "inspigram - my Hotels.com hackathon entry"
-layout: post
 summary: "inspigram - my Hotels.com hackathon entry with node.js, Flickr and Google Maps API"
 ---
 

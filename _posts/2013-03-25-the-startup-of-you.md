@@ -1,6 +1,5 @@
 --- 
 title: "The startup of you"
-layout: post
 summary: "The startup of you by Linkedin founder Reid Hoffman" 
 ---
 

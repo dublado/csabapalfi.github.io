@@ -1,6 +1,5 @@
 --- 
 title: "The web of things and Android"
-layout: post
 summary: "The web of things and Android by Dominique Guinard - LJC meetup" 
 ---
 

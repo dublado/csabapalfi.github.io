@@ -1,6 +1,5 @@
 --- 
 title: "Ping Conference about the Play! framework - Day 1"
-layout: post
 summary: "Ping Conference about the Play! framework - Day 1, January 16-17 2014 @ Budapest, Hungary" 
 ---
 
