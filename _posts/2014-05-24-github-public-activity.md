@@ -1,7 +1,7 @@
 ---
 title: "Have you pushed any public commits to github today?"
 layout: post
-summary: "Check your 'real' public github activity with bash"
+summary: "Check your 'real' public github activity"
 ---
 
 ## The good
@@ -12,26 +12,4 @@ I love the github **contribution chart** on profile pages. It gives visual feedb
 
 The problem is that they **don't provide an accurate view** of your **public activity** if you're lucky enough that your company/client also uses github as their source control or you have private repos. If you couldn't care less about that -which is perfectly understandable- please stop reading now.
 
-Ever noticed the little lock in the top right corner of the chart? Hover over it and it confirms your worst nightmare: your public profile might not look as good as what you see when you're logged in. Just open your github profile in incognito mode and problem solved or read on...
-
-## The ugly
-
-Drop the snippet below to your ```.bashrc``` or ```.zshrc``` and maybe even alias it to something short like ```gpa``` and voilà!
-
-```bash
-function github-public-activity {
-    LAST_PUBLIC_COMMIT=$(curl --silent  https://api.github.com/users/csabapalfi/events | grep created_at | sed -e "s/.* \"//" -e "s/T.*//"  | head -1)
-    TODAY=$(date +"%Y-%m-%d")
-
-    if [ "$LAST_PUBLIC_COMMIT" != "$TODAY" ]
-    then
-        echo "No public commit today!!"
-    else
-        echo "Relax. You contributed to open-source today."
-    fi
-}
-```
-
-Of course I don't want to keep opening my profile in incognito mode when github has an API and I have just read some [brilliant bash tips](http://robertmuth.blogspot.co.uk/2012/08/better-bash-scripting-in-15-minutes.html). Someone (I?) please make a Chrome Extension out of this or something.
-
-> If it ain't broke. Fix it anyway. You might learn something new.
+Ever noticed the little lock in the top right corner of the chart? Hover over it and see: your public profile might not look as good as what you see when you're logged in. Just open your github profile in Chrome incognito mode to see what everyone else sees.
