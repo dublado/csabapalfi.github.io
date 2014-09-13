@@ -51,7 +51,6 @@ h4 {
 
 p {
     margin: 0.8em 0;
-    text-align: justify;
 }
 
 strong {
@@ -91,6 +90,7 @@ footer {
     text-align: center;
 }
 
+/* nav */
 
 nav {
   display: inline-block;
@@ -137,4 +137,16 @@ code {
 
 pre {
 
+}
+
+/* home */
+
+.date {
+  white-space: nowrap;
+}
+
+/* post */
+
+.post p {
+    text-align: justify;
 }
