@@ -17,27 +17,29 @@
 <body>
   <header>
     <h1>{{ page.title }}</h1>
-    <p class="meta">
-      by <a href="/">Csaba Palfi</a><!--
-   -->{% if page.post %}<!--
-   -->, <span class="date">{{ page.date | date_to_string }}</span>
-      {% endif %}
-    </p>
-  </header>
-  <section>
-      {{ content }}
-  </section>
-  <footer>
     <nav>
       <ul>
-          {% if page.post %}
-            <li><a href="/"><i class="fa fa-home"></i></a></li>
-          {% endif %}
+          <li>by <a href="/">Csaba Palfi</a></li>
           <li><a href="https://twitter.com/csabapalfi"><i class="fa fa-twitter"></i></a></li>
           <li><a href="http://github.com/csabapalfi"><i class="fa fa-github"></i></a></li>
           <li><a href="http://www.linkedin.com/in/csabapalfi"><i class="fa fa-linkedin"></i></a></li>
       </ul>
     </nav>
-  </footer>
+  </header>
+  <section>
+      {{ content }}
+  </section>
+  {% if page.post %}
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="/"><i class="fa fa-home"></i></a></li>
+          <li><a href="https://twitter.com/csabapalfi"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="http://github.com/csabapalfi"><i class="fa fa-github"></i></a></li>
+          <li><a href="http://www.linkedin.com/in/csabapalfi"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </nav>
+    </footer>
+  {% endif %}
 </body>
 </html>

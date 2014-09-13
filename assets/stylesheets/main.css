@@ -79,7 +79,7 @@ ol li {
 
 /* header */
 
-.meta {
+header nav {
   margin-left: 20px;
 }
 
@@ -91,7 +91,12 @@ footer {
     text-align: center;
 }
 
+
+nav {
+  display: inline-block;
+}
 nav ul {
+  display: inline-block;
   margin-left: 0;
 }
 
