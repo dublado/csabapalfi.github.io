@@ -16,12 +16,6 @@ body {
   margin: 20px auto;
 }
 
-header,
-section,
-footer {
-  margin-bottom: 50px;
-}
-
 strong {
   font: bold 1em 'Monserrat', sans-serif;
 }
