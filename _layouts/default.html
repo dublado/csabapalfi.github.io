@@ -7,7 +7,19 @@
   <link href="/assets/main.css" rel="stylesheet" >
   <link href='http://fonts.googleapis.com/css?family=Muli:400' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
-  <script src="/assets/analytics.js"></script>
+  <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29212656-1']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = 'http://stats.g.doubleclick.net/dc.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
   <meta name="viewport" content="width=device-width">
   <meta name="google-site-verification" content="6TbV2PA_LeVUWCwxq3-tAut_Vw8yBPnoV-5wZryvcEU" />
 </head>
