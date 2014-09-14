@@ -1,5 +1,5 @@
 ---
-title: Writings
+title: some writings
 layout: default
 ---
 
