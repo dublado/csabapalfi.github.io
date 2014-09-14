@@ -2,6 +2,7 @@
 title: some writings
 layout: default
 type: home
+content-element: section
 ---
 
 {% for post in site.posts %}

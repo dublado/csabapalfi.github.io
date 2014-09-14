@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
   <title>{{ page.title }} by Csaba Palfi </title>
   <link href="/assets/main.css" rel="stylesheet" >
   <link href='http://fonts.googleapis.com/css?family=Muli:400' rel='stylesheet' type='text/css'>
@@ -19,36 +20,35 @@
         s.parentNode.insertBefore(ga, s);
     })();
   </script>
-  <meta name="viewport" content="width=device-width">
-  <meta name="google-site-verification" content="6TbV2PA_LeVUWCwxq3-tAut_Vw8yBPnoV-5wZryvcEU" >
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 </head>
 <body>
-  <header>
-    <h1>{{ page.title }}</h1>
-    <nav>
-      <ul>
-          <li>by <a href="/">Csaba Palfi</a></li>
-          <li><a href="https://twitter.com/csabapalfi"><i class="icon-twitter"></i></a></li>
-          <li><a href="http://github.com/csabapalfi"><i class="icon-github"></i></a></li>
-          <li><a href="http://www.linkedin.com/in/csabapalfi"><i class="icon-linkedin"></i></a></li>
-      </ul>
-    </nav>
-  </header>
-  <section class="{{page.type}}">
-      {{ content }}
-  </section>
-  {% if page.type == "post" %}
-    <footer>
+  <{{page.content-element}}>
+    <header>
+      <h1>{{ page.title }}</h1>
       <nav>
         <ul>
-          <li><a href="/"><i class="icon-home"></i></a></li>
-          <li><a href="https://twitter.com/csabapalfi"><i class="icon-twitter"></i></a></li>
-          <li><a href="http://github.com/csabapalfi"><i class="icon-github"></i></a></li>
-          <li><a href="http://www.linkedin.com/in/csabapalfi"><i class="icon-linkedin"></i></a></li>
+            <li>by <a href="/">Csaba Palfi</a></li>
+            <li><a href="https://twitter.com/csabapalfi"><i class="icon-twitter"></i></a></li>
+            <li><a href="http://github.com/csabapalfi"><i class="icon-github"></i></a></li>
+            <li><a href="http://www.linkedin.com/in/csabapalfi"><i class="icon-linkedin"></i></a></li>
         </ul>
       </nav>
-    </footer>
-  {% endif %}
+    </header>
+    <div class="{{page.type}}">
+        {{ content }}
+    </div>
+    {% if page.type == "post" %}
+      <footer>
+        <nav>
+          <ul>
+            <li><a href="/"><i class="icon-home"></i></a></li>
+            <li><a href="https://twitter.com/csabapalfi"><i class="icon-twitter"></i></a></li>
+            <li><a href="http://github.com/csabapalfi"><i class="icon-github"></i></a></li>
+            <li><a href="http://www.linkedin.com/in/csabapalfi"><i class="icon-linkedin"></i></a></li>
+          </ul>
+        </nav>
+      </footer>
+    {% endif %}
+  </{{page.content-element}}>
 </body>
 </html>
