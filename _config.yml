@@ -11,4 +11,4 @@ defaults:
       type: "post"
     values:
       layout: "default"
-      post: true
+      type: "post"

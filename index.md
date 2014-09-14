@@ -1,6 +1,7 @@
 ---
 title: some writings
 layout: default
+type: home
 ---
 
 {% for post in site.posts %}

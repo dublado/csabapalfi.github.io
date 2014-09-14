@@ -132,14 +132,9 @@ code {
   font-size: 90%;
 }
 
-
-pre {
-
-}
-
 /* home */
 
-.date {
+.home .date {
   white-space: nowrap;
   color: gray;
 }
