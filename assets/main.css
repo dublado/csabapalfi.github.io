@@ -20,6 +20,7 @@ body {
     background-color: white;
     color: black;
     line-height: 1.6em;
+    margin-bottom: 100px;
 }
 
 h1, h2, h3, h4 {
@@ -83,7 +84,6 @@ header nav {
 
 footer {
     margin-top: 40px;
-    margin-bottom: 100px;
     text-align: center;
 }
 
