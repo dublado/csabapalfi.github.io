@@ -12,4 +12,3 @@ defaults:
     values:
       layout: default
       type: post
-      content-element: article
