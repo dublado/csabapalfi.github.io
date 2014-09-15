@@ -1,6 +1,5 @@
 ---
 title: "Speeding up map search with static data tiles"
-summary: "Speeding up map search with CDN-friendly static data tiles"
 ---
 
 Let me share with you how we **rebuilt map search at one of biggest online travel sites** utilizing **static data tiles** and CDNs.

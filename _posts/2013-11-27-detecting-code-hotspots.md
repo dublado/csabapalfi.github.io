@@ -1,6 +1,5 @@
 --- 
 title: "Detecting code hotspots"
-summary: "Wouldn't it be great to know which bit of code causes the most bugs?" 
 ---
 
 # Why?

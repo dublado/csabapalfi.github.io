@@ -1,6 +1,5 @@
 ---
 title: "Have you pushed any public commits to github today?"
-summary: "Check your 'real' public github activity"
 ---
 
 ## The good

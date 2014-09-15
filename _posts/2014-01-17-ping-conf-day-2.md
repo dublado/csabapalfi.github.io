@@ -1,6 +1,5 @@
 --- 
 title: "Ping Conference about the Play! framework - Day 2"
-summary: "Ping Conference about the Play! framework - Day 2, January 16-17 2014 @ Budapest, Hungary" 
 ---
 
 I attended the [Ping conference](http://www.ping-conf.com/) about the [Play! framework](http://www.playframework.com/) in Budapest this week and this is my post about the second day.

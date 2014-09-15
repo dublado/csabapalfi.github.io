@@ -1,6 +1,5 @@
 --- 
 title: "The web of things and Android"
-summary: "The web of things and Android by Dominique Guinard - LJC meetup" 
 ---
 
 Last week I attended a [London Java Community meetup](http://www.meetup.com/Londonjavacommunity/events/156067152/) where Dominique Guinard ([@domguinard](https://twitter.com/domguinard), [EVRYTHNG](https://evrythng.com/)) presented about the web of things and Android. [Video](http://skillsmatter.com/podcast/os-mobile-server/if-spock-had-an-android-phone-android-and-the-web-of-things/hg-8635) and [slides](http://www.slideshare.net/EVRYTHNG/android-the-web-of-things-bluetooth-low-energy-bluetooth-40-ibeacons-barcodes-qrs-nfc-arduino) are available.

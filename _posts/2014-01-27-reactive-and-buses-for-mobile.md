@@ -1,6 +1,5 @@
 --- 
 title: "Reactive programming and message buses for mobile"
-summary: "Reactive programming and message buses for mobile by Maciej Matyjas" 
 ---
 
 I attended a [Mobile Web Meetup](http://www.meetup.com/mobile_web/events/156458162/) yesterday organized by Matt Pearce from Cognizant.

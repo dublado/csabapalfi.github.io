@@ -1,6 +1,5 @@
 --- 
 title: "Acceptance testing a Dropwizard app with Cucumber"
-summary: "Acceptance testing a Dropwizard app with Cucumber" 
 ---
 
 **[Dropwizard](http://www.dropwizard.io/)** is a 'damn **simple** library for building production-ready **RESTful** web services'. It's an opininated selection of a number of **lightweight** Java libraries and wonderful for building **microservices**. The [ThoughtWorks Tech Radar](http://www.thoughtworks.com/radar) now also [has it in it's adopt circle](http://www.thoughtworks.com/radar/#/languages-and-frameworks/519).

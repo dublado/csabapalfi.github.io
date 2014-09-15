@@ -1,6 +1,5 @@
 ---
 title: "CraftConf: Day 3 Summary"
-summary: "Craft Conference - Day 3 Summary, April 23-25 2014 @ Budapest, Hungary"
 ---
 
 ## Summary

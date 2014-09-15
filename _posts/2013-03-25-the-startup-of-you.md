@@ -1,6 +1,5 @@
 --- 
 title: "The startup of you"
-summary: "The startup of you by Linkedin founder Reid Hoffman" 
 ---
 
 The Business Insider published a [presentation](http://www.businessinsider.com/career-advice-from-linkedins-founder-2013-3?op=1) from LinkedIn founder Reid Hoffman.

@@ -1,6 +1,5 @@
 --- 
 title: "Pragmatic Web API design"
-summary: "Pragmatic Web API design a la Apigee" 
 ---
 
 I worked on quite a few public and internal REST APIs both building and consuming them. REST is more of an architechtural style than a well-defined framework. It's sometimes not easy to make sure everyone is on the same page when you talk about REST.
