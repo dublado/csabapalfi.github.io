@@ -2,7 +2,7 @@
 title: Node.js security basics
 ---
 
-Node allows you to experiment and **build software extremely quickly**. It's so easy to build new functionality that you might not think too much  about **non-functional requirements** :)
+Node allows you to experiment and **build software extremely quickly**. It's so easy to build new functionality that you might not think enough  about **non-functional requirements** and they're going to get you in production.
 
 Recent node.js events I've been to were all about **node in production**. I'm also planning to write about **performance and reliability** but let's start with **security**.
 
