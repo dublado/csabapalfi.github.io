@@ -94,4 +94,4 @@ unit-test:
 
 I didn't say a lot about how we unit test and how we use rewire, sinon, etc but I found above a bit more interesting for now. Example project on github coming soon(ish ?).
 
-Thanks to the great team at TSL and especially [Matt Tortolani](https://twitter.com/doodlemoonch) who showed me some -if not most- of these npm modules.
+Thanks to the great team at TES and especially [Matt Tortolani](https://twitter.com/doodlemoonch) who showed me some of these npm modules.
