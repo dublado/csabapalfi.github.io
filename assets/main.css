@@ -28,8 +28,8 @@ h2,
 h3,
 h4 {
   font: 3em/1.2em 'Monserrat', sans-serif;
-  margin-top: 1em;
-  margin-bottom: 0.2em;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 h2 {
@@ -72,6 +72,10 @@ nav li:first-child {
 
 header nav {
   margin-left: 20px;
+}
+
+nav {
+    margin-bottom: 40px;
 }
 
 footer nav {
