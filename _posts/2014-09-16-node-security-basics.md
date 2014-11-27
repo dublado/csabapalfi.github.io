@@ -54,6 +54,10 @@ Turn on two-factor auth wherever you can (Github, AWS and so on). Use [Authy Blu
 
 Don't hardcode AWS access keys, ever. **IAM policies** are amazing and  integrated to the [Javascript AWS-SDK](https://www.npmjs.org/package/aws-sdk) as well. Use it.
 
+## UPDATE: More security tips
+
+Some [more security tips](http://blog.risingstack.com/node-js-security-tips/) were published by [Gergely Nemeth](http://twitter.com/nthgergo) of [RisingStack](risingstack.com).
+
 ## Thanks
 
 [Adam Baldwin](https://twitter.com/adam_baldwin) (from [^Lift](http://liftsecurity.io)) and his two talks at [LNUG](http://lnug.org/) and [London Node Security Meetup](http://attending.io/events/node-security-project-meetup) inspired this post.
