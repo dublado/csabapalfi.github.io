@@ -1,5 +1,5 @@
 ---
-title: Random docker tips
+title: 24 docker tips and tricks
 ---
 {% raw %}
 We love docker and had it in production since 0.8 at my current client. Couple of us could attend the trainings at dockerConEU thanks to [Contino](http://contino.co.uk/). Here are some of the tips and tricks that will hopefully be useful for anyone who is already familiar with docker basics.
