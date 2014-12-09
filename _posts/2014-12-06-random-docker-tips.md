@@ -137,15 +137,22 @@ You can just mount your docker.sock to provide a container access to the docker 
 
 ## 5. security
 
-### 5.1. docker runs as root
+### 5.1. docker runs as root...
 
-Treat it accordingly. Docker API access gives full root access as you can map ```/``` as a volume, read, write. Or you can just take over the host's network with ```--net host```. Don't expose docker API to public or use TLS if you do.
+...treat it accordingly. Docker API access gives full root access as you can map ```/``` as a volume, read, write. Or you can just take over the host's network with ```--net host```. Don't expose docker API to public or use TLS if you do.
 
 ### 5.2 USER in Dockerfiles
 
-By default docker runs everything as root but you can use USER in Dockerfiles. There's no user namespacing in docker the container sees the users on the host but only uids hence you need the add the users in the container.
+By default docker runs everything as root but you can use USER in Dockerfiles. There's no user namespacing in docker so the container sees the users on the host but only uids hence you need the add the users in the container.
 
 ### 5.3 use TLS on the docker API
 
-There was no access control on the docker API until 1.3 when they added TLS. They use mutual authentication: the client and server both has a key. Treat keys as root passwords. It requires OpenSSL 1.0.1 and similar process as generating keys for anything else. docker daemon requires --tls-verify and will use the secure docker port (2376). Boot2docker has TLS as default since 1.3. Hopefully getting more granular access control soon.
+There was no access control on the docker API until 1.3 when they added TLS. They use mutual authentication: the client and server both has a key. Treat keys as root passwords.
+
+Boot2docker has TLS as default since 1.3 and also generates the keys for you.
+
+Otherwise generating keys requires OpenSSL 1.0.1 then the docker daemon needs to be run with --tls-verify and will use the secure docker port (2376).
+
+We're hopefully getting more granular access control soon instead of all or nothing.
+
 {% endraw %}
