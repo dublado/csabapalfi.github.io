@@ -2,7 +2,7 @@
 title: 24 random docker tips
 ---
 {% raw %}
-We love docker and had it in production since 0.8 at my current client. Couple of us could attend the trainings at dockerConEU thanks to [Contino](http://contino.co.uk/). Here are some of the tips and tricks that will hopefully be useful for anyone who is already familiar with docker basics.
+We love docker and had it in production since 0.8 at [TES Global](http://www.tesglobal.com/). Couple of us could attend the trainings at dockerConEU thanks to [Contino](http://contino.co.uk/). Here are some of the tips and tricks that will hopefully be useful for anyone who is already familiar with docker basics.
 
 ## 1. CLI
 
