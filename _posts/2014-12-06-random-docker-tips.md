@@ -49,9 +49,9 @@ Default images (e.g. ubuntu) don't include package lists to keep them smaller he
 
 Be careful with package installations as those commands are cached as well. Meaning you may get different version when busting the cache or lagging behind on security updates when caching these for too long.
 
-### 2.4 scratch image
+### 2.4 small base images
 
-There's a official truly empty docker image on docker hub. It's called [scratch](https://registry.hub.docker.com/_/scratch/). so if you want you can start your images ```FROM scratch```. This is mostly for fun as usually you want something like ubuntu to start from.
+There's a official truly empty docker image on docker hub. It's called [scratch](https://registry.hub.docker.com/_/scratch/). so if you want you can start your images ```FROM scratch```. Most of time you're better off starting from [busybox](https://registry.hub.docker.com/_/busybox/) if you want a really small base image (2.5MB).
 
 ### 2.5 FROM is latest by default
 
