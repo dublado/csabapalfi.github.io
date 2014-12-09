@@ -139,7 +139,7 @@ You can just mount your docker.sock to provide a container access to the docker 
 
 ### 5.1. docker runs as root
 
-Treat it accordingly. Docker API access gives full root access as you can map ```/``` as a volume, read, write. Or you can just take over the host's network with ```--net host```. Don't expose docker API to public or use TLS.
+Treat it accordingly. Docker API access gives full root access as you can map ```/``` as a volume, read, write. Or you can just take over the host's network with ```--net host```. Don't expose docker API to public or use TLS if you do.
 
 ### 5.2 USER in Dockerfiles
 
