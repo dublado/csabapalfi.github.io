@@ -4,10 +4,9 @@ title: "inspigram - my Hotels.com hackathon entry"
 
 Hotels.com held it's first 24 hour hackathon last December where 19 teams got together and hacked on their ideas. It was a great event and we had a lot fun. I also entered and got second most votes (along with 3 other teams :).
 
-My idea was: inspigram - plan your next holiday inspired by photos. See it in action [here](http://inspigram.herokuapp.com/). (First request might take longer to serve because of the free Heroku hosting)
-
-
 ## The idea
+
+My idea was: inspigram - plan your next holiday inspired by photos.
 
 1. type a word
 
