@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/csabapalfi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://csaba.palfi.me
+  * I am csabapalfi (https://keybase.io/csabapalfi) on keybase.
+  * I have a public key with fingerprint C157 4F00 23AE 6CF5 91A5  0A75 B829 7EAC D043 535C
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "c1574f0023ae6cf591a50a75b8297eacd043535c",
+            "host": "keybase.io",
+            "key_id": "b8297eacd043535c",
+            "kid": "0101105106b9b7802e9c1dc188457acd374becaa1699705800965dc1b1f91cf9a5630a",
+            "uid": "e7f9d6be12f1ce1dfe3224f21e890000",
+            "username": "csabapalfi"
+        },
+        "service": {
+            "hostname": "csaba.palfi.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1420808833,
+    "expire_in": 157680000,
+    "prev": "85134312571830a22f34677a8582e31e66ca847223bc40c81e6a929726f1fdf9",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFtkn9QVFUUx5fdlUE0cZhIxI3kNfLb9d33++0UhYhm4TDG0g8nxPfjPnj8eLvt
+LouES9MYGALhiGFNhG4DlugMiEGlU5HsVFYyAlM5GDDQGgNlRSKwq0bvMTXTH91/
+7tzv+ZzvPefMOXKfQacP+Sip6uzVjJwXQr6Z5nXWzqGaSoS3iRWIpRIphsuXJCsF
+0GF3yIoLsSACIGlCQlEM5yAlSCQLOBLlaJJnMJaGnCCiBE7ipICkIoU2p5ah2vCc
+E5plm6qpj3xZVNX/4YuXAyhAAUBJgFI8y9MMikFWAKIAGIYgaZXHaYKHAscBimVp
+lGRQlKVINc4DiQWCxHIkhaOcale2bAdpiRUpHgJMAgIEogRxDCMkDECGRdWjgU7o
+ULhSqHXn5HjOzpVIMuJJRVTdLQtQG4LWy38Z8zJkVoVUxO6wuWyCrUSNFbpcdouW
+6qqwa2w55PP/ccnnZUVUR6kmuKHDKdsUxAJUUnDJmi0gMJRBGQbHUxG43y47YL6s
+ESRNMVqd2jfQrVoyJMAJHGAkDRi1UQyTcIKiaY4hGQziAFKUwDEEjWE4LxCowKgK
+x6qzxigJSKLEIlpfLyo2xMKqZXIFqqVTLlA4V9kKB0Q84bX6DUZdiF4XukKvrYMu
+fOXaf3fkHW/EPFb09JKn1Nu8fnJsV7vvjfJg/Rhd2enzXNxtnY2dOdIz3ZzC7fXX
+PhVZetldve3e3AAxkRL5XV77oWBGICnzZzw6fPfoodV3LecZ87ofp9jBjnFfaVj1
+W8WeSM+OhGtxaO8DMwvnzN7GwEwa3tSyOH1duYGdWBuIn4y4nKd77e7J37Jm/3S2
+RGVe+ryt/fHh6HmT3z9jtbZlPDRScYk1vrvzw29PGzZa615pakW6A/tO5PTEx8TW
+F2aejrmTffOTR9i+A/HGLa3vf90fe5sKf7vBeqfEV7fnpbPmvfON2xOPXR/LcbXE
+/1WzaBoaDecdDfcyW+moneVTYck/jXiDwxPPlzWZ9im3FtLH48aQtLphw8X+pJ6U
+xYTBtLo+KWXbudVS882j0tLm7gvRT7YWbXrZMD4H189e7Tr4q9g25fM/+NiW7XmN
+X4ZOeN2Wa0ljV5JD53ImfxnI9gPjFVkJnWgszw1tSHgzgm7YWrT/VvrBgdxHy+tv
+u3uHBnPQ4x9f6E/s2pG30N5r6ecKjdjvid8/bDqwhjUlV23lBzckrmzb+OmpV7uf
+fX1VMOqZ9MOdMLdD8YnVHzz3h/hZwx6yfnSdYXHxRpX+jD/7cOBknGFyc0xVzfj5
+U1+dUVruz8o4OhLyRDD9h+amxIGlY2VhX/Cr7F3xUhbp7chbo5DJuwAeyH+vtu9v
+=SWCz
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/csabapalfi
+
+==================================================================
+
