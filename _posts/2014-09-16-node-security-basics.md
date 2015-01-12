@@ -56,7 +56,7 @@ Don't hardcode AWS access keys, ever. **IAM policies** are amazing and  integrat
 
 ## UPDATE: More security tips
 
-Some [more security tips](http://blog.risingstack.com/node-js-security-tips/) were published by [Gergely Nemeth](http://twitter.com/nthgergo) of [RisingStack](risingstack.com).
+Some [more security tips](http://blog.risingstack.com/node-js-security-tips/) were published by [Gergely Nemeth](http://twitter.com/nthgergo) of [RisingStack](http://risingstack.com).
 
 ## Thanks
 
