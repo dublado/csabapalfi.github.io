@@ -8,7 +8,5 @@ defaults:
   -
     scope:
       path: ""
-      type: post
     values:
       layout: default
-      type: post
