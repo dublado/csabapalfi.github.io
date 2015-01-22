@@ -1,9 +1,6 @@
 permalink: /:title/
-highlighter: pygments
 markdown: redcarpet
 name: csaba.palfi.me
-assets:
-  cache: false
 defaults:
   -
     scope:
