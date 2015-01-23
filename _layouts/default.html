@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-      <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <title>{{ page.title }} by {{ site.title }}</title>
       <meta name="description" content="{{ site.description }}" />
       <link rel="shortcut icon" href="{{ site.logo }}"/>
@@ -22,7 +22,7 @@
   </head>
   <body>
     <header id="header">
-      <a id="logo" href="/"><img src="/assets/images/csabapalfi.jpg" alt="{{ site.title }}" width="144" height="144" /></a>
+      <a id="logo" href="/"><img src="{{ site.logo }}" alt="{{ site.title }}" width="144" height="144" /></a>
       <h1><a href="/">{{ site.title }}</a></h1>
       {% include follow.html %}
     </header>
@@ -30,10 +30,10 @@
       {{ content }}
     </main>
     <footer id="footer">
-      <section id="footer-message">
+      <div id="footer-message">
           &copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.
           CSS inspired by the <a href="https://github.com/kathyqian/crisp-ghost-theme" target="_blank">Crisp</a> theme by <a href="http://kathyqian.com" target="_blank">Kathy Qian</a>.
-      </section>
+      </div>
     </footer>
 
   </body>
