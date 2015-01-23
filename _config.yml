@@ -1,9 +1,12 @@
-permalink: /:title/
-markdown: redcarpet
 name: csaba.palfi.me
+title: Csaba Palfi
+markdown: redcarpet
+permalink: /:title/
+
 defaults:
   -
     scope:
       path: ""
+      type: "posts"
     values:
-      layout: default
+      layout: post
