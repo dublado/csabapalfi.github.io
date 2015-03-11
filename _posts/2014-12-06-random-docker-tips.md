@@ -16,10 +16,10 @@ docker ps -a | less -S
 
 ### 1.2 follow the logs
 
-docker logs won't watch the logs by default unless use the -F flag:
+docker logs won't watch the logs by default unless use the -f flag:
 
 ```sh
-docker logs <containerid> -F
+docker logs <containerid> -f
 ```
 
 ### 1.3 a single value from docker inspect
