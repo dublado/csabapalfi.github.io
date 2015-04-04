@@ -90,7 +90,7 @@ unit-test:
     node_modules/.bin/mocha --reporter spec ./test/unit/*.js
 ```
 
-Update: `make` is cool but has its quirks. We're moving towards simply using npm run [like substack suggests here](http://substack.net/task_automation_with_npm_run). 
+**Update**: `make` is cool but has its quirks. In the end we were moving towards simply using `npm run` [like substack suggests here](http://substack.net/task_automation_with_npm_run).
 
 ## thanks
 
