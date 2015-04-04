@@ -90,8 +90,8 @@ unit-test:
     node_modules/.bin/mocha --reporter spec ./test/unit/*.js
 ```
 
-## and more
+Update: `make` is cool but has its quirks. We're moving towards simply using npm run [like substack suggests here](http://substack.net/task_automation_with_npm_run). 
 
-I didn't say a lot about how we unit test and how we use rewire, sinon, etc but I found above a bit more interesting for now. Example project on github coming soon(ish ?).
+## thanks
 
 Thanks to the great team at TES and especially [Matt Tortolani](https://twitter.com/doodlemoonch) who showed me some of these npm modules.
