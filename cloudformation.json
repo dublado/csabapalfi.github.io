@@ -1,0 +1,41 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Resources": {
+    "BlogDNSRecords": {
+      "Type": "AWS::Route53::RecordSetGroup",
+      "Properties": {
+        "HostedZoneName": "palfi.me.",
+        "RecordSets": [
+          {
+            "Name": "csaba.palfi.me.",
+            "Type": "CNAME",
+            "TTL": "300",
+            "ResourceRecords": [
+              "csabapalfi.github.io."
+            ]
+          },
+          {
+            "Name": "palfi.me.",
+            "Type": "A",
+            "AliasTarget": {
+                "DNSName": "s3-website-eu-west-1.amazonaws.com",
+                "HostedZoneId": "Z1BKCTXD74EZPE"
+            }
+          }
+        ]
+      }
+    },
+    "BlogRedirectBucket": {
+      "Type": "AWS::S3::Bucket",
+      "Properties": {
+        "BucketName": "palfi.me",
+        "WebsiteConfiguration": {
+          "RedirectAllRequestsTo": {
+            "HostName": "csaba.palfi.me"
+          }
+        }
+      }
+    }
+  },
+  "Description": "Blog"
+}
