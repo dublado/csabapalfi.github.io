@@ -1,13 +1,13 @@
 ---
-title: "The internet of things and Android"
+title: "The Internet of Things and Android"
 redirect_from: "/the-web-of-things-and-android"
 ---
 
-*Update*: Renamed the post to use IoT in the title as that's a much more popular term than Web of Things.
+**Update**: Renamed the post to use IoT in the title as that's a more popular term than Web of Things.
 
 Last week I attended a [London Java Community meetup](http://www.meetup.com/Londonjavacommunity/events/156067152/) where Dominique Guinard ([@domguinard](https://twitter.com/domguinard), [EVRYTHNG](https://evrythng.com/)) presented about the internet of things and Android. [Video](http://skillsmatter.com/podcast/os-mobile-server/if-spock-had-an-android-phone-android-and-the-web-of-things/hg-8635) and [slides](http://www.slideshare.net/EVRYTHNG/android-the-web-of-things-bluetooth-low-energy-bluetooth-40-ibeacons-barcodes-qrs-nfc-arduino) are available.
 
-When it comes to terminology there are differences between the **Internet of Things (IoT)** and [Web of Things (WoT)](https://www.webofthings.org/). IoT is used to refer to things at the network level (stuff like [EPCIS](http://www.gs1.org/gsmp/kc/epcglobal/epcis) and [IPv6 lowpan](http://en.wikipedia.org/wiki/6LoWPAN)) while WoT is more about the application level and e.g. having a REST interface for your home appliances. These days they're used pretty much interchangeably and no-one seems to bother what they mean. :) 
+When it comes to terminology there are differences between the **Internet of Things (IoT)** and [Web of Things (WoT)](https://www.webofthings.org/). IoT is used to refer to things at the network level (stuff like [EPCIS](http://www.gs1.org/gsmp/kc/epcglobal/epcis) and [IPv6 lowpan](http://en.wikipedia.org/wiki/6LoWPAN)) while WoT is more about the application level and e.g. having a REST interface for your home appliances. These days they're used pretty much interchangeably and no-one seems to bother what they mean. :)
 
 WoT is getting a really hot topic as it's predicted to have **3 trillion devices connected by 2015**. We have a wide range of options from simple tags (QR code, NFC) to embedded devices (Pi, Arduino). As we go from tags to devices both the cost and the interactivity of the solutions increases.
 
