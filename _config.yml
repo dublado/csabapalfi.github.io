@@ -3,8 +3,6 @@ title: Csaba Palfi
 logo: /assets/images/csabapalfi@2x.jpg
 markdown: redcarpet
 permalink: /:title/
-gems:
-  - jekyll-redirect-from
 sass:
     style: :compressed
 defaults:

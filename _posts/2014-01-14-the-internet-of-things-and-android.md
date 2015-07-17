@@ -1,6 +1,5 @@
 ---
 title: "The Internet of Things and Android"
-redirect_from: "/the-web-of-things-and-android"
 ---
 
 **Update**: Renamed the post to use IoT in the title as that's a more popular term than Web of Things.
