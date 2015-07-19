@@ -10,4 +10,4 @@ I love the github **contribution chart** on profile pages. It gives visual feedb
 
 The problem is that they **don't provide an accurate view** of your **public activity** if you're lucky enough that your company/client also uses github as their source control or you have private repos. If you couldn't care less about that -which is perfectly understandable- please stop reading now.
 
-Ever noticed the little lock in the top right corner of the chart? Hover over it and see: your public profile might not look as good as what you see when you're logged in. Just open your github profile in Chrome incognito mode to see what everyone else sees.
+Ever noticed the little lock in the top right corner of the chart? Hover over it and see: your public profile might not look as good as what you see when you're logged in. Just open your github profile in Chrome incognito mode to see what everyone else does.
