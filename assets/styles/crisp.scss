@@ -30,6 +30,8 @@ header {
 	text-align: center;
 }
 #content {
+	font-size: 1.5em;
+	line-height: 2em;
 	display: block;
 	width: 100%;
 }
@@ -40,8 +42,6 @@ footer {
 	color: #888;
 }
 article {
-	font-size: 1.5em;
-	line-height: 2em;
 	border-bottom: 0.1em #eee solid;
 	padding-bottom: 1.7em;
 }
