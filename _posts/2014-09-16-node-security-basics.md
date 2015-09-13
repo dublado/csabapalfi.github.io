@@ -61,5 +61,3 @@ Some [more security tips](http://blog.risingstack.com/node-js-security-tips/) we
 ## Thanks
 
 [Adam Baldwin](https://twitter.com/adam_baldwin) (from [^Lift](http://liftsecurity.io)) and his two talks at [LNUG](http://lnug.org/) and [London Node Security Meetup](http://attending.io/events/node-security-project-meetup) inspired this post.
-
-Recent node.js events are all about **node in production** and **non-functional requirements**. I'm also planning to write about **performance and reliability**.
