@@ -69,7 +69,7 @@ Miek showed how Improbable builds it's reactive - **flexible, ops light and self
 
 [dinit](https://github.com/miekg/dinit) is a super-light init system. Solves the zombie-reaping problem. It can also be used to enable in-container registration.
 
-## <a id="ben"></a> Ben Hall - Security ★
+## <a id="ben"></a> Ben Hall - Container Security ★
 
 Ben told us about lessons learnt while building [scrapbook](http://www.joinscrapbook.com/). It's training environments allow running arbitrary code by learners in containers.
 
