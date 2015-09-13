@@ -21,9 +21,9 @@ See short talk summaries below. My raw notes are also [on github](https://github
 
 ## <a id="bryanc"></a> Bryan Cantrill, Joyent - keynote ★
 
-Bryan started from the beginnings of how Solaris zones were  cool. **Hardware virtualization** still became the defacto standard. Then came docker and developers fell in love with it.
+Bryan started the conference with an energetic keynote. Took us from the beginning of chroots to Solaris zones. Then he explained how **hardware virtualization** still became the defacto standard. Then of course we ended up at docker.
 
-We're still replaying history though when running  **many containers on a VM**. In a lot of cases that **VM is still your pet** even if your containers are cattle.
+Funny how we're still replaying history when running containers on VMs. Also when running many containers per VM that **VM can easily become your pet** even if your containers are cattle.
 
 People, dump your VMs! The future is **containers on bare metal** with multi-tenant security solved somehow.
 
@@ -75,9 +75,9 @@ Miek showed how Improbable builds it's reactive - **flexible, ops light and self
 
 Ben told us about lessons learnt while building [scrapbook](http://www.joinscrapbook.com/). It's training environments allow running arbitrary code by learners in containers.
 
-Few interesting lessons included `--ulimit nproc` to prevent fork bombs. I also didn't know that `--net=host` allows **shutting down the docker host from a container**. It's worth watching out for ways how **a container can fill your disks**: logging, fallocate, truncate, dd. Also etc/hosts mounted from host and can be filled with garbage. **Network bandwith** -in and out- is also worth keeping an eye on.
+Few interesting lessons included `--ulimit nproc` to disarm fork bombs. I also didn't know that `--net=host` allows **shutting down the docker host from a container**. It's worth watching out for ways how **a container can fill your disks**: logging, fallocate, truncate, dd. Also etc/hosts mounted from host and can be filled with garbage. **Network bandwith** -in and out- is also worth keeping an eye on.
 
-Tools to help recognizing malicious activity include docker diff, looking at bash_history or sysdig. Also **The Warden** is an upcoming tool from Ocelot Uproar.
+Tools to help recognizing malicious activity include docker diff, bash_history or sysdig. Also **The Warden** is an upcoming tool from Ocelot Uproar.
 
 ## <a id="diogo"></a> Diogo Mónica - Docker Content Trust ★
 
