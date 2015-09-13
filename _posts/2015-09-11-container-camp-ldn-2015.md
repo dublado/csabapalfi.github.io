@@ -21,11 +21,9 @@ See short talk summaries below. My raw notes are also [on github](https://github
 
 ## <a id="bryanc"></a> Bryan Cantrill, Joyent - keynote ★
 
-Bryan started the conference with an energetic keynote. Took us from the beginning of chroots to Solaris zones. Then he explained how **hardware virtualization** still became the defacto standard. Then of course we ended up at docker.
+Bryan started the conference with an energetic keynote. Took us from the beginning of chroots to Solaris zones. Then he explained how hardware virtualization still became the defacto standard and of course we ended up at docker. Funny how we're still replaying history when running containers on VMs though.
 
-Funny how we're still replaying history when running containers on VMs. Also when running many containers per VM that **VM can easily become your pet** even if your containers are cattle.
-
-People, dump your VMs! The future is **containers on bare metal** with multi-tenant security solved somehow.
+Also when running many containers per VM that **VM can become your pet** even if your containers are cattle. People, dump your VMs! The future is **containers on bare metal** with multi-tenant security solved somehow.
 
 ## <a id="shannon"></a> Shannon Williams, Rancher
 
