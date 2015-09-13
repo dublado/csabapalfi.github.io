@@ -35,31 +35,31 @@ Shannon talked about **organization adoption** of docker. Most of them just want
 
 **Achieving consensus is costly** in distributed systems (network roundtrips, availability). Weave needs to deal with distributed state to handle **IP allocation and service discovery with DNS**. Turns out consensus (and using etcd, consul with raft) is not necessary and **eventual consistency** is enough for their case.
 
-They use **CRDTs**. Just choose your data-structure well and make sure merging in updates can happen in any order.
+They use **[CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type)**. Just choose your data-structure well and make sure merging in updates can happen in any order.
 
 Great talk highlighting how engineering is all about choosing the right trade-offs.
 
 ## <a id="mandy"></a> Mandy Waite, Google - Kubernetes
 
-How to make compute resources available to engineers? **Kubernetes** is Google's answer. It reached 1.0 in July and let's you manage apps not machines.
+How to make compute resources available to engineers? **[Kubernetes](http://kubernetes.io/)** is Google's answer. It reached 1.0 in July and let's you manage apps not machines.
 
 Kubernetes scheduling and controller components are **not highly-available yet** (in progress). For now you can trust Google Container Engine to run them for you.
 
 ## <a id="stephane"></a> Stéphane Graber, LXD
 
-LXD is a wrapper on top of LXC, simple REST API, command line tool. It's aimed at running full OS/system in container not app containers. Their idea is to run CoreOs or your docker host in an LXD container.
+[LXD](http://www.ubuntu.com/cloud/tools/lxd) is a wrapper on top of LXC, simple REST API, command line tool. It's aimed at running full OS/system in container not app containers. Their idea is to run CoreOs or your docker host in an LXD container.
 
 ## <a id="arjan"></a> Arjan Schaaf - Networking Performance
 
 Arjan Schaaf from Luminis was measuring **networking performance** of a Kubernetes and CoreOS setup. He compared various Azure and AWS instance types and **Weave, Calico and Flannel** SDNs.
 
-**qperf** is great for quick tests. **iperf3 is better for long running tests with parallel connections**. Bandwidth, latency and CPU was measured and **Flannel with VXLAN** was the winner. Weave is also working on VXLAN backend which sounds promising.
+**qperf** is great for quick tests. **[iperf3](https://github.com/esnet/iperf) is better for long running tests with parallel connections**. Bandwidth, latency and CPU was measured and **Flannel with VXLAN** was the winner. Weave is also working on VXLAN backend which sounds promising.
 
 Arjan advises against **relying only on synthetic tests**. You  should really test using your application, too.
 
 ## <a id="alissa"></a>Alissa Bonas, Red Hat - OpenShift
 
-**OpenShift 3** is built on Kubernetes but also adds some higher level abstractions.
+**[OpenShift 3](https://www.openshift.com/)** is built on Kubernetes but also adds some higher level abstractions.
 
 **ManageIQ** collects and correlates information about nodes, pods and the hosts running them. It also allows things like monitoring and security auditing.
 
@@ -67,7 +67,7 @@ Arjan advises against **relying only on synthetic tests**. You  should really te
 
 Miek showed how Improbable builds it's reactive - **flexible, ops light and self-healing** - infrastructure. Their stack includes **etcd, SkyDNS, ELK, Prometheus**.
 
-SkyDNS can solve discovery, simple load balancing and basic health signals. It also integrates well with Prometheus.
+[SkyDNS](https://github.com/skynetservices/skydns) can solve discovery, simple load balancing and basic health signals. It also integrates well with Prometheus.
 
 [dinit](https://github.com/miekg/dinit) is a super-light init system. Solves the zombie-reaping problem. It can also be used to enable in-container registration.
 
@@ -83,20 +83,22 @@ Tools to help recognizing malicious activity include docker diff, looking at bas
 
 Diogo is the security lead at docker and talked about new docker 1.8 feature. It's called content trust and allows **verifying** that an image is **up-to-date** and from the **right publisher**.
 
-He started by describing **The Update Framework (TUF)** for secure software/content updates. It protects against:
+He started by describing **[The Update Framework (TUF)](http://theupdateframework.com/)** for secure software/content updates. It protects against:
 
 * replay attacks (serving stale version) - by requiring expiration
 * key compromise - by having a separate, offline root key
 * mix and match attacks - by using signed collections
 * and more...
 
-**Notary** is an opinionated implementation of TUF by Docker Inc. **Docker Content Trust** is built on top of notary. You can give it a go by setting `DOCKER_CONTENT_TRUST=1` or specifying `--disable-content-trust=false`. In the future this will be on by default.
+**[Notary](https://github.com/docker/notary)** is an opinionated implementation of TUF by Docker Inc.
+
+**[Docker Content Trust](https://docs.docker.com/security/trust/content_trust/)** is built on top of notary. You can give it a go by setting `DOCKER_CONTENT_TRUST=1` or specifying `--disable-content-trust=false`. In the future this will be on by default.
 
 ## <a id="loris"></a> Loris Degioanni - Sysdig ★
 
 **Inspecting containers** resource usage, network and disk stats is not easy. Resources can be monitored with standard command line tools but sometimes difficult to get the right bits of information. **cAdvisor** is easy to install but doesn't have too many metrics. The **docker stats API** is a bit richer but sometimes even that is not enough.
 
-**Sysdig** requires a **kernel module** but it's super powerful. Metrics can be saved to a **trace file** and processed later (just like tcpdump). It also has a nice **htop-like interface**. You have to see a demo.
+**[Sysdig](http://www.sysdig.org/)** requires a **kernel module** but it's super powerful. Metrics can be saved to a **trace file** and processed later (just like tcpdump). It also has a nice **htop-like interface**. You have to see a demo.
 
 ## <a id="juan"></a>Juan Batiz-Benet - IPFS, starship ★
 
