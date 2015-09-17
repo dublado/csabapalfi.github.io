@@ -1,6 +1,5 @@
 name: csaba.palfi.me
 title: Csaba Palfi
-logo: /assets/images/csabapalfi@2x.jpg
 markdown: redcarpet
 permalink: /:title/
 sass:
