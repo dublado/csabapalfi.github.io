@@ -170,7 +170,7 @@ header h6 {
 	margin-top:0.5em;
 }
 /* Posts */
-article span.post-stamp {
+.post-stamp {
 	color:#999;
 }
 h1.post-title {
@@ -212,9 +212,6 @@ h3.post-title {
 		padding: 2em 2em 1em 2em;
 		width: auto;
 	}
-	footer {
-		padding: 0 2.5em 2em 2.5em;
-	}
 }
 /* Tiny Screens */
 @media only screen and (max-width: 320px) {
@@ -230,11 +227,11 @@ h3.post-title {
 	#content {
 		padding: 1.2em 1.2em 0.6em 1.2em;
 	}
-	footer {
-		padding: 0 1.5em 1.2em 1.5em;
-	}
 	ul, ol {
 		margin-left: 2em;
+	}
+	.post-stamp {
+		display: none;
 	}
 }
 
