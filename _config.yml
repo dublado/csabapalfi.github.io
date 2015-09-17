@@ -3,11 +3,11 @@ title: Csaba Palfi
 markdown: redcarpet
 permalink: /:title/
 sass:
-    style: :compressed
+  style: :compressed
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post
+-
+  scope:
+    path: ""
+    type: "posts"
+  values:
+    layout: post
