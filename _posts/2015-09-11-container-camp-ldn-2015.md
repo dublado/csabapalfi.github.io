@@ -2,9 +2,7 @@
 title: Container Camp London 2015
 ---
 
-I was at the amazing Container Camp (thanks to [YLD!](https://www.yld.io/)) and had a lot of fun.
-
-See short talk summaries below. My raw notes are also [on github](https://github.com/csabapalfi/container-camp-ldn-2015)
+I was at the amazing Container Camp (thanks to [YLD!](https://www.yld.io/)) and had a lot of fun. See short talk summaries below. My raw notes are also [on github](https://github.com/csabapalfi/container-camp-ldn-2015).
 
 * [Bryan Cantrill, Joyent - keynote ★](#bryanc)
 * [Shannon Williams, Rancher](#shannon)
