@@ -16,7 +16,7 @@ html {
 	height: 100%;
 }
 body {
-	padding: 2em 4em 1em 4em;
+	padding: 0 4em 1em 4em;
 	max-width: 50em;
 	margin: auto;
 }
@@ -24,7 +24,6 @@ body {
 header {
 	border-bottom: 1px #eee solid;
 	text-align:center;
-	padding-bottom:1em;
 }
 
 #content {
@@ -59,7 +58,6 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: 2.5em;
 	line-height: 1.1em;
-	margin-top: 0.6em;
 	margin-bottom: 0.6em;
 }
 h2 {
@@ -151,31 +149,23 @@ header h1 a:hover {
 	text-decoration:none;
 }
 
+#follow-icons {
+	display: inline-block;
+}
+
 #follow-icons img {
-	width: 1.5em;
-	height: 1.5em;
+	width: 0.8em;
+	height: 0.8em;
 }
 
 #follow-icons a {
-	margin-left: 1em;
-}
-
-#follow-icons a:first-child {
-	margin-left: 0em;
+	margin-left: 0.5em;
 }
 
 #follow-icons a {
 	color: #ccc;
 }
-#follow-icons span {
-	vertical-align:top;
-	margin-left:-0.15em;
-	margin-right:-0.15em;
-}
-#follow-icons span .fa-stack-1x {
-	font-size:1.05em;
-	line-height:1.9em;
-}
+
 header h6 {
 	margin-top:0.5em;
 }
@@ -211,7 +201,7 @@ h3.post-title {
 /* Small Screens */
 @media only screen and (max-width: 800px) {
 	body {
-		padding:0;
+		padding: 0;
 	}
 	#content {
 		font-size: 1.2em;
@@ -228,6 +218,12 @@ h3.post-title {
 @media only screen and (max-width: 320px) {
 	header {
 		padding: 1.2em 1.2em 0.6em 1.2em;
+	}
+	#follow-icons {
+		padding-top: 0.5em;
+	}
+	#follow-icons a:first-child {
+		margin-left: 0em;
 	}
 	#content {
 		padding: 1.2em 1.2em 0.6em 1.2em;

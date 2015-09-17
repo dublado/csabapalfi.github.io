@@ -9,8 +9,10 @@
   </head>
   <body>
     <header id="header">
-      <h1><a href="/">{{ site.title }}</a></h1>
-      {% include follow.html %}
+      <h1>
+        <a href="/">{{ site.title }}</a>
+        {% include follow.html %}
+      </h1>
     </header>
     <main id="content">
       {{ content }}
