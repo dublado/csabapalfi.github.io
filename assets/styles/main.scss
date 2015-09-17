@@ -22,7 +22,7 @@ body {
 }
 /* Blocks */
 header {
-	border-bottom: 1px #eee solid;
+	border-bottom: 1px #999 solid;
 	text-align:center;
 }
 
@@ -171,7 +171,7 @@ header h6 {
 }
 /* Posts */
 article span.post-stamp {
-	color:#888;
+	color:#999;
 }
 h1.post-title {
 	margin-top:0.35em;
@@ -186,6 +186,8 @@ h3.post-title {
 }
 .post-date {
 	white-space: nowrap;
+	font-size: 0.8em;
+	color: #999;
 }
 
 .separator {
