@@ -8,18 +8,15 @@ $link-color: #679cff;
 }
 /* Basic Typography */
 html, body {
-  font-size: 1em;
-  line-height: 1.5em;
-  font-family: "Helvetica", "Arial", sans-serif;
-  font-weight: 300;
+  font: 300 1em/1.5em "Helvetica", "Arial", sans-serif;
   color: $primary-color;
 }
 html {
   height: 100%;
 }
 body {
-  padding: 0 4em 1em 4em;
-  max-width: 50em;
+  padding: 0 4em;
+  max-width: 45em;
   margin: auto;
 }
 /* Blocks */
@@ -28,30 +25,20 @@ header {
   text-align:center;
 }
 
-#content {
-  padding-top: 2em;
+main {
+  padding: 2em 0;
   font-size: 1.5em;
   line-height: 2em;
   display: block;
   width: 100%;
 }
 
-article {
-  padding-bottom: 1.7em;
-}
-
 p {
+  margin: 1em 0;
   text-align: justify;
 }
 
-p, hr, h4 {
-  margin-top: 0.9em;
-  margin-bottom: 0.9em;
-}
 /* Headings */
-h1, h2, h3, h4 {
-  font-weight: 400 !important;
-}
 h1 {
   font-size: 2.5em;
   line-height: 1.1em;
@@ -71,6 +58,7 @@ h3 {
 }
 h4 {
   font-size:1.3em;
+  margin: 1em 0;
 }
 /* Page Elements */
 img, iframe {
@@ -84,9 +72,6 @@ a {
 a:hover {
   text-decoration:underline;
 }
-h1 a, h2 a, h3 a, h4 a {
-  font-weight:400 !important;
-}
 strong {
   font-weight: 700;
 }
@@ -98,6 +83,7 @@ blockquote {
 hr {
   border: 0;
   height: 1px;
+  margin: 1em 0;
   background: $secondary-color;
 }
 ul, ol {
@@ -119,9 +105,7 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
   white-space: pre;
-  white-space: -moz-pre-wrap;
   white-space: pre-wrap;
-  white-space: pre\9;
 }
 input {
   font-size:1em;
@@ -134,28 +118,24 @@ header h1 {
   margin-bottom:0.6em;
 }
 header h1 a {
-  font-weight: 700 !important;
+  font-weight: 700;
   color: $primary-color;
 }
 header h1 a:hover {
   text-decoration:none;
 }
 
-#follow-icons {
+.follow-icons {
   display: inline-block;
 }
 
-#follow-icons img {
+.follow-icons img {
   width: 0.8em;
   height: 0.8em;
 }
 
-#follow-icons a {
+.follow-icons a {
   margin-left: 0.5em;
-}
-
-#follow-icons a {
-  color: $primary-color;
 }
 
 /* Posts */
@@ -167,6 +147,9 @@ h3.post-title {
   margin-top:0.4em;
   padding-bottom:0.9em;
   font-size: 1.2em;
+}
+h3.post-title a {
+  font-weight: 400;
 }
 .post-date {
   white-space: nowrap;
@@ -185,7 +168,7 @@ h3.post-title {
   body {
     padding: 0;
   }
-  #content {
+  main {
     font-size: 1.2em;
     line-height: 1.5em;
     margin-left: 0;
@@ -201,14 +184,14 @@ h3.post-title {
   header h1{
     margin: 0;
   }
-  #follow-icons {
+  .follow-icons {
     padding-top: 0.5em;
     display: block;
   }
-  #follow-icons a:first-child {
+  .follow-icons a:first-child {
     margin-left: 0em;
   }
-  #content {
+  main {
     padding: 1.2em 1.2em 0.6em 1.2em;
   }
   ul, ol {
