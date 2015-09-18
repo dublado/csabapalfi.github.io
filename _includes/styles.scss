@@ -21,6 +21,8 @@ body {
 }
 /* Blocks */
 header {
+  font-size:1.9em;
+  padding: 0.8em 0;
   border-bottom: 1px $secondary-color solid;
   text-align:center;
 }
@@ -112,16 +114,11 @@ input {
   padding: 0.3em;
 }
 /* Header */
-header h1 {
-  font-size:1.9em;
-  margin-top:0.8em;
-  margin-bottom:0.6em;
-}
-header h1 a {
+header a {
   font-weight: 700;
   color: $primary-color;
 }
-header h1 a:hover {
+header a:hover {
   text-decoration:none;
 }
 
@@ -139,16 +136,16 @@ header h1 a:hover {
 }
 
 /* Posts */
-h1.post-title {
+.post-title {
   margin-top:0.35em;
   margin-bottom: 0.6em;
 }
-h3.post-title {
+.posts .post-title {
   margin-top:0.4em;
   padding-bottom:0.9em;
   font-size: 1.2em;
 }
-h3.post-title a {
+.posts .post-title a {
   font-weight: 400;
 }
 .post-date {
@@ -181,11 +178,11 @@ h3.post-title a {
   header {
     padding: 0.5em;
   }
-  header h1{
+  header {
     margin: 0;
   }
   .follow-icons {
-    padding-top: 0.5em;
+    padding-top: 0.8em;
     display: block;
   }
   .follow-icons a:first-child {
