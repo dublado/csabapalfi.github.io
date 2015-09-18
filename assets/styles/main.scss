@@ -156,9 +156,6 @@ header h1 a:hover {
 }
 
 /* Posts */
-.post-stamp {
-  color:#999;
-}
 h1.post-title {
   margin-top:0.35em;
   margin-bottom: 0.6em;
@@ -215,7 +212,8 @@ h3.post-title {
   ul, ol {
     margin-left: 2em;
   }
-  .post-stamp {
+  .separator,
+  .post-date {
     display: none;
   }
 }
