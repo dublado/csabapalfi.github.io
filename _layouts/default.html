@@ -6,6 +6,12 @@
     {% include meta.html %}
     {% include analytics.html %}
     {% include ie8.html %}
+    <style>
+      {% capture include_to_scssify %}
+        {% include styles.scss %}
+      {% endcapture %}
+      {{ include_to_scssify | scssify }}
+    </style>
   </head>
   <body>
     <header id="header">
