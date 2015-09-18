@@ -1,3 +1,7 @@
+$primary-color: #444;
+$secondary-color: #bbb;
+$link-color: #679cff;
+
 * {
   padding: 0;
   margin: 0;
@@ -5,10 +9,10 @@
 /* Basic Typography */
 html, body {
   font-size: 1em;
-  line-height: 1.65em;
+  line-height: 1.5em;
   font-family: "Helvetica", "Arial", sans-serif;
   font-weight: 300;
-  color:#444;
+  color: $primary-color;
 }
 html {
   height: 100%;
@@ -20,7 +24,7 @@ body {
 }
 /* Blocks */
 header {
-  border-bottom: 1px #999 solid;
+  border-bottom: 1px $secondary-color solid;
   text-align:center;
 }
 
@@ -75,7 +79,7 @@ img, iframe {
 a {
   font-weight:700;
   text-decoration:none;
-  color: rgb(103, 156, 255); /* Change Link Color */
+  color: $link-color
 }
 a:hover {
   text-decoration:underline;
@@ -87,14 +91,14 @@ strong {
   font-weight: 700;
 }
 blockquote {
-  border-left: 0.4em solid #eee;
+  border-left: 0.4em solid $secondary-color;
   padding-left: 1.2em;
   font-size: 1.3em;
 }
 hr {
   border: 0;
   height: 1px;
-  background: #eee;
+  background: $secondary-color;
 }
 ul, ol {
   margin-left: 3em;
@@ -110,7 +114,7 @@ pre code {
 pre {
   font-size: 0.8em;
   line-height: 2em;
-  background: #eee;
+  background: $secondary-color;
   padding: 1em;
   word-break: break-all;
   word-wrap: break-word;
@@ -131,7 +135,7 @@ header h1 {
 }
 header h1 a {
   font-weight: 700 !important;
-  color:#444;
+  color: $primary-color;
 }
 header h1 a:hover {
   text-decoration:none;
@@ -151,7 +155,7 @@ header h1 a:hover {
 }
 
 #follow-icons a {
-  color: #ccc;
+  color: $primary-color;
 }
 
 /* Posts */
@@ -163,16 +167,11 @@ h3.post-title {
   margin-top:0.4em;
   padding-bottom:0.9em;
   font-size: 1.2em;
-  color: #444;
 }
 .post-date {
   white-space: nowrap;
   font-size: 0.8em;
-  color: #999;
-}
-
-.separator {
-  color: #ccc;
+  color: $secondary-color;
 }
 
 /* Large Screens */
@@ -215,12 +214,10 @@ h3.post-title {
   ul, ol {
     margin-left: 2em;
   }
-  .separator,
   .post-date {
     display: none;
   }
 }
-
 
 .highlight  { background: #ffffff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
