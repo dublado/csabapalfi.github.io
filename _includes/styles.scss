@@ -2,6 +2,7 @@ $primary-color: #444;
 $secondary-color: #bbb;
 $link-color: #679cff;
 
+/* Reset */
 * {
   padding: 0;
   margin: 0;
@@ -21,49 +22,42 @@ body {
 }
 /* Blocks */
 header {
-  font-size:1.9em;
+  font-size: 1.9em;
   padding: 0.8em 0;
   border-bottom: 1px $secondary-color solid;
   text-align:center;
 }
-
 main {
-  padding: 2em 0;
+  padding: 0 0 1.4em;
   font-size: 1.5em;
   line-height: 2em;
   display: block;
   width: 100%;
 }
-
 p {
   margin: 1em 0;
   text-align: justify;
 }
-
 /* Headings */
+@mixin heading($font-size) {
+  font-size: $font-size;
+  line-height: 1.2em;
+  margin: 0.8em 0 0.5em;
+}
 h1 {
-  font-size: 2.5em;
-  line-height: 1.1em;
-  margin-bottom: 0.6em;
+  @include heading(2.5em);
 }
 h2 {
-  font-size:1.9em;
-  line-height: 1.2em;
-  margin-top: 0.7em;
-  margin-bottom: 0.7em;
+  @include heading(1.9em);
 }
 h3 {
-  font-size:1.4em;
-  line-height: 1.3em;
-  margin-top: 0.8em;
-  margin-bottom: 0.8em;
+  @include heading(1.4em);
 }
 h4 {
-  font-size:1.3em;
-  margin: 1em 0;
+  @include heading(1.3em);
 }
 /* Page Elements */
-img, iframe {
+img {
   max-width: 100%;
 }
 a {
@@ -138,9 +132,8 @@ header a:hover {
 }
 
 /* Posts */
-.post-title {
-  margin-top:0.35em;
-  margin-bottom: 0.6em;
+.posts {
+  margin-top: 2em;
 }
 .posts .post-title {
   margin-top:0.4em;
@@ -172,7 +165,7 @@ header a:hover {
     font-size: 1.2em;
     line-height: 1.5em;
     margin-left: 0;
-    padding: 2em 2em 1em 2em;
+    padding: 0 2em 1em;
     width: auto;
   }
 }
@@ -192,7 +185,7 @@ header a:hover {
     margin-left: 0em;
   }
   main {
-    padding: 1.2em 1.2em 0.6em 1.2em;
+    padding: 0 1.2em 0.6em;
   }
   ul, ol {
     margin-left: 2em;
