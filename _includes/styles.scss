@@ -71,17 +71,6 @@ a:hover {
 strong {
   font-weight: 700;
 }
-blockquote {
-  border-left: 0.4em solid $secondary-color;
-  padding-left: 1.2em;
-  font-size: 1.3em;
-}
-hr {
-  border: 0;
-  height: 1px;
-  margin: 1em 0;
-  background: $secondary-color;
-}
 ul, ol {
   margin-left: 3em;
 }
@@ -107,7 +96,7 @@ header a {
   color: $primary-color;
 }
 header a:hover {
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .follow-icons {
@@ -144,12 +133,6 @@ h2.post-title {
   color: $secondary-color;
 }
 
-/* Large Screens */
-@media only screen and (min-width: 1281px) {
-  html, body {
-    font-size: 1.1em;
-  }
-}
 /* Small Screens */
 @media only screen and (max-width: 800px) {
   body {
