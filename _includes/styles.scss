@@ -120,17 +120,13 @@ h2.post-title {
   margin-bottom: 0;
 }
 
-.post {
-  padding: 0.1em 0;
-}
-
-.post-title a {
-  font-weight: 400;
-}
 .post-date {
-  font-weight: 400;
   margin-top: 0;
   color: $secondary-color;
+}
+
+.posts .post:first-child {
+  margin-top: 2em;
 }
 
 /* Small Screens */
