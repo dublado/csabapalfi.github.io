@@ -1,8 +1,8 @@
---- 
+---
 title: "Pragmatic Web API design"
 ---
 
-I worked on quite a few public and internal REST APIs both building and consuming them. REST is more of an architechtural style than a well-defined framework. It's sometimes not easy to make sure everyone is on the same page when you talk about REST.
+I worked on quite a few public and internal REST APIs both building and consuming them. REST is more of an architectural style than a well-defined framework. It's sometimes not easy to make sure everyone is on the same page when you talk about REST.
 
 Reading Roy Fielding's famous [dissertation](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) helps you understand the philosophy (especially chapter 5) and it's a wonderful piece of work. I published an [epub version](https://github.com/csabapalfi/rest-epub) on github (in case you would like to read it on your mobile) or you can grab the pdf or read in HTML [here](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm).
 
@@ -10,11 +10,11 @@ At the same time it's definitely worth having a look at what works in the wild a
 
 It's mainly addressed to companies building public APIs but lot of the sections are also relevant for internal APIs. They highlight good and bad examples from public APIs by companies like Facebook and Twitter.
 
-Let me recollect the essence of the Apigee Web Api Design ebook here but please feel free to grab the original ebook for more deatils and the examples.
+Let me recollect the essence of the Apigee Web Api Design ebook here but please feel free to grab the original ebook for more details and the examples.
 
 ## Introduction
 
-* public API design key perfomance metric: how quickly developers can get
+* public API design key performance metric: how quickly developers can get
 up to speed and start enjoying success using your API
 * API Craft Google Group is a good resource
 * pragmatic and not dogmatic REST (RESTafarians)
@@ -79,7 +79,7 @@ up to speed and start enjoying success using your API
 * use limit and offset since it's well-understood
 * e.g. /dogs?limit=25&offset=50
 * indicate total number of records available in a header or response body
-* deafult: limit=10&offset=0
+* default: limit=10&offset=0
 
 
 ## What about responses that don't involve resources?
@@ -133,7 +133,7 @@ indicate the scoped query)
 
 ### client supports limited HTTP methods
 
-* support ?method=POST (etc) paramater
+* support ?method=POST (etc) parameter
 * method is always GET
 * but the developer can express rich HTTP verbs
 * careful with e.g Google bot traffic and method=DELETE
@@ -161,7 +161,7 @@ Reasons to consider and SDK:
 * speed adoption on a specific platform. (For example Objective C SDK for iPhone.)
 * simplify integration effort and maybe reduce bad or inefficient code
 * good SDKs are a forcing function to create good source code examples and documentation
-* market your API to a specific communtiy
+* market your API to a specific community
 
 ## The API facade pattern
 
