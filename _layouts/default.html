@@ -3,14 +3,9 @@
   <head>
     <title>{{ page.title }} by {{ site.title }}</title>
     {% include meta.html %}
+    {% include styles.html %}
     {% include analytics.html %}
     {% include ie8.html %}
-    <style>
-      {% capture styles_scss %}
-        {% include styles.scss %}
-      {% endcapture %}
-      {{ styles_scss | scssify }}
-    </style>
   </head>
   <body>
     <header>
