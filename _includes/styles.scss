@@ -115,16 +115,18 @@ header a:hover {
 }
 
 /* Posts */
+ul.posts {
+  margin-left: 0;
+  list-style-type: none;
+}
 h2.post-title {
   font-size: 1.2em;
   margin-bottom: 0;
 }
-
 .post-date {
   margin-top: 0;
   color: $secondary-color;
 }
-
 .posts .post:first-child {
   margin-top: 2em;
 }
