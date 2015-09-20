@@ -20,7 +20,7 @@ There are various ways of implementing map search but a typical (simplified) sol
 
 1. You have a number of entities with location data and you want to make them searchable on map.
 
-2. Your user enters a location into an input field and sends it to you. You resolve the entered string to a coordinates (**geocoding**) and these will usally become the **center of the mapview** you want to display.
+2. Your user enters a location into an input field and sends it to you. You resolve the entered string to a coordinates (**geocoding**) and these will usually become the **center of the mapview** you want to display.
 
 3. You now have to figure which entities (map pins) to show. You calculate the corners of our mapview (or use some distance radius from the center coordinate) and do **geospatial queries** to get the pins to display. (This can get more complex if you use polygon to represent areas, etc.)
 

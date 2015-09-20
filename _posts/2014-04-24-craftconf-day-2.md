@@ -29,15 +29,15 @@ What different types of mastery are there? You can probably expect **constantly 
 
 What is mastery for us in software? Let's look at the different stages of **medieval craftmanship and mastery** and what it means to us and get some advice:
 
-You start out as an **apprentice**. **Find people who do what you want to do and model them**, stalk them. Following somone on twitter is like stalking but legal. Admit you don't know stuff but also learn to act like you can (e.g adopt the jargon). Heard of the **impostor syndrome**? **Solve real problems**. Please don't learn to swim with armbands. No trainer wheels. Code katas and stuff are kind of useful but not really. **Study the basics** and learn theory and method but also remember **that brutal adherence to the one true way is harmful**. Always try to **get feedback from people.**
+You start out as an **apprentice**. **Find people who do what you want to do and model them**, stalk them. Following someone on twitter is like stalking but legal. Admit you don't know stuff but also learn to act like you can (e.g adopt the jargon). Heard of the **impostor syndrome**? **Solve real problems**. Please don't learn to swim with armbands. No trainer wheels. Code katas and stuff are kind of useful but not really. **Study the basics** and learn theory and method but also remember **that brutal adherence to the one true way is harmful**. Always try to **get feedback from people.**
 
 After getting some experience you're a **journeyman**. **Build your portfolio** and try different approaches, domains. It's important to **learn how you learn**, how you practice. Everyone is different. I for example take notes like crazy. Always **listen like you don't know the answer** - you might not. **If it ain't broke - fix it anyway**, surprising things might come out of it. Remember that **you can make computer do anything**: stay motivated.
 
 As a **master** remember where you started and allow learners to discover.
 
-In summary: **choose your goals deliberately** and undertand your process of learning. The journey never ends.
+In summary: **choose your goals deliberately** and understand your process of learning. The journey never ends.
 
-At the end of the talk the **two sides of simplicity** also came-up somehow. You have the 'I overlook the details' simple and hard-fought tru simplicity divided by the complexity mess between.
+At the end of the talk the **two sides of simplicity** also came-up somehow. You have the 'I overlook the details' simple and hard-fought true simplicity divided by the complexity mess between.
 
 ## <a name="doug"></a>JavaScript - The Better Parts
 ### by Douglas Crockford [crockford.com](http://www.crockford.com/)
@@ -48,7 +48,7 @@ Perfection is when there's **nothing more to subtract**. Good parts applies to p
 
 Some people are against that sort of restriction. Actually it's **not a matter of opinion**. Brendan Eich himself acknowledges that JavaScript is full of **'foot guns'**. Yes, these are devices which are only good to shoot you in the foot. Some people live the **fantasy of infallability** or the **futility of faultlessness**. Or have you heard of Danger Driven Development. Please spend time to code well.
 
-Doug then talk about some of the **new good parts in ES6**. Finally we'll have proper **tail call optimization**. He touched on the splat (or spread) operator and the module system. The ```class``` statement is probably another bad part. **let** is a really good part which allows **proper scoping**. We then reconsidered some of the good parts. We can get rid of ```for```, ```for in``` and use ```foreach``` and ```Object.keys```. **Proper functional style rocks**. We can probably also stop using ```Object.create``` and ```this```. Proto inheritence saves memory but no longer makes sense and causes confusion (what's own?, what's inherited?) It's also performance inhibiting in V8.
+Doug then talk about some of the **new good parts in ES6**. Finally we'll have proper **tail call optimization**. He touched on the splat (or spread) operator and the module system. The ```class``` statement is probably another bad part. **let** is a really good part which allows **proper scoping**. We then reconsidered some of the good parts. We can get rid of ```for```, ```for in``` and use ```foreach``` and ```Object.keys```. **Proper functional style rocks**. We can probably also stop using ```Object.create``` and ```this```. Proto inheritance saves memory but no longer makes sense and causes confusion (what's own?, what's inherited?) It's also performance inhibiting in V8.
 
 Here's how we're going to write proper modular JavaScript with ES6:
 
@@ -85,7 +85,7 @@ Pretty much all **application**s have a similar **lifecycle** of getting from de
 
 **Maintenance** is about **keep running and changing** your application. This is where monitoring comes in (although you probably also watch metrics as you deploy). The key bit here is to **allow updating and changes** with resiliency and without failure. Orchestration also belongs here (e.g. autoscaling, adding nodes to a cluster, etc)
 
-The goal of **DevOps** -from the technology perspective- is to make this **lifecycle more efficient**. **Tools** help with reducing errors, making things faster, increased repeatabilty and codifying knowledge. But there are loads of them and their purpose is often ambigious. The above lifecycle model helps a bit in putting these tools in the right place in your head.
+The goal of **DevOps** -from the technology perspective- is to make this **lifecycle more efficient**. **Tools** help with reducing errors, making things faster, increased repeatabilty and codifying knowledge. But there are loads of them and their purpose is often ambiguous. The above lifecycle model helps a bit in putting these tools in the right place in your head.
 
 Hashicorp offers **free, open-source** devops **tools**:
 
@@ -192,10 +192,3 @@ Andy is from Twitter and there were lots of tweets about his talk. Probably a go
 ## Browser Cryptography
 ### by Daniel Posch [@dcposch](http://twitter.com/dcposch)
 Lots of tweets about this. [Watch it here](http://www.ustream.tv/recorded/46743933)
-
-## Sponsors
-
-There were some sponsor pitches in the morning:
-
-**Ericsson** talked about the demanding low latency challenges of telco and how they're moving to the cloud. **Misys** talked about their own home-brew beer and how they represent fun in the fincance sector. Was interesting to hear Attila Bozso from **EPAM** who mentioned that 10+ years ago when they started startups weren't this sexy and how they went through some amazing growth with the now 20 years old EPAM (used to worked there, great place). Peter Galantha told us about the history of **Yahoo** in Hungary (search for IndexTools :)) and told us to have great fun and enjoy the conference. (worked here too, another cool place) Also learned that **Deutsche Telekom** sells software powering well known brands like LinkedIn or itv.
-

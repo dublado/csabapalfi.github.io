@@ -2,7 +2,7 @@
 title: 24 random docker tips
 highlight: true
 ---
-{% raw %}
+
 We love docker and had it in production since 0.8 at [TES Global](http://www.tesglobal.com/) (my current client). Couple of us could attend the trainings at dockerConEU thanks to [Contino](http://contino.co.uk/). Here are some of the tips and tricks that will hopefully be useful for anyone who is already familiar with docker basics.
 
 ## 1. CLI
@@ -68,11 +68,11 @@ Both ```ADD``` and ```COPY``` adds local files when building a container but ADD
 
 ### 2.8 WORKDIR and ENV
 
-Each command will create a new temporary image and runs in a new shell hence if you do a ```cd <directory>``` or ```export <var>=<value>``` in your Dockerfile it won't work. Use ```WORKDIR``` to set your working directory across multiple commands and ENV to set environment variables.
+Each command will create a new temporary image and runs in a new shell hence if you do a `cd directory` or `export var=value` in your Dockerfile it won't work. Use `WORKDIR` to set your working directory across multiple commands and ENV to set environment variables.
 
 ### 2.9 CMD and ENTRYPOINT
 
-```CMD``` is the default command to execute when an image is run. The default ```ENTRYPOINT``` is ```/bin/sh -c``` and ```CMD``` is passed into that as an argument. We can override ENTRYPOINT in our Dockerfile and make our container behave like an executable taking command line arguments (with default arguments in CMD in our Dockerfile).
+`CMD` is the default command to execute when an image is run. The default `ENTRYPOINT` is `/bin/sh -c` and `CMD` is passed into that as an argument. We can override ENTRYPOINT in our Dockerfile and make our container behave like an executable taking command line arguments (with default arguments in CMD in our Dockerfile).
 
 ```
 # in Dockerfile
@@ -155,5 +155,3 @@ Boot2docker has TLS as default since 1.3 and also generates the keys for you.
 Otherwise generating keys requires OpenSSL 1.0.1 then the docker daemon needs to be run with --tls-verify and will use the secure docker port (2376).
 
 We're hopefully getting more granular access control soon instead of all or nothing.
-
-{% endraw %}

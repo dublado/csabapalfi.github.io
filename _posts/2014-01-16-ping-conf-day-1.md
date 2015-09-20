@@ -1,4 +1,4 @@
---- 
+---
 title: "Ping Conference about the Play! framework - Day 1"
 ---
 
@@ -30,7 +30,7 @@ Update: Just found this **[post by Sadek on the LinkednIn Engineering blog](http
 
 ## Akka vs. JSON/HTTP
 
-Straight after the keynote Matt Hammer ([@mtholgy](https://twitter.com/mthology), Gawker Media) talked about replacing JSON+HTTP with **Akka** to get a **more efficient remoting stack**. 
+Straight after the keynote Matt Hammer ([@mtholgy](https://twitter.com/mthology), Gawker Media) talked about replacing JSON+HTTP with **Akka** to get a **more efficient remoting stack**.
 
 They use this in [Kinja](http://kinja.com/) and they're experimenting with this between their frontend and their API.
 
@@ -38,17 +38,17 @@ I could also learn that **Akka supports custom serializers** which are completel
 
 ## Sbt-web and easier JS development for Play
 
-Next up was Chris Hunt ([@huntchr](https://twitter.com/huntchr), TypeSafe) presenting the -so fresh it's hot- [sbt-web](https://github.com/typesafehub/sbt-web) and friends. 
+Next up was Chris Hunt ([@huntchr](https://twitter.com/huntchr), TypeSafe) presenting the -so fresh it's hot- [sbt-web](https://github.com/typesafehub/sbt-web) and friends.
 
-It was news for me that from the TypeSafe perspective Play is based in Australia and New Zealand as both Chris and Josh Roper are based there. Thankfully for us they gave up the nice weather and came to give some great talks. Thanks guys! 
+It was news for me that from the TypeSafe perspective Play is based in Australia and New Zealand as both Chris and Josh Roper are based there. Thankfully for us they gave up the nice weather and came to give some great talks. Thanks guys!
 
-Chris mentionted the **[reactive manifesto](http://www.reactivemanifesto.org/)** and it was great to see that they live up to it even in sbt plugins.
+Chris mentioned the **[reactive manifesto](http://www.reactivemanifesto.org/)** and it was great to see that they live up to it even in sbt plugins.
 
 sbt-web's goal is to **improve working with JavaScript and CSS** in Play! and have a great **web asset pipeline** (a'la Rails).
 
 When it comes to dependency resolution/repository support the choice is **[webjars.org](http://www.webjars.org/)**. The reason behind is the popularity of Maven artifact repositories and existing support, infrastructure and tooling. Alternatives would be [node.js's npm](https://npmjs.org/) or [Twitter's bower](http://bower.io/). npm's naive transitive dependency resolution with creating node_modules directories recursively makes it less than optimal to remain polite here. Chris couldn't comment on bower but to be honest I'm not too familiar with it either.
 
-Then we moved on to hear about testing and hinting JavaScript. When it comes to testing you're probably dealing with two types of js code: it either relies on the DOM or not. 
+Then we moved on to hear about testing and hinting JavaScript. When it comes to testing you're probably dealing with two types of js code: it either relies on the DOM or not.
 
 To test Javascript which is **relying on the DOM** you need something like [webdriver](http://docs.seleniumhq.org/projects/webdriver/) which will run your code in Firefox, Chrome, IE or HtmlUnit (Rhino on top of JVM) or with phantom.js (native). The TypeSafe guys basically implemented an alternative **[webdriver client](https://github.com/huntc/webdriver) in Scala** with Akka and Spray.
 
@@ -60,9 +60,9 @@ During Q&A someone asked Chris about languages compiled to JavaScript and I coul
 
 ## The cake pattern step-by-step
 
-Then we had a talk from Yann Simon ([@simon_yann](https://twitter.com/simon_yann)) who introduced to cake pattern with a step by step code example. 
+Then we had a talk from Yann Simon ([@simon_yann](https://twitter.com/simon_yann)) who introduced to cake pattern with a step by step code example.
 
-I could be wrong here but at the end of the day the cake pattern is all about **replacing dependency injection frameworks** since the Scala compiler allows us to define dependencies between our components and actually happily checks them as well. 
+I could be wrong here but at the end of the day the cake pattern is all about **replacing dependency injection frameworks** since the Scala compiler allows us to define dependencies between our components and actually happily checks them as well.
 
 **No runtime surprises.** At least in this area...
 
@@ -72,7 +72,7 @@ That's another thing I liked a lot about ping! Most speakers were really **open 
 
 He also talked about a blog post from Andreas Grabner ([@grabnerandi](https://twitter.com/grabnerandi), Compuware) about [The Hidden Class Loading Performance Impact of the Spring Framework](http://apmblog.compuware.com/2013/12/18/the-hidden-class-loading-performance-impact-of-the-spring-framework/).
 
-A line of code worths more than a thousand words so please check out the brilliant **code example by Yann** on [github](https://github.com/yanns/TPA/). 
+A line of code worths more than a thousand words so please check out the brilliant **code example by Yann** on [github](https://github.com/yanns/TPA/).
 
 **Update:** Yann reacted on my post on Twitter:
 
@@ -92,10 +92,3 @@ Next Matthias Nehlsen ([@matthiasnehlsen](https://twitter.com/matthiasnehlsen)) 
 ## Play2 and Redis
 
 Nicolas Martignole ([@nmartignole](https://twitter.com/nmartignole)) shared a lot of great war stories aboout working with Scala and Play. (A great part of it coming from his experience working on [ZapTravel](http://www.zaptravel.com/)). My favourite was his feedback slide encouraging people to donate to TypeSafe to improve the Scala compiler even faster then they do now. He also neatly summarized why and for what [Redis](http://redis.io/) is useful and highlighted the nonblocking/reactive Scala driver called [rediscala]( https://github.com/etaty/rediscala).
-
-
-
-
-
-
-

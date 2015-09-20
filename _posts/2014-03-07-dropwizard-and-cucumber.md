@@ -1,4 +1,4 @@
---- 
+---
 title: "Acceptance testing a Dropwizard app with Cucumber"
 highlight: true
 ---
@@ -11,7 +11,7 @@ Dropwizard provides some great [testing tools](http://www.dropwizard.io/manual/t
 
 ### No Cucumber global hooks
 
-The first problem is that Cucumber-JVM and Cucumber has **no support** for hooking in a setup/teardown step **before/after all your feature files** are ran. It currently only supports @Before/@After hooks which run the annotated methods before/after each scenario. The workaround for this is described in detail in [cucumber-jvm#515](https://github.com/cucumber/cucumber-jvm/issues/515) and involves adding a static field to your StepDefs class and adding [shutdownHook](http://docs.oracle.com/javase/7/docs/api/java/lang/Runtime.html#addShutdownHook(java.lang.Thread)). 
+The first problem is that Cucumber-JVM and Cucumber has **no support** for hooking in a setup/teardown step **before/after all your feature files** are ran. It currently only supports @Before/@After hooks which run the annotated methods before/after each scenario. The workaround for this is described in detail in [cucumber-jvm#515](https://github.com/cucumber/cucumber-jvm/issues/515) and involves adding a static field to your StepDefs class and adding [shutdownHook](http://docs.oracle.com/javase/7/docs/api/java/lang/Runtime.html#addShutdownHook(java.lang.Thread)).
 
 Based on [cucumber-jvm#672](https://github.com/cucumber/cucumber-jvm/issues/672) and [cucumber-jvm#678](https://github.com/cucumber/cucumber-jvm/issues/678) we're getting **@BeforeAll** and **@AfterAll** hooks in an upcoming release.
 
@@ -48,8 +48,3 @@ public void setUp() throws Exception {
 ```
 
 This worked for me perfectly fine.
-
-
-
-
-

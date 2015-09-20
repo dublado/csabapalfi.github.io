@@ -22,7 +22,7 @@ Dom then took us through solutions of different levels which I describe in more 
 
 QR codes on the other hand are royalty free and I also learned they were invented by Toyota to track things in their factories.
 
-When it comes to using your own QR codes it's really important to **encode something unique** like a URL or vCard. Encoding a URL also allows you to change what's behing a QR code later.
+When it comes to using your own QR codes it's really important to **encode something unique** like a URL or vCard. Encoding a URL also allows you to change what's behind a QR code later.
 
 **Android** has great support for QR codes with the **[zXing library](https://github.com/zxing/zxing)** (it also supports 1D code).
 
@@ -61,4 +61,4 @@ Imagine having BLE sensors inside a store. Having 3 of them visible to a custome
 
 #### iBeacons
 
-We know **iOS doesn't support NFC and probably never will** but how about BLE? Well, **iOS 7 kind of supports BLE** but not exaclty. This is called iBeacons. The iBeacons bootstrap message is slightly different. A cool project to check out is [pibeacons](http://learn.adafruit.com/pibeacon-ibeacon-with-a-raspberry-pi/what-is-ibeacon) which lets you turn a Raspberry Pi into an iBeacon.
+We know **iOS doesn't support NFC and probably never will** but how about BLE? Well, **iOS 7 kind of supports BLE** but not exactly. This is called iBeacons. The iBeacons bootstrap message is slightly different. A cool project to check out is [pibeacons](http://learn.adafruit.com/pibeacon-ibeacon-with-a-raspberry-pi/what-is-ibeacon) which lets you turn a Raspberry Pi into an iBeacon.

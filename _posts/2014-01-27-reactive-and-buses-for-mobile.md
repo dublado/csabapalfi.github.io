@@ -1,4 +1,4 @@
---- 
+---
 title: "Reactive programming and message buses for mobile"
 ---
 
@@ -20,13 +20,13 @@ You can also think about **realtime** updates like displaying likes, comments as
 
 ## Message buses
 
-The idea of message buses has been around since the 1960s. They were made popular by the book titled [Enterprise Integration Patterns](http://www.eaipatterns.com/). Basically a [message bus](http://www.eaipatterns.com/MessageBus.html) is all about **decoupling producers and consumers**. 
+The idea of message buses has been around since the 1960s. They were made popular by the book titled [Enterprise Integration Patterns](http://www.eaipatterns.com/). Basically a [message bus](http://www.eaipatterns.com/MessageBus.html) is all about **decoupling producers and consumers**.
 
 The typical **enterprise bus** supports delivering, queueing, filtering, batching and persisting messages. Having a bus can also enable asynchronous message passing and greatly increase the producer performance as it can just send and forget. Performance is tipically highly tuneable by controlling the queue depth, the number of consumers and so on.
 
 On mobile platforms we can use **microbuses**. In this environment producing a message is tipically a blocking operation and we don't get to fine tune as many things (like threading semantics) but they're still pretty useful.
 
-On **iOS** there's **[NSNotificationCenter](https://developer.apple.com/library/mac/documentation/cocoa/reference/foundation/Classes/NSNotificationCenter_Class/Reference/Reference.html)** which isn't that new and not that tunable (but e.g. batching is handled for us.) **Android's [LocalBroadcastManager](http://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html)** is quite similar to Apple's solution and it's supported from early Android versions. Both platforms support local buses and have a global bus as well. 
+On **iOS** there's **[NSNotificationCenter](https://developer.apple.com/library/mac/documentation/cocoa/reference/foundation/Classes/NSNotificationCenter_Class/Reference/Reference.html)** which isn't that new and not that tunable (but e.g. batching is handled for us.) **Android's [LocalBroadcastManager](http://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html)** is quite similar to Apple's solution and it's supported from early Android versions. Both platforms support local buses and have a global bus as well.
 
 Another library to look at for **Android** is **[Otto](http://square.github.io/otto/)** from Square (you know, the small square thingy to read credit cards and accept them with your mobile/tablet). It's forked from the [EventBus in Google's Guava library](https://code.google.com/p/guava-libraries/wiki/EventBusExplained) but specialized for Android.
 

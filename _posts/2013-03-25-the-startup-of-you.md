@@ -1,10 +1,10 @@
---- 
+---
 title: "The startup of you"
 ---
 
 The Business Insider published a [presentation](http://www.businessinsider.com/career-advice-from-linkedins-founder-2013-3?op=1) from LinkedIn founder Reid Hoffman.
 
-It is an executive summary of his 2012 book titled [The start-up of you](http://www.amazon.com/The-Start-up-You-Transform-ebook/dp/B0050DIWHU) which was resonating my recent thoughts so I thought I would publish a summary of that summary here. 
+It is an executive summary of his 2012 book titled [The start-up of you](http://www.amazon.com/The-Start-up-You-Transform-ebook/dp/B0050DIWHU) which was resonating my recent thoughts so I thought I would publish a summary of that summary here.
 
 Hope it's enough to take the key points across. In case it isn't the notes are only useful to me but have a look at the [original presentation](http://www.businessinsider.com/career-advice-from-linkedins-founder-2013-3?op=1) or maybe even grab the [book](http://www.amazon.com/The-Start-up-You-Transform-ebook/dp/B0050DIWHU).
 
@@ -56,9 +56,9 @@ Hope it's enough to take the key points across. In case it isn't the notes are o
 ## It takes a network
 
 * **every job boils down to interacting with people**
-* people control resources, opportuinites, information
+* people control resources, opportunities, information
 * people you spend time with shape your personality
-* **I^we**: inidividuals power raised exponantially with a team (network)
+* **I^we**: individuals power raised exponentially with a team (network)
 * professional relationships
 * **allies**
     * advice, proactive collaboration
@@ -99,7 +99,7 @@ Hope it's enough to take the key points across. In case it isn't the notes are o
 * how you gather, manage and use **information** will determine if you loose or win
 * stockpiling facts doesn't get you anywhere because **everything is changing**
 * **intelligence by talking to people**
-    * to understand assets, aspirantions, market realitites
+    * to understand assets, aspirations, market realities
     * help to track risks attached to an opportunity
 * network intelligence: map your network, get useful answers
 
