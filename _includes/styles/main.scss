@@ -17,7 +17,6 @@ html {
   height: 100%;
 }
 body {
-  padding: 0 4em;
   max-width: 45em;
   margin: auto;
 }
@@ -92,17 +91,17 @@ header {
   & a:hover {
     text-decoration: none;
   }
-  & .follow-icons {
-    display: inline-block;
-    & img {
-      width: 0.8em;
-      height: 0.8em;
-      border: 0;
-      outline: none;
-    }
-    & a {
-      margin-left: 0.5em;
-    }
+}
+.follow-icons {
+  display: inline-block;
+  & img {
+    width: 0.8em;
+    height: 0.8em;
+    border: 0;
+    outline: no
+  }
+  & a {
+    margin-left: 0.5em;
   }
 }
 /* Post list */
@@ -140,15 +139,12 @@ header {
   header {
     padding: 0.5em;
   }
-  header {
-    margin: 0;
-  }
   .follow-icons {
-    padding-top: 0.8em;
+    padding-top: 0.5em;
     display: block;
-  }
-  .follow-icons a:first-child {
-    margin-left: 0em;
+    & a:first-child {
+      margin-left: 0em;
+    }
   }
   main {
     padding: 0 1.2em 0.6em;
