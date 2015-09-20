@@ -74,17 +74,10 @@ strong {
 ul, ol {
   margin-left: 3em;
 }
-code {
-  font-size:1.2em;
-}
-pre code {
-  font-size:1.4em;
-}
 pre {
-  font-size: 0.8em;
   line-height: 2em;
   background: $secondary-color;
-  padding: 1em;
+  padding: 0.5em;
   word-break: break-all;
   word-wrap: break-word;
   white-space: pre;
