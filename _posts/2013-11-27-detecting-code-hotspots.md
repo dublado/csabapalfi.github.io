@@ -1,5 +1,6 @@
 --- 
 title: "Detecting code hotspots"
+highlight: true
 ---
 
 # Why?

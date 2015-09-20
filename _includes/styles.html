@@ -1,7 +1,9 @@
 <style>
   {% capture styles_scss %}
     {% include styles/main.scss %}
-    {% include styles/highlight.scss %}
+    {% if page.highlight %}
+      {% include styles/highlight.scss %}
+    {% endif %}
   {% endcapture %}
   {{ styles_scss | scssify }}
 </style>

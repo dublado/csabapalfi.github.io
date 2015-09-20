@@ -1,5 +1,6 @@
 ---
 title: "Testing Node.js apps like you mean it"
+highlight: true
 ---
 
 I'm now working mostly with Node.js and really happy with the development setup we have. In this post I tried to collect how we do some of our testing.

@@ -1,5 +1,6 @@
 ---
 title: "CraftConf: Day 2 Summary"
+highlight: true
 ---
 
 ## Summary
