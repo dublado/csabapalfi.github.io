@@ -63,10 +63,10 @@ img {
 a {
   font-weight:700;
   text-decoration:none;
-  color: $link-color
-}
-a:hover {
-  text-decoration:underline;
+  color: $link-color;
+  &:hover {
+    text-decoration:underline;
+  }
 }
 strong {
   font-weight: 700;
@@ -91,40 +91,43 @@ pre {
   white-space: pre-wrap;
 }
 /* Header */
-header a {
-  font-weight: 700;
-  color: $primary-color;
+header {
+  & a {
+    font-weight: 700;
+    color: $primary-color;
+  }
+  & a:hover {
+    text-decoration: none;
+  }
+  & .follow-icons {
+    display: inline-block;
+    & img {
+      width: 0.8em;
+      height: 0.8em;
+      border: 0;
+      outline: none;
+    }
+    & a {
+      margin-left: 0.5em;
+    }
+  }
 }
-header a:hover {
-  text-decoration: none;
-}
-.follow-icons {
-  display: inline-block;
-}
-.follow-icons img {
-  width: 0.8em;
-  height: 0.8em;
-  border: 0;
-  outline: none;
-}
-.follow-icons a {
-  margin-left: 0.5em;
-}
-/* Posts */
-ul.posts {
+/* Post list */
+.posts {
   margin-left: 0;
   list-style-type: none;
+  & .post-title {
+    font-size: 1.2em;
+    margin-bottom: 0;
+  }
+  & .post:first-child {
+    margin-top: 2em;
+  }
 }
-h2.post-title {
-  font-size: 1.2em;
-  margin-bottom: 0;
-}
+/* Post date */
 .post-date {
   margin-top: 0;
   color: $secondary-color;
-}
-.posts .post:first-child {
-  margin-top: 2em;
 }
 /* Small Screens */
 @media only screen and (max-width: 800px) {
