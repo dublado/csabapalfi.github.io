@@ -85,11 +85,10 @@ pre {
 /* Header */
 header {
   & a {
-    font-weight: 700;
     color: $primary-color;
-  }
-  & a:hover {
-    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 .follow-icons {
