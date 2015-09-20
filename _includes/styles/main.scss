@@ -132,6 +132,9 @@ header {
     font-size: 1.2em;
     line-height: 1.5em;
   }
+  ul, ol {
+    margin-left: 2em;
+  }
 }
 /* Tiny Screens */
 @media only screen and (max-width: 320px) {
@@ -147,8 +150,5 @@ header {
   }
   main {
     padding: 0 1.2em 0.6em;
-  }
-  ul, ol {
-    margin-left: 2em;
   }
 }
