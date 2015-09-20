@@ -9,8 +9,8 @@ $link-color: #679cff;
 }
 /* Basic Typography */
 html, body {
-  font: 300 1em/1.5em "Helvetica", "Arial", sans-serif;
   color: $primary-color;
+  font: 300 1em/1.5em "Helvetica", "Arial", sans-serif;
 }
 /* Blocks */
 html {
@@ -21,17 +21,17 @@ body {
   margin: auto;
 }
 header {
-  font-size: 1.9em;
   padding: 0.8em 0;
   border-bottom: 1px $secondary-color solid;
+  font-size: 1.9em;
   text-align:center;
 }
 main {
+  display: block;
+  width: 100%;
   padding-bottom: 1.4em;
   font-size: 1.5em;
   line-height: 2em;
-  display: block;
-  width: 100%;
 }
 p {
   margin: 1em 0;
@@ -39,9 +39,9 @@ p {
 }
 /* Headings */
 @mixin heading($font-size) {
+  margin: 0.8em 0 0.5em;
   font-size: $font-size;
   line-height: 1.2em;
-  margin: 0.8em 0 0.5em;
 }
 h1 {
   @include heading(2.5em);
@@ -60,9 +60,9 @@ img {
   max-width: 100%;
 }
 a {
+  color: $link-color;
   font-weight:700;
   text-decoration:none;
-  color: $link-color;
   &:hover {
     text-decoration:underline;
   }
@@ -74,9 +74,9 @@ ul, ol {
   margin-left: 3em;
 }
 pre {
-  line-height: 2em;
-  background: $secondary-color;
   padding: 0.5em;
+  background: $secondary-color;
+  line-height: 2em;
   word-break: break-all;
   word-wrap: break-word;
   white-space: pre;
@@ -108,8 +108,8 @@ header {
   margin-left: 0;
   list-style-type: none;
   & .post-title {
-    font-size: 1.2em;
     margin-bottom: 0;
+    font-size: 1.2em;
   }
   & .post:first-child {
     margin-top: 2em;
@@ -126,11 +126,11 @@ header {
     padding: 0;
   }
   main {
+    width: auto;
+    padding: 0 2em 1em;
+    margin-left: 0;
     font-size: 1.2em;
     line-height: 1.5em;
-    margin-left: 0;
-    padding: 0 2em 1em;
-    width: auto;
   }
 }
 /* Tiny Screens */
@@ -139,8 +139,8 @@ header {
     padding: 0.5em;
   }
   .follow-icons {
-    padding-top: 0.5em;
     display: block;
+    padding-top: 0.5em;
     & a:first-child {
       margin-left: 0em;
     }
