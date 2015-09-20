@@ -28,7 +28,6 @@ header {
 }
 main {
   display: block;
-  width: 100%;
   padding-bottom: 2em;
   font-size: 1.5em;
   line-height: 2em;
@@ -126,9 +125,7 @@ header {
     padding: 0;
   }
   main {
-    width: auto;
     padding: 0 2em 1em;
-    margin-left: 0;
     font-size: 1.2em;
     line-height: 1.5em;
   }
