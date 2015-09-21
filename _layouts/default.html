@@ -9,7 +9,9 @@
   </head>
   <body>
     <header id="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span itemprop="name"><a href="/">{{ site.title }}</a></span>
+        <span itemprop="name">
+          <a itemprop="url" href="/">{{ site.title }}</a>
+        </span>
         {% include follow.html %}
     </header>
     {{ content }}
