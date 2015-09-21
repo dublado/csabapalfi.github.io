@@ -8,12 +8,10 @@
     {% include ie8.html %}
   </head>
   <body>
-    <header>
-        <a href="/">{{ site.title }}</a>
+    <header itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name"><a href="/">{{ site.title }}</a></span>
         {% include follow.html %}
     </header>
-    <main>
-      {{ content }}
-    </main>
+    {{ content }}
   </body>
 </html>
