@@ -4,7 +4,7 @@ Built with [Jekyll](http://jekyllrb.com/) and posts are written using [GitHub Fl
 
 ## Deployment
 
-Served by [Github Pages](https://pages.github.com/) and automatically built and deployed when commits are pushed GitHub.
+Served by [Github Pages](https://pages.github.com/) and automatically built and deployed when commits are pushed to GitHub.
 
 ## CSS
 
