@@ -1,0 +1,6 @@
+csaba.palfi.me:
+  image: starefossen/github-pages
+  ports:
+   - "4000:4000"
+  volumes:
+  - .:/usr/src/app
