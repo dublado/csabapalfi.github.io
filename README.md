@@ -1,10 +1,11 @@
+# My blog
 
-Built using [Jekyll](http://jekyllrb.com/).
+Served by [Github Pages](https://pages.github.com/) and automatically built and deployed when commits are pushed GitHub.
 
-Social icons (in SVG) from [iconmonstr](http://iconmonstr.com/) and optimized with [svgo](https://github.com/svg/svgo).
+Built with [Jekyll](http://jekyllrb.com/) and posts are written using [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/).
 
-DNS name registration and hosting with AWS Route 53. Naked domain redirects implemented using AWS S3. Setup using AWS CloudFormation.
+Styles are written in [Sass](http://sass-lang.com/) and given their small size they're embedded on all pages. Social icons (in SVG) are from [iconmonstr](http://iconmonstr.com/) and optimized with [svgo](https://github.com/svg/svgo).
 
-Site is built when pushing to gh-pages branch on GitHub and automatically deployed to [Github Pages](https://pages.github.com/).
+Domain name registration and DNS hosting is handled by [AWS Route 53](https://aws.amazon.com/route53/). Naked domain redirects implemented using [AWS S3](https://aws.amazon.com/s3/). AWS resources are managed using an [AWS Cloudformation](https://aws.amazon.com/cloudformation/) template.
 
-Local development only requires Docker as the site can be built and served from a container. Docker Compose encapsulates the volume mount and port forwarding configuration.
+Easy local development was made possible by [Docker Compose](https://docs.docker.com/compose/) running the site in a container with sources mounted as a volume and automatic re-building on changes.
