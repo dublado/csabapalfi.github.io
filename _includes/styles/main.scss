@@ -29,7 +29,6 @@ header {
 main {
   display: block;
   padding-bottom: 2em;
-  font-size: 1.5em;
   line-height: 1.5em;
 }
 p {
@@ -62,9 +61,6 @@ a {
   color: $link-color;
   font-weight: bold;
   text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-  }
 }
 strong {
   font-weight: bold;
@@ -85,9 +81,6 @@ pre {
 header {
   & a {
     color: $primary-color;
-    &:hover {
-      text-decoration: none;
-    }
   }
 }
 .follow-icons {
@@ -134,8 +127,6 @@ time {
   }
   main {
     padding: 0 2em 1em;
-    font-size: 1.2em;
-    line-height: 1.5em;
   }
   ul, ol {
     margin-left: 2em;
