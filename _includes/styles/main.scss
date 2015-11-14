@@ -17,19 +17,18 @@ html {
   height: 100%;
 }
 body {
-  max-width: 45em;
+  max-width: 40em;
   margin: auto;
 }
 header {
-  padding: 0.8em 0;
+  padding: 0.5em 0;
   border-bottom: 1px $secondary-color solid;
-  font-size: 1.9em;
+  font-size: 1.5em;
   text-align:center;
 }
 main {
   display: block;
   padding-bottom: 2em;
-  line-height: 1.5em;
 }
 p {
   margin: 1em 0;
@@ -45,13 +44,13 @@ h1 {
   @include heading(2.5em);
 }
 h2 {
-  @include heading(1.9em);
+  @include heading(1.5em);
 }
 h3 {
-  @include heading(1.4em);
+  @include heading(1.2em);
 }
 h4 {
-  @include heading(1.3em);
+  @include heading(1em);
 }
 /* Page Elements */
 img {
