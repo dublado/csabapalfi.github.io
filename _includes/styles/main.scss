@@ -111,14 +111,16 @@ header {
   & .post-title {
     margin-bottom: 0;
     font-size: 1.2em;
+    display: inline-block;
   }
-  & .post:first-child {
-    margin-top: 2em;
+  & .post {
+    margin-top: 1.5em;
   }
 }
 /* Post date */
 time {
   color: $secondary-color;
+  white-space: nowrap;
 }
 /* Small Screens */
 @media only screen and (max-width: 800px) {
