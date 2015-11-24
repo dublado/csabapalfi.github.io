@@ -3,6 +3,7 @@ title: NodeConf Barcelona 2015
 ---
 
 Had a great weekend at [NodeConf Barcelona 2015](http://barcelona.nodeconf.com/). Common themes and highlights were:
+
 * performance analysis and optimization (including an awesome workshop)
 * networking protocols (especially peer to peer!)
 * community and self-improvement
