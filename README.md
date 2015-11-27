@@ -1,10 +1,10 @@
-# [My blog](http://csaba.palfi.me)
+# [My blog](https://csabapalfi.github.io)
 
 Built with [Jekyll](http://jekyllrb.com/) and posts are written using [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/).
 
 ## Deployment
 
-Served by [Github Pages](https://pages.github.com/) and automatically built and deployed when commits are pushed to GitHub.
+Served by [Github Pages](https://pages.github.com/) and automatically built and deployed when commits are pushed to GitHub. Github also takes care of HTTPS when using their github.io domain.
 
 ## CSS
 
@@ -12,7 +12,7 @@ Styles are written in [Sass](http://sass-lang.com/) and given their small size t
 
 ## DNS
 
-Domain name registration and DNS hosting is handled by [AWS Route 53](https://aws.amazon.com/route53/). Naked domain redirects implemented using [AWS S3](https://aws.amazon.com/s3/). AWS resources are managed using an [AWS Cloudformation](https://aws.amazon.com/cloudformation/) template.
+Domain redirects implemented using [AWS S3](https://aws.amazon.com/s3/). AWS resources are managed using an [AWS Cloudformation](https://aws.amazon.com/cloudformation/) template.
 
 ## Local development
 
