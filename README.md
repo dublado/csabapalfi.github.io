@@ -16,4 +16,21 @@ Redirects (from my older domains) are implemented using AWS [S3](https://aws.ama
 
 ## Local development
 
-Easy local development was made possible by [Docker Compose](https://docs.docker.com/compose/) running the site in a container with sources mounted as a volume and automatic re-building on changes.
+To make sure to have the exact same environment as github:
+
+install rbenv
+  * `brew install rbenv`
+  * add `eval "$(rbenv init -)"` to your shell profile
+
+use the same ruby version
+```sh
+RUBY_VERSION=$(curl https://raw.githubusercontent.com/github/pages-gem/master/.ruby-version)
+rbenv install $RUBY_VERSION
+rbenv local $RUBY_VERSION
+```
+
+install github pages gem
+
+```
+gem install github-pages
+```
