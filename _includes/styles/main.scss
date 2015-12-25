@@ -82,27 +82,6 @@ header {
     color: $primary-color;
   }
 }
-.follow-icons {
-  display: inline-block;
-  vertical-align: text-bottom;
-  & svg {
-    width: 1em;
-    height: 1em;
-    border: 0;
-    outline: 0;
-  }
-  & a {
-    margin-left: 0.5em;
-  }
-  & a:hover {
-    .linkedin-icon {
-      fill: #0077B5;
-    }
-    .twitter-icon {
-      fill: #4099FF;
-    }
-  }
-}
 /* Post list */
 .posts {
   margin-left: 0;
@@ -137,13 +116,6 @@ time {
 @media only screen and (max-width: 350px) {
   header {
     padding: 0.5em;
-  }
-  .follow-icons {
-    display: block;
-    padding-top: 0.5em;
-    & a:first-child {
-      margin-left: 0em;
-    }
   }
   main {
     padding: 0 1.2em 0.6em;
