@@ -8,7 +8,7 @@ Served by [Github Pages](https://pages.github.com/) and automatically built and 
 
 ## CSS
 
-Styles are written in [Sass](http://sass-lang.com/) and given their small size they're embedded on all pages. Social icons (in SVG) are from [iconmonstr](http://iconmonstr.com/) and optimized with [svgo](https://github.com/svg/svgo).
+Styles are written in [Sass](http://sass-lang.com/) and given their small size they're embedded on all pages.
 
 ## DNS
 
