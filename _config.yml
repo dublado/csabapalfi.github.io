@@ -1,6 +1,5 @@
 name: csabapalfi.github.io
 title: Csaba Palfi
-markdown: redcarpet
 permalink: /:title/
 sass:
   style: :compressed
