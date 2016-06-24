@@ -52,7 +52,7 @@ Be careful with package installations as those commands are cached as well. Mean
 
 ### 2.4 small base images
 
-There's a official truly empty docker image on docker hub. It's called [scratch](https://registry.hub.docker.com/_/scratch/). If you want you can start your images ```FROM scratch```. Most of time you're better off starting from [alpine](https://registry.hub.docker.com/_/alpine/) if you want a really small base image (few MBs) as it has a shell and nice package manager, too.
+There's an official, truly empty docker image on docker hub. It's called [scratch](https://registry.hub.docker.com/_/scratch/). If you want you can start your images ```FROM scratch```. Most of time you're better off starting from [alpine](https://registry.hub.docker.com/_/alpine/) if you want a really small base image (few MBs) as it has a shell and nice package manager, too.
 
 ### 2.5 FROM is latest by default
 
