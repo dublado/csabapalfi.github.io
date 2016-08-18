@@ -101,19 +101,19 @@ up to speed and start enjoying success using your API
 
 ## Tips for search
 
-###Global search
+### Global search
 
 * search is the verb; ?q represents the query
 * e.g. /search?q=fluffy+fur
 
-###Scoped search
+### Scoped search
 
 * prepend with the scope of the search
 * e.g. /owners/5678/dogs?q=fluffy+fur
 * (dropped the explicit search in the URL and rely on the parameter 'q' to
 indicate the scoped query)
 
-###Formatted results
+### Formatted results
 
 * format specified the same way for action oriented (non-resource) responses
 * e.g. /search.xml?q=fluffy+fur
