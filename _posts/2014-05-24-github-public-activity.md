@@ -2,6 +2,10 @@
 title: "Have you pushed any public commits to github today?"
 ---
 
+## UPDATE
+
+Github fixed this and now allows [publicizing anonymized private contributions on your profile](https://help.github.com/articles/publicizing-or-hiding-your-private-contributions-on-your-profile/).
+
 ## The good
 
 I love the github **contribution chart** on profile pages. It gives visual feedback and it's a great feeling to watch your streak going on for days. Or weeks! You should [push code every day, right](http://ejohn.org/blog/write-code-every-day/)? There are even [bathroom tiles with that](https://twitter.com/mrdougal/statuses/442929113733410816) :)
