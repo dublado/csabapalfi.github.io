@@ -1,6 +1,8 @@
 # [My blog](https://csabapalfi.github.io)
 
-Built with [Jekyll](http://jekyllrb.com/) and posts are written using [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/).
+## Update :warning:
+
+I'm in the process of moving all post to individual repos and building them with webpack.
 
 ## Deployment
 
