@@ -1,38 +1,14 @@
-# [My blog](https://csabapalfi.github.io)
+# Csaba Palfi
 
-## Update :warning:
-
-I'm in the process of moving all post to individual repos and building them with webpack.
-
-## Deployment
-
-Served by [Github Pages](https://pages.github.com/) and automatically built and deployed when commits are pushed to GitHub. Github also takes care of SSL when using their github.io domain.
-
-## CSS
-
-Styles are written in [Sass](http://sass-lang.com/) and given their small size they're embedded on all pages.
-
-## DNS
-
-Redirects (from my older domains) are implemented using AWS [S3](https://aws.amazon.com/s3/) and [Route 53](https://aws.amazon.com/route53/). AWS resources are managed using [Terraform](https://terraform.io/).
-
-## Local development
-
-To make sure to have the exact same environment as github:
-
-install rbenv
-  * `brew install rbenv`
-  * add `eval "$(rbenv init -)"` to your shell profile
-
-use the same ruby version
-```sh
-RUBY_VERSION=$(curl https://raw.githubusercontent.com/github/pages-gem/master/.ruby-version)
-rbenv install $RUBY_VERSION
-rbenv local $RUBY_VERSION
-```
-
-install github pages gem
-
-```
-gem install github-pages
-```
+* [NodeConf Barcelona, Sep 2015 ](http://blog.yld.io/2015/11/23/nodeconf-barcelona-2015/)
+* [Container Camp London, Sep 2015](/container-camp-ldn-2015)
+* [Random docker tips, Dec 2014](/random-docker-tips)
+* [Node.js security basics, Sep 2014](/node-security-basics)
+* [Node.js testing tips, Aug 2014](node-testing-tips/)
+* [CraftConf, April 2014](/craft-conf-2014/)
+* [Dropwizard and Cucumber, Mar 2014](/dropwizard-and-cucumber)
+* [Reactive for mobile, Jan 2014](/reactive-and-buses-for-mobile)
+* [Ping Conf, Jan 2014](/ping-conf-2014)
+* [IoT and Android, Jan 2014](/iot-and-android)
+* [The startup of you, Mar 2013](/the-startup-of-you)
+* [Pragmatic Web API design, Mar 2013](/pragmatic-web-api-design)
