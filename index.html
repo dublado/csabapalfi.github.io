@@ -1,22 +1,245 @@
----
-layout: default
-title: Some writings
-description: Technology blog by a JavaScript and DevOps consultant based in London.
----
-<main itemscope itemtype="http://schema.org/Blog" itemref="author">
-  <h1>{{ page.title }}</h1>
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Some writings by Csaba Palfi</title>
+    <meta name="description" content="Technology blog by a JavaScript and DevOps consultant based in London.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="MobileOptimized" content="320" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="google-site-verification" content="N1uUvIBHZ07-XCdfFJ4fgY-yxLNOalTN5qwlIifFr_M" />
+
+    <style>
+
+  *{padding:0;margin:0}html,body{color:#444;font:1.1em/1.5em "Helvetica", "Arial", sans-serif}html{height:100%}body{max-width:40em;margin:auto}header{padding:0.8em 0;border-bottom:1px #bbb solid;font-size:1.9em;text-align:center}main{display:block;padding-bottom:2em}p{margin:1em 0;text-align:justify}h1{margin:0.8em 0 0.5em;font-size:2.5em;line-height:1.2em}h2{margin:0.8em 0 0.5em;font-size:1.5em;line-height:1.2em}h3{margin:0.8em 0 0.5em;font-size:1.2em;line-height:1.2em}h4{margin:0.8em 0 0.5em;font-size:1em;line-height:1.2em}img{max-width:100%}a{color:#79f;font-weight:bold;text-decoration:none}strong{font-weight:bold}ul,ol{margin-left:3em}pre{padding:0.5em;background:#bbb;line-height:2em;word-break:break-all;word-wrap:break-word;white-space:pre;white-space:pre-wrap}header a{color:#444}.posts{margin-left:0;list-style-type:none}.posts .post-title{margin-bottom:0;font-size:1.2em;display:inline-block}.posts .post{margin-top:1.5em}time{color:#bbb;white-space:nowrap}@media only screen and (max-width: 800px){body{padding:0}main{padding:0 2em 1em}ul,ol{margin-left:2em}}@media only screen and (max-width: 350px){header{padding:0.5em}main{padding:0 1.2em 0.6em}}
+
+</style>
+
+    <script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-29212656-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+  </head>
+  <body>
+    <header id="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">
+          <a itemprop="url" href="/">Csaba Palfi</a>
+        </span>
+    </header>
+    <main itemscope itemtype="http://schema.org/Blog" itemref="author">
+  <h1>Some writings</h1>
   <ul class="posts">
-  {% for post in site.posts %}
+
     <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemref="author">
-      <a href="{{ post.url }}">
+      <a href="/nodeconf-barcelona-2015/">
         <h2 class="post-title" itemprop="headline">
-          {{ post.title }}
+          NodeConf Barcelona 2015
         </h2>
-        <time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%d' }}">
-          {{ post.date | date_to_long_string }}
+        <time itemprop="datePublished" datetime="2015-11-23">
+          23 November 2015
         </time>
       </a>
     </li>
-  {% endfor %}
+
+    <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemref="author">
+      <a href="/container-camp-ldn-2015/">
+        <h2 class="post-title" itemprop="headline">
+          Container Camp London 2015
+        </h2>
+        <time itemprop="datePublished" datetime="2015-09-11">
+          11 September 2015
+        </time>
+      </a>
+    </li>
+
+    <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemref="author">
+      <a href="/random-docker-tips/">
+        <h2 class="post-title" itemprop="headline">
+          24 random docker tips
+        </h2>
+        <time itemprop="datePublished" datetime="2014-12-06">
+          06 December 2014
+        </time>
+      </a>
+    </li>
+
+    <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemref="author">
+      <a href="/node-security-basics/">
+        <h2 class="post-title" itemprop="headline">
+          Node.js security basics
+        </h2>
+        <time itemprop="datePublished" datetime="2014-09-16">
+          16 September 2014
+        </time>
+      </a>
+    </li>
+
+    <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemref="author">
+      <a href="/testing-node-apps-like-you-mean-it/">
+        <h2 class="post-title" itemprop="headline">
+          Testing Node.js apps like you mean it
+        </h2>
+        <time itemprop="datePublished" datetime="2014-08-02">
+          02 August 2014
+        </time>
+      </a>
+    </li>
+
+    <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemref="author">
+      <a href="/speeding-up-map-search/">
+        <h2 class="post-title" itemprop="headline">
+          Speeding up map search with static data tiles
+        </h2>
+        <time itemprop="datePublished" datetime="2014-07-30">
+          30 July 2014
+        </time>
+      </a>
+    </li>
+
+    <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemref="author">
+      <a href="/github-public-activity/">
+        <h2 class="post-title" itemprop="headline">
+          Have you pushed any public commits to github today?
+        </h2>
+        <time itemprop="datePublished" datetime="2014-05-24">
+          24 May 2014
+        </time>
+      </a>
+    </li>
+
+    <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemref="author">
+      <a href="/craftconf-day-3/">
+        <h2 class="post-title" itemprop="headline">
+          CraftConf: Day 3 Summary
+        </h2>
+        <time itemprop="datePublished" datetime="2014-04-25">
+          25 April 2014
+        </time>
+      </a>
+    </li>
+
+    <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemref="author">
+      <a href="/craftconf-day-2/">
+        <h2 class="post-title" itemprop="headline">
+          CraftConf: Day 2 Summary
+        </h2>
+        <time itemprop="datePublished" datetime="2014-04-24">
+          24 April 2014
+        </time>
+      </a>
+    </li>
+
+    <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemref="author">
+      <a href="/dropwizard-and-cucumber/">
+        <h2 class="post-title" itemprop="headline">
+          Acceptance testing a Dropwizard app with Cucumber
+        </h2>
+        <time itemprop="datePublished" datetime="2014-03-07">
+          07 March 2014
+        </time>
+      </a>
+    </li>
+
+    <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemref="author">
+      <a href="/reactive-and-buses-for-mobile/">
+        <h2 class="post-title" itemprop="headline">
+          Reactive programming and message buses for mobile
+        </h2>
+        <time itemprop="datePublished" datetime="2014-01-27">
+          27 January 2014
+        </time>
+      </a>
+    </li>
+
+    <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemref="author">
+      <a href="/ping-conf-day-2/">
+        <h2 class="post-title" itemprop="headline">
+          Ping Conference about the Play! framework - Day 2
+        </h2>
+        <time itemprop="datePublished" datetime="2014-01-17">
+          17 January 2014
+        </time>
+      </a>
+    </li>
+
+    <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemref="author">
+      <a href="/ping-conf-day-1/">
+        <h2 class="post-title" itemprop="headline">
+          Ping Conference about the Play! framework - Day 1
+        </h2>
+        <time itemprop="datePublished" datetime="2014-01-16">
+          16 January 2014
+        </time>
+      </a>
+    </li>
+
+    <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemref="author">
+      <a href="/the-internet-of-things-and-android/">
+        <h2 class="post-title" itemprop="headline">
+          The Internet of Things and Android
+        </h2>
+        <time itemprop="datePublished" datetime="2014-01-14">
+          14 January 2014
+        </time>
+      </a>
+    </li>
+
+    <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemref="author">
+      <a href="/inspigram/">
+        <h2 class="post-title" itemprop="headline">
+          inspigram - my Hotels.com hackathon entry
+        </h2>
+        <time itemprop="datePublished" datetime="2013-12-17">
+          17 December 2013
+        </time>
+      </a>
+    </li>
+
+    <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemref="author">
+      <a href="/detecting-code-hotspots/">
+        <h2 class="post-title" itemprop="headline">
+          Detecting code hotspots
+        </h2>
+        <time itemprop="datePublished" datetime="2013-11-27">
+          27 November 2013
+        </time>
+      </a>
+    </li>
+
+    <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemref="author">
+      <a href="/the-startup-of-you/">
+        <h2 class="post-title" itemprop="headline">
+          The startup of you
+        </h2>
+        <time itemprop="datePublished" datetime="2013-03-25">
+          25 March 2013
+        </time>
+      </a>
+    </li>
+
+    <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemref="author">
+      <a href="/pragmatic-web-api-design/">
+        <h2 class="post-title" itemprop="headline">
+          Pragmatic Web API design
+        </h2>
+        <time itemprop="datePublished" datetime="2013-03-02">
+          02 March 2013
+        </time>
+      </a>
+    </li>
+
   </ul>
 </main>
+
+  </body>
+</html>
