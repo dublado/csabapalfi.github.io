@@ -1,5 +1,11 @@
 # Csaba Palfi
 
+<style>
+li {
+  margin: 8px 0;
+}
+</style>
+
 * [NodeConf Barcelona, Sep 2015 ](http://blog.yld.io/2015/11/23/nodeconf-barcelona-2015/)
 * [Container Camp London, Sep 2015](https://csabapalfi.github.io/container-camp-ldn-2015)
 * [Random docker tips, Dec 2014](https://csabapalfi.github.io/random-docker-tips)
