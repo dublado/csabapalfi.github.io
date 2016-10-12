@@ -11,5 +11,8 @@
     "prep": [
       "build"
     ]
+  },
+  "dependencies": {
+    "github-markdown-html": "^2.5.1"
   }
 }
