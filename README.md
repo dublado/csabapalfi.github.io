@@ -8,4 +8,4 @@ I'm a full-stack JS developer and devops engineer based in London, UK.
 
 **[Random docker tips, Dec 2014](https://csabapalfi.github.io/random-docker-tips)**.
 
-**[See more post/repos on Github](https://github.com/csabapalfi)**.
+**[See more writings/notes/repos on Github](https://github.com/csabapalfi)**.
