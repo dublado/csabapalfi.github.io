@@ -13,6 +13,6 @@
     ]
   },
   "dependencies": {
-    "github-markdown-html": "^2.5.1"
+    "github-markdown-html": "^3.0.0"
   }
 }
